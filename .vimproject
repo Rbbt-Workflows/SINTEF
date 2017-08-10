@@ -1,0 +1,47 @@
+SINTEF=/$PWD filter="*.rb *.rake Rakefile *.rdoc *.R *.sh *.js *.haml *.sass *.txt *.conf" {
+ workflow.rb
+ bin=bin filter="*"{
+ }
+ lib=lib {
+  .keep
+  rbbt=rbbt{
+   tasks=tasks{
+    cimbinator.rb
+   }
+  }
+ }
+ test=test {
+  test_helper.rb
+ }
+ share=share filter="*"{
+  Census_allWed Feb 22 19_57_56 2017.tsv
+  MCLP_RPPA_annotation_20170222.tsv
+  MCLP_RPPA_annotation_20170222.xlsx
+  barbara_paradigm
+  ranked_cl
+  cell_lines
+  colosys_drugs
+  config
+  drugs.tab
+  drugs.tab.complete
+  drugs.tab.save
+  network.sif
+  oncogenes
+  outputs
+  super_pathway
+ }
+ data=data filter="*"{
+  drugs
+  perturbations
+ }
+
+ www=www{
+  views=views{
+   SINTEF=SINTEF{
+    ROC=ROC{
+     job_result.haml
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,74 @@
+- if job 
+  .job_control
+    = workflow_partial('job_result/job_control', workflow, task, locals)
+
+- o = job.step(:observed_synergies).load
+- np = job.step(:normalized_predictions).load
+
+- np.add_field "Observed" do |c,v|
+  - c = c.gsub('[','')
+  - c = c.gsub(']','')
+  - c = c.gsub('-','~')
+  - o.include?(c) ? 1 : 0
+
+
+- np = np.reorder :key, ["Observed"] +  (np.fields - ["Observed"])
+
+- svg_files = {}
+- job.step(:bliss).dependencies.each do |rb_dep|
+  - name = rb_dep.name
+  - files = rb_dep.files.each do |f|
+    - cmb = File.basename(f).split("_").first
+    - cmb.sub!("-",'~')
+    - svg_files[cmb] ||= {}
+    - svg_files[cmb][name] ||= []
+    - svg_files[cmb][name] << f
+
+- require 'rbbt/rest/common/tabs'
+
+%a.ui.button(href='/CLSS/steady_states_paradigm/#{job.step(:steady_states_paradigm).name}') Steady states
+%a.ui.button(href='/DrugLogics/drabme/#{job.step(:drabme).name}') Drabme
+
+= tabs do |t|
+  - t.active "ROC"
+  - t.add "ROC" do
+    %img(src="/SINTEF/ROC/#{job.name}/file/ROC.png")
+    = table do 
+      - result
+  - t.add "Predictions" do
+
+    = table :class => "predictions" do
+      - np
+
+
+    :deferjs
+      var svg_files = #{svg_files.to_json}
+
+      register_dom_update('table.predictions tbody td:nth-child(1)', function(td){
+        td.click(function(e,t){
+          var name = this.innerHTML
+          var cannonical = name.replace(/[\[\]]/g,'').replace('-','~')
+          var url_template = '/CombinationIndex/report_bliss/NAME/file/FILE'
+
+          
+          var urls = []
+          forHash(svg_files[cannonical], function(name, files){
+            var file = files[0]
+            var url = url_template.replace('NAME', name).replace("FILE", file)
+            urls.push(url)
+          })
+          
+          var promises = []
+          forArray(urls,function(url){
+            promises.push(rbbt.get(url, {deserialize:function(e){ return e}}))
+          })
+          m.sync(promises).then(function(svgs){
+            console.log('modal')
+            console.log(svgs)
+            var content = ""
+            forArray(svgs, function(svg){ content = content + svg})
+            rbbt.modal.controller.show( content , name)
+          })
+        })
+      })
+

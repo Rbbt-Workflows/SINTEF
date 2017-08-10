@@ -1,0 +1,33 @@
+# Modified to fit Barbara's node names
+# From file '20150827_ags_original_SteadyState_literature.tab' 
+# Last change: 2017-03-27: name change 
+#
+# 2015-03-17
+# AGS steady state signaling from literature review
+#
+# ANTISURVIVAL AND PROSURVIVAL NOT SPECIFIED
+#
+# NodeName	Value
+Antisurvival	0
+CASP3	0
+Prosurvival	1
+CCND1	1
+MYC	1
+RAC_f	1
+JNK_f	0
+MAPK14	0
+AKT_f	1
+MMP_f	1
+PTEN	0
+ERK_f	1
+KRAS	1
+PIK3CA	1
+S6K_f	1
+GSK3_f	0
+TP53	0
+BAX	0
+BCL2	1
+CASP8	0
+CTNNB1	1
+TCF7_f	1
+NFKB_f	1
