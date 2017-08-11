@@ -30,10 +30,37 @@ module SINTEF
     tsv
   end
 
+  input :cell_line, :string, "Cell line name"
+  dep CombinationIndex, :report_hsa, :compute => :bootstrap, :file => nil, :response_type => :viability do |job,options|
+    cell_line = IndiferentHash.setup(options)["cell_line"]
+    files = SINTEF::DATA_DIR.readings.replicates.glob("*.tsv")
+    _cell_line = cell_line.upcase.gsub(/[^\w]/,'')
+    files.select!{|f| File.basename(f).split(".").first.upcase.gsub(/[^\w]/,'') == _cell_line}
+    files.collect do |file|
+      CombinationIndex.job(:report_hsa, cell_line, :file => file, :response_type => :viability)
+    end
+  end
+  task :hsa => :tsv do |cell_line|
+    tsv = nil
+    dependencies.each_with_index do |dep,i|
+      if tsv.nil?
+        tsv = dep.load
+        tsv.unnamed = true
+        tsv.fields  = tsv.fields.collect{|f| f + " rep #{i}"}
+      else
+        ntsv = dep.load
+        ntsv.unnamed = true
+        ntsv.fields  = ntsv.fields.collect{|f| f + " rep #{i}"}
+        tsv = tsv.attach ntsv
+      end
+    end
+    tsv
+  end
+
   dep :bliss
   input :run_threshold, :float, "Minimun average synergistic run length", 2
   input :value_threshold, :float, "Excess value threshold (negative)", -0.05
-  task :observed_synergies => :array do |run_threshold,value_threshold|
+  task :observed_synergies_bliss => :array do |run_threshold,value_threshold|
     parser = TSV::Parser.new step(:bliss)
 
     fields = parser.fields
@@ -81,31 +108,5 @@ module SINTEF
     end
   end
 
-  input :cell_line, :string, "Cell line name"
-  dep CombinationIndex, :report_hsa, :compute => :bootstrap, :file => nil, :response_type => :viability do |job,options|
-    cell_line = IndiferentHash.setup(options)["cell_line"]
-    files = SINTEF::DATA_DIR.readings.replicates.glob("*.tsv")
-    _cell_line = cell_line.upcase.gsub(/[^\w]/,'')
-    files.select!{|f| File.basename(f).split(".").first.upcase.gsub(/[^\w]/,'') == _cell_line}
-    files.collect do |file|
-      CombinationIndex.job(:report_hsa, cell_line, :file => file, :response_type => :viability)
-    end
-  end
-  task :hsa => :tsv do |cell_line|
-    tsv = nil
-    dependencies.each_with_index do |dep,i|
-      if tsv.nil?
-        tsv = dep.load
-        tsv.unnamed = true
-        tsv.fields  = tsv.fields.collect{|f| f + " rep #{i}"}
-      else
-        ntsv = dep.load
-        ntsv.unnamed = true
-        ntsv.fields  = ntsv.fields.collect{|f| f + " rep #{i}"}
-        tsv = tsv.attach ntsv
-      end
-    end
-    tsv
-  end
 
 end

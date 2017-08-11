@@ -99,7 +99,8 @@ module SINTEF
 
   input :method, :select, "Synergy method", "Bliss", :select_options => %w(Bliss HSA CI)
   input :observed_threshold, :float, "Excess threshold", -0.11
-  task :observed_synergies => :tsv do |method,threshold|
+  input :cell_line, :string, "Cell line name"
+  task :observed_synergies_averaged => :array do |method,threshold,cell_line|
     tsv = DATA_DIR.Barbara.synergies.tsv 
     selected = TSV.setup({}, :key_field => "Cell line", :fields => ["Combinations"], :type => :flat)
 
@@ -121,7 +122,44 @@ module SINTEF
       end
     end
 
-    selected
+    selected[cell_line]
+  end
+
+  input :method, :select, "Synergy method", "Bliss", :select_options => %w(Bliss HSA CI)
+  input :observed_threshold, :float, "Excess threshold", -0.11
+  input :cell_line, :string, "Cell line name"
+  task :observed_synergies_GS => :array do |method,threshold,cell_line|
+    tsv = DATA_DIR.Barbara.synergies_gs.tsv 
+    selected = TSV.setup({}, :key_field => "Cell line", :fields => ["Combinations"], :type => :flat)
+
+    all = tsv.keys
+    tsv.through do |cl, values|
+      values = values.values_at 0,1,6
+      Misc.zip_fields(values).each do |d1, d2,syn|
+        next unless syn and syn.downcase == "synergy"
+        selected[cl] ||= []
+        selected[cl] << [d1, d2] * "~"
+      end
+    end
+
+    selected[cell_line]
+  end
+
+  dep :observed_synergies_bliss
+  dep :observed_synergies_GS
+  dep :observed_synergies_averaged, :method => "Bliss"
+  input :obs_method, :select, "Method to define observed synergies", :bliss, :select_options => %w(bliss avg_bliss GS)
+  task :observed_synergies => :array do |obs_method|
+    case obs_method.to_s
+    when "GS"
+      step(:observed_synergies_GS).load
+    when "bliss"
+      step(:observed_synergies_bliss).load
+    when "avg_bliss"
+      step(:observed_synergies_averaged).load
+    else
+      raise ParameterException, "Method not understood: #{ method }"
+    end
   end
 
   #task :steady_states => :tsv do
