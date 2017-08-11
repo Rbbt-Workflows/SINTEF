@@ -5,6 +5,7 @@ module SINTEF
   input :cell_line, :string, "Cell line name"
   dep CombinationIndex, :report_bliss, :compute => :bootstrap, :file => nil, :response_type => :viability do |job,options|
     cell_line = IndiferentHash.setup(options)["cell_line"]
+    raise ParameterException, "No cell_line provided" if cell_line.nil?
     files = SINTEF::DATA_DIR.readings.replicates.glob("*.tsv")
     _cell_line = cell_line.upcase.gsub(/[^\w]/,'')
     files.select!{|f| File.basename(f).split(".").first.upcase.gsub(/[^\w]/,'') == _cell_line}
