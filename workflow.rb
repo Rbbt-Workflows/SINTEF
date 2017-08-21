@@ -339,7 +339,7 @@ module SINTEF
       fn = o - found
       tn = all - found - o
 
-      res = TSV.setup({}, :key_field => "Statistic", :fields => ["Value #{threshold}"], :type => :single, :cast => :to_i)
+      res = TSV.setup({}, :key_field => "Statistic", :fields => ["Value #{threshold}"], :type => :single, :cast => :to_f)
 
       res["Total"] = all.length
       res["Observed"] = o.length
@@ -350,6 +350,11 @@ module SINTEF
       res["TN"] = tn.length
       res["TPR"] = tp.length.to_f / o.length
       res["FPR"] = fp.length.to_f / (all.length - o.length)
+
+      res["Sensitivity"] = tp.length.to_f / o.length
+      res["Specificity"] = tn.length.to_f / (all - o).length
+      res["PPV"] = tp.length.to_f / found.length
+      res["NPV"] = tn.length.to_f / (all - found).length
       
       if acc.nil?
         acc = res.to_list
