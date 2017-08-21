@@ -20,6 +20,7 @@ module SINTEF
         tsv = dep.load
         tsv.unnamed = true
         tsv.fields  = tsv.fields.collect{|f| f + " rep #{i}"}
+        tsv = nil if tsv.size == 0
       else
         ntsv = dep.load
         ntsv.unnamed = true
