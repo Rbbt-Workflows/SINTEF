@@ -72,3 +72,23 @@
         })
       })
 
+  - t.add "Correlation" do
+    - bliss = job.step(:bliss).load
+    - normalized = job.step(:normalized_predictions).load
+    - field = job.inputs[:score_field]
+
+    - norm_values = normalized.column(field)
+
+    - excess_columns = bliss.fields.select{|f| f =~ /excess/i }
+    
+    - bliss_values = TSV.setup({}, :key_field => norm_values.key_field, :fields => ["Average Bliss Excess"], :type => :single, :cast => :to_f)
+    - bliss.add_field "Average" do |k,values|
+      - key = "[" << k.sub('-',']-[') << "]"
+      - bliss_values[key] = Misc.mean(values.values_at(*excess_columns).flatten.collect{|v| v.to_f})
+
+    - tsv = norm_values.attach(bliss_values)
+    = table do
+      - tsv
+
+    .figure
+      = tool :Rpng, :data => tsv, :plot => "plot(data[,1], data[,2], xlab=\"#{tsv.fields.first}\", ylab=\"#{tsv.fields.last}\")"

@@ -206,7 +206,7 @@ module SINTEF
   dep :steady_states_paradigm
   dep :steady_states_activity
   dep :steady_states_tf
-  input :steady_state_type, :select, "Type of SS calculation", :paradigm, :select_options => %w(paradigm TF RPPA Literature DrugScreen Merge)
+  input :steady_state_type, :select, "Type of SS calculation", :paradigm, :select_options => %w(paradigm TF RPPA Literature DrugScreen Merged)
   task :steady_states => :tsv do |type|
     s = case type.to_s.downcase
         when 'paradigm'
