@@ -53,7 +53,7 @@
           
           var urls = []
           forHash(svg_files[cannonical], function(name, files){
-            var file = files[0]
+            var file = files[0] 
             var url = url_template.replace('NAME', name).replace("FILE", file)
             urls.push(url)
           })
@@ -63,8 +63,6 @@
             promises.push(rbbt.get(url, {deserialize:function(e){ return e}}))
           })
           m.sync(promises).then(function(svgs){
-            console.log('modal')
-            console.log(svgs)
             var content = ""
             forArray(svgs, function(svg){ content = content + svg})
             rbbt.modal.controller.show( content , name)
