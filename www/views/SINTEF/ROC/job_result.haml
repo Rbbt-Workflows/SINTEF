@@ -48,7 +48,7 @@
         td.click(function(e,t){
           var name = this.innerHTML
           var cannonical = name.replace(/[\[\]]/g,'').replace('-','~')
-          var url_template = '/CombinationIndex/report_bliss/NAME/file/FILE'
+          var url_template = '../../CombinationIndex/report_bliss/NAME/file/FILE'
 
           
           var urls = []
@@ -65,7 +65,7 @@
           m.sync(promises).then(function(svgs){
             var content = ""
             forArray(svgs, function(svg){ content = content + svg})
-            rbbt.modal.controller.show( content , name)
+            rbbt.modal.controller.show(content , name)
           })
         })
       })
