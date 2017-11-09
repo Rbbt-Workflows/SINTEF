@@ -15,7 +15,7 @@ module SINTEF
   end
   task :bliss => :tsv do |cell_line|
     tsv = nil
-    raise ParameterException, "No dependencies" if dependencies.empty?
+    raise ParameterException, "No Synergy analysis for this cell line" if dependencies.empty?
     dependencies.each_with_index do |dep,i|
       if tsv.nil?
         tsv = dep.load

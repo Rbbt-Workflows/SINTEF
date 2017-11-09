@@ -244,7 +244,9 @@ module SINTEF
 
 
   dep :steady_states
-  dep DrugLogics, :drabme, :steady_states => :steady_states, :perturbations => Rbbt.data.perturbations.find, :drugs => Rbbt.data.drugs.find
+  input :perturbations, :text, "Perturbations to explore", Rbbt.data.perturbations.find
+  input :drugs, :text, "Perturbations to explore", Rbbt.data.drugs.find
+  dep DrugLogics, :drabme, :steady_states => :steady_states, :perturbations => :perturbations, :drugs => :drugs
   task :predict_response => :tsv do
     tsv = step(:drabme).file('average_responses').tsv :type => :single, :cast => :to_f
 
@@ -256,7 +258,9 @@ module SINTEF
   end
 
   dep :steady_states
-  dep DrugLogics, :normalized_predictions, :steady_states => :steady_states, :perturbations => Rbbt.data.perturbations.find, :drugs => Rbbt.data.drugs.find, :permutations => 2
+  input :perturbations, :text, "Perturbations to explore", Rbbt.data.perturbations.find
+  input :drugs, :text, "Perturbations to explore", Rbbt.data.drugs.find
+  dep DrugLogics, :normalized_predictions, :steady_states => :steady_states, :perturbations => :permutations, :drugs => :drugs, :permutations => 2
   task :normalized_predictions => :tsv do
     TSV.get_stream step(:normalized_predictions)
   end
