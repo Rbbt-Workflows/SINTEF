@@ -242,11 +242,25 @@ module SINTEF
     TSV.get_stream s
   end
 
-
   dep :steady_states
+  task :training_data => :tsv do
+    tsv = step(:steady_states).load
+
+    text = ""
+    text << "Condition" << "\n" 
+    text << "-" << "\n"
+    text << "Observation" << "\n"
+    tsv.each do |gene, state|
+      text << gene << ":" <<  state.to_s << "\t"
+    end
+    text << "\n" << "# Steady State" << "\n"
+  end
+
+
+  dep :training_data
   input :perturbations, :text, "Perturbations to explore", Rbbt.data.perturbations.find
   input :drugs, :text, "Perturbations to explore", Rbbt.data.drugs.find
-  dep DrugLogics, :drabme, :steady_states => :steady_states, :perturbations => :perturbations, :drugs => :drugs
+  dep DrugLogics, :drabme, :training_data => :training_data, :perturbations => Rbbt.data.perturbations.find, :drugs => Rbbt.data.drugs.find
   task :predict_response => :tsv do
     tsv = step(:drabme).file('average_responses').tsv :type => :single, :cast => :to_f
 
@@ -257,10 +271,10 @@ module SINTEF
     tsv.select(good_keys)
   end
 
-  dep :steady_states
+  dep :training_data
   input :perturbations, :text, "Perturbations to explore", Rbbt.data.perturbations.find
   input :drugs, :text, "Perturbations to explore", Rbbt.data.drugs.find
-  dep DrugLogics, :normalized_predictions, :steady_states => :steady_states, :perturbations => :permutations, :drugs => :drugs, :permutations => 2
+  dep DrugLogics, :normalized_predictions, :training_data => :training_data, :perturbations => :permutations, :drugs => :drugs, :permutations => 2
   task :normalized_predictions => :tsv do
     TSV.get_stream step(:normalized_predictions)
   end
