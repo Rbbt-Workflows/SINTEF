@@ -31,10 +31,10 @@ location_drabme:	../Drabme
 
 # Parameters for evolutionary algorithms
 # Number of simulations (evolutions) to run
-simulations:	10
+simulations:	5
 
 # Number of models per generation
-population:	20
+population:	10
 
 # Number of generations per simulation (or less if target_fitness is defined, below)
 generations:	10

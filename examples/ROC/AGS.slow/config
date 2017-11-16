@@ -37,7 +37,7 @@ simulations:	10
 population:	20
 
 # Number of generations per simulation (or less if target_fitness is defined, below)
-generations:	10
+generations:	40
 
 # Number of crossovers
 crossovers:	1

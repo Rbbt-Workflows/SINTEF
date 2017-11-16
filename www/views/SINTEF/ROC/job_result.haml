@@ -26,13 +26,52 @@
 
 - require 'rbbt/rest/common/tabs'
 
-%a.ui.button(href='/CLSS/steady_states_paradigm/#{job.step(:steady_states_paradigm).name}') Steady states
+- if job.rec_dependencies.select{|d| d.task_name == :steady_states_paradigm}.any?
+  %a.ui.button(href='/CLSS/steady_states_paradigm/#{job.step(:steady_states_paradigm).name}') Steady states
 %a.ui.button(href='/DrugLogics/drabme/#{job.step(:drabme).name}') Drabme
 
 = tabs do |t|
   - t.active "ROC"
   - t.add "ROC" do
-    %img(src="/SINTEF/ROC/#{job.name}/file/ROC.png")
+    .ui.grid
+      .ui.column.six.wide
+        %img(src="/SINTEF/ROC/#{job.name}/file/ROC.png")
+        %h1 AUC
+        %p= job.info[:AUC]
+      .ui.column.six.wide
+
+        - rec_inputs = job.recursive_inputs
+        %dl
+          %dt Cell line
+          %dd= rec_inputs[:cell_line]
+
+          %dt obs method
+          %dd= rec_inputs[:obs_method]
+
+          - if rec_inputs[:use_steady_state]
+            %dt tf_inference_method
+            %dd= rec_inputs[:tf_inference_method]
+
+            %dt steady_state_type
+            %dd= rec_inputs[:steady_state_type]
+
+            %dt ceres_threshold
+            %dd= rec_inputs[:ceres_threshold]
+
+          %dt use_steady_state
+          %dd= rec_inputs[:use_steady_state]
+          %dt use_achilles
+          %dd= rec_inputs[:use_achilles]
+
+          %dt use_observed_synergies
+          %dd= rec_inputs[:use_observed_synergies]
+
+          %dt use_hand_rules
+          %dd= rec_inputs[:use_hand_rules]
+
+          %dt training_data
+          %dd= Misc.digest(rec_inputs[:training_data])
+
     = table do 
       - result
   - t.add "Predictions" do

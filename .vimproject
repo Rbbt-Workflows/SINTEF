@@ -1,6 +1,7 @@
 SINTEF=/$PWD filter="*.rb *.rake Rakefile *.rdoc *.R *.sh *.js *.haml *.sass *.txt *.conf" {
  workflow.rb
  bin=bin filter="*"{
+  full_test.sh
  }
  lib=lib {
   .keep

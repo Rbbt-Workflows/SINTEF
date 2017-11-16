@@ -13,6 +13,7 @@ Workflow.require_workflow "DrugLogics"
 Workflow.require_workflow "CCLE"
 Workflow.require_workflow "GDSC"
 Workflow.require_workflow "CLSS"
+Workflow.require_workflow "Achilles"
 
 module SINTEF
   extend Workflow
@@ -24,6 +25,12 @@ module SINTEF
     require 'rbbt/ner/rnorm'
     Normalizer.new(SHARE_DIR.ranked_cl.list).resolve(cell_line, nil, :max_candidates => 100, :threshold => -100).first
   end
+
+  helper :achilles_cell_line do |cell_line|
+    require 'rbbt/ner/rnorm'
+    Normalizer.new(Achilles.cell_line_info.tsv.keys).resolve(cell_line, nil, :max_candidates => 100, :threshold => -100).first
+  end
+
 
   dep CLSS, :gdsc_mutations
   task :drug_mutations => :tsv do
@@ -148,7 +155,7 @@ module SINTEF
   dep :observed_synergies_bliss
   dep :observed_synergies_GS
   dep :observed_synergies_averaged, :method => "Bliss"
-  input :obs_method, :select, "Method to define observed synergies", :bliss, :select_options => %w(bliss avg_bliss GS)
+  input :obs_method, :select, "Method to define observed synergies", :avg_bliss, :select_options => %w(bliss avg_bliss GS)
   task :observed_synergies => :array do |obs_method|
     case obs_method.to_s
     when "GS"
@@ -162,6 +169,63 @@ module SINTEF
     end
   end
 
+  dep :observed_synergies
+  input :drugs, :text, "Drug targets", Rbbt.data.drugs.find.read
+  task :observed_synergies_training => :text do |drugs|
+    drug_targets = TSV.open(TSV.get_stream(drugs), :type => :flat)
+
+    text = ""
+    single = {}
+    step(:observed_synergies).load.each do |combination|
+      d1, d2 = combination.split("~")
+      type1, *targets1 = drug_targets[d1]
+      type2, *targets2 = drug_targets[d2]
+
+      text << "\nCondition\n"
+      if type1 == 'inhibits'
+        text << targets1.collect{|t| t + ":" + "0"} * "\t"
+        single[:inhibits] ||= []
+        single[:inhibits] << targets1
+      else
+        text << targets1.collect{|t| t + ":" + "1"} * "\t"
+        single[:activates] ||= []
+        single[:activates] << targets1
+      end
+      text << "\t"
+      if type2 == 'inhibits'
+        text << targets2.collect{|t| t + ":" + "0"} * "\t"
+        single[:inhibits] ||= []
+        single[:inhibits] << targets2
+      else
+        text << targets2.collect{|t| t + ":" + "1"} * "\t"
+        single[:activates] ||= []
+        single[:activates] << targets2
+      end
+      text << "\nResponse\n"
+      text << "globaloutput:0"
+      text << "\n"
+      text << "weight:1"
+      text << "\n"
+    end
+
+    single.each do |type, targets_list|
+      targets_list.uniq.each do |targets|
+        text << "\nCondition\n"
+        if type == 'inhibits'
+          text << targets.collect{|t| t + ":" + "0"} * "\t"
+        else
+          text << targets.collect{|t| t + ":" + "1"} * "\t"
+        end
+        text << "\nResponse\n"
+        text << "globaloutput:1"
+        text << "\n"
+        text << "weight:1"
+        text << "\n"
+      end
+    end
+
+    text
+  end
   #task :steady_states => :tsv do
   #  Rbbt.data.Example["steadystate_AGS_for_barbara_topo.tab"].read
   #end
@@ -206,6 +270,7 @@ module SINTEF
   dep :steady_states_paradigm
   dep :steady_states_activity
   dep :steady_states_tf
+  dep CLSS, :achilles_essential_genes, :compute => [:produce, :nofail => true]
   input :steady_state_type, :select, "Type of SS calculation", :paradigm, :select_options => %w(paradigm TF RPPA Literature DrugScreen Merged)
   task :steady_states => :tsv do |type|
     s = case type.to_s.downcase
@@ -239,28 +304,164 @@ module SINTEF
           p
 
         end
-    TSV.get_stream s
+    tsv = TSV.open(TSV.get_stream(s))
+
+    if step(:achilles_essential_genes).done?
+
+      require 'rbbt/sources/CASCADE'
+      members = CASCADE.members.tsv
+      all_topology_members = CASCADE["topology.sif"].read.split("\s").flatten.uniq
+
+      all_genes = members.values.flatten.uniq
+      index = members.index :target => "Node"
+      step(:achilles_essential_genes).load.each do |gene|
+        next unless all_genes.include? gene
+        node = index[gene]
+        log :achilles_gene, "Forcing state of essential gene #{node} (#{tsv[node]})"
+        tsv[node] = 1
+      end
+    end
+
+    tsv
   end
 
-  dep :steady_states
-  task :training_data => :tsv do
-    tsv = step(:steady_states).load
+  input :cell_line, :string, "Cell line name"
+  task :achilles_training => :text do |cell_line|
+    
+		acl = achilles_cell_line(cell_line)
+    if acl.nil?
+      log :no_cell_line, "Could not translate cell line into Achilles"
+      ""
+    else
+      require 'rbbt/sources/CASCADE'
+      members = CASCADE.members.tsv
+      all_topology_members = CASCADE["topology.sif"].read.split("\s").flatten.uniq
 
-    text = ""
-    text << "Condition" << "\n" 
-    text << "-" << "\n"
-    text << "Observation" << "\n"
-    tsv.each do |gene, state|
-      text << gene << ":" <<  state.to_s << "\t"
+      all_genes = members.values.flatten.uniq
+      index = members.index :target => "Node"
+
+      data = Achilles.ceres_gene_effects.tsv :fields => [acl], :type => :single, :cast => :to_f
+
+      all_values = data.values.flatten.uniq
+      pos = -(all_values.length / 10)
+      max = all_values.sort[-pos]
+      min = all_values.sort[pos]
+
+      node_status = {}
+      data.each do |gene,value|
+        next unless all_genes.include? gene
+        node = index[gene]
+        next unless all_topology_members.include? node
+
+        status = (value - min)  / (max - min)
+        status = 0 if status < 0
+        status = 1 if status > 1
+
+        node_status[node] ||= []
+        node_status[node] << status
+      end
+
+      text = ""
+      node_status.each do |node,statuses|
+        status = Misc.mean(statuses)
+
+        text << "Condition" << "\n"
+        text << node << ":0" << "\n"
+        text << "Response" << "\n"
+        text << "globaloutput:" << status.to_s << "\n"
+        text << "\n"
+        text << "weight:1"
+        text << "\n"
+      end
+      text
     end
-    text << "\n" << "# Steady State" << "\n"
+  end
+
+  # ToDo: Change name of hand_rules
+  #dep :steady_states
+  #dep :observed_synergies_training
+  dep :achilles_training do |jobname, options|
+    jobs = []
+    if options[:use_achilles]
+      jobs << SINTEF.job(:achilles_training, jobname, options)
+    end
+    jobs
+  end
+  dep :steady_states do |jobname, options|
+    jobs = []
+    if options[:use_steady_state]
+      jobs << SINTEF.job(:steady_states, jobname, options)
+    end
+    jobs
+  end
+  dep :observed_synergies_training do |jobname, options|
+    jobs = []
+    if options[:use_observed_synergies]
+      jobs << SINTEF.job(:observed_synergies_training, jobname, options)
+    end
+    jobs
+  end
+  input :use_achilles, :boolean, "Use achilles training", false
+  input :use_steady_state, :boolean, "Use steady state training", true
+  input :use_observed_synergies, :boolean, "Use observed synergies in training", false
+  input :use_hand_rules, :boolean, "Use hand rules", false
+  input :extra_rules, :text, "Extra rules"
+  task :training_data => :text do |use_achilles, use_steady_state, use_observed_synergies, use_hand_rules, extra_rules|
+
+    hand_rules =<<-EOF
+Condition
+PIK3CA:0
+Response
+AKT_f:0
+    EOF
+    text = ""
+
+
+    if use_steady_state
+      tsv = step(:steady_states).load
+
+      text << "Condition" << "\n" 
+      text << "-" << "\n"
+      text << "Response" << "\n"
+      tsv.each do |gene, state|
+        next if state == "-"
+        text << gene << ":" <<  state.to_s << "\t"
+      end
+      text << "\n"
+      text << "weight:1"
+      text << "\n" << "# Steady State" << "\n"
+    end
+
+    if use_achilles 
+      achilles = step(:achilles_training).load
+      if ! achilles.empty?
+        text << "\n" << achilles
+      end
+    end
+
+    if use_observed_synergies 
+      obst = step(:observed_synergies_training).load
+      if ! obst.empty?
+        text << "\n" << obst
+      end
+    end
+
+    if use_hand_rules
+      text << "\n" << hand_rules
+    end
+
+    if extra_rules 
+      text << "\n" << extra_rules
+    end
+
+    text
   end
 
 
   dep :training_data
-  input :perturbations, :text, "Perturbations to explore", Rbbt.data.perturbations.find
-  input :drugs, :text, "Perturbations to explore", Rbbt.data.drugs.find
-  dep DrugLogics, :drabme, :training_data => :training_data, :perturbations => Rbbt.data.perturbations.find, :drugs => Rbbt.data.drugs.find
+  input :perturbations, :text, "Perturbations to explore", Rbbt.data.perturbations.find.read
+  input :drugs, :text, "Drug targets", Rbbt.data.drugs.find.read
+  dep DrugLogics, :drabme, :training_data => :training_data, :perturbations => Rbbt.data.perturbations.find.read, :drugs => Rbbt.data.drugs.find.read
   task :predict_response => :tsv do
     tsv = step(:drabme).file('average_responses').tsv :type => :single, :cast => :to_f
 
@@ -272,9 +473,9 @@ module SINTEF
   end
 
   dep :training_data
-  input :perturbations, :text, "Perturbations to explore", Rbbt.data.perturbations.find
-  input :drugs, :text, "Perturbations to explore", Rbbt.data.drugs.find
-  dep DrugLogics, :normalized_predictions, :training_data => :training_data, :perturbations => :permutations, :drugs => :drugs, :permutations => 2
+  input :perturbations, :text, "Perturbations to explore", Rbbt.data.perturbations.find.read
+  input :drugs, :text, "Drug targets", Rbbt.data.drugs.find.read
+  dep DrugLogics, :normalized_predictions, :training_data => :training_data, :perturbations => :perturbations, :drugs => :drugs, :permutations => 1
   task :normalized_predictions => :tsv do
     TSV.get_stream step(:normalized_predictions)
   end
@@ -334,6 +535,29 @@ module SINTEF
     score_pos = np.fields.index score_field
     thresholds = np.column(score_field).values.flatten.uniq.sort
 
+    predictions = TSV.setup({}, :key_field => "Combination", :fields => ["Observed", "Predicted"], :type => :list, :cast => :to_f)
+
+    np.column(score_field).each do |combination, score|
+      p = combination.sub(']-[','~').sub('[','').sub(']','')
+      observed = o.include?(p) ? "TRUE" : "FALSE"
+      predictions[combination] = [observed, score]
+    end
+
+    Open.write(file('predictions'), predictions.to_s)
+
+    TmpFile.with_file do |tmpfile|
+      R.run <<-EOF
+rbbt.require('pROC')
+data = rbbt.tsv('#{file('predictions')}')
+auc = auc(data$Observed, data$Predicted)[1]
+write(file='#{tmpfile}', auc)
+      EOF
+
+      auc = Open.read(tmpfile).to_f
+
+      set_info :AUC, auc
+    end
+    
     acc = nil
     thresholds.each do |threshold|
 
@@ -389,6 +613,7 @@ module SINTEF
     png('#{image_file}'); 
     plot(as.numeric(d['FPR',]), as.numeric(d['TPR',]),xlim=c(0,1),ylim=c(0,1),t='l'); 
     lines(c(0,1),c(0,1), col='red');
+    points(as.numeric(d['FPR',]), as.numeric(d['TPR',])); 
     dev.off()
     EOF
 
