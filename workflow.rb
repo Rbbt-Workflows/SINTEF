@@ -208,21 +208,31 @@ module SINTEF
       text << "\n"
     end
 
-    single.each do |type, targets_list|
-      targets_list.uniq.each do |targets|
-        text << "\nCondition\n"
-        if type == 'inhibits'
-          text << targets.collect{|t| t + ":" + "0"} * "\t"
-        else
-          text << targets.collect{|t| t + ":" + "1"} * "\t"
-        end
-        text << "\nResponse\n"
-        text << "globaloutput:1"
-        text << "\n"
-        text << "weight:1"
-        text << "\n"
-      end
-    end
+    text +=<<-EOF
+
+Condition
+-
+Response
+globaloutput:1
+weight:1
+
+    EOF
+
+    #single.each do |type, targets_list|
+    #  targets_list.uniq.each do |targets|
+    #    text << "\nCondition\n"
+    #    if type.to_s =~ /inhibits/
+    #      text << targets.collect{|t| t + ":" + "0"} * "\t"
+    #    else
+    #      text << targets.collect{|t| t + ":" + "1"} * "\t"
+    #    end
+    #    text << "\nResponse\n"
+    #    text << "globaloutput:1"
+    #    text << "\n"
+    #    text << "weight:1"
+    #    text << "\n"
+    #  end
+    #end
 
     text
   end
@@ -521,7 +531,8 @@ AKT_f:0
   dep :observed_synergies 
   dep :normalized_predictions, :compute => :produce
   input :score_field, :select, "Score field to use for ROC", "Fold-change", :select_options => %w(Fold-change Difference Miguel)
-  task :ROC => :tsv do |score_field|
+  input :rejected_drugs, :array, "List of drugs ignored by evaluation", []
+  task :ROC => :tsv do |score_field,rejected_drugs|
     cl = step(:normalized_predictions).recursive_inputs[:cell_line]
 
     #obs = step(:observed_synergies).load
@@ -572,6 +583,9 @@ write(file='#{tmpfile}', auc)
         next unless value <= threshold + 0.001
         p
       end
+
+      all -= rejected_drugs
+      found -= rejected_drugs
 
       found.uniq!
       o = (o & all).uniq
