@@ -129,7 +129,7 @@ module SINTEF
       end
     end
 
-    selected[cell_line]
+    selected[cell_line] || []
   end
 
   input :method, :select, "Synergy method", "Bliss", :select_options => %w(Bliss HSA CI)
@@ -149,7 +149,7 @@ module SINTEF
       end
     end
 
-    selected[cell_line]
+    selected[cell_line] || []
   end
 
   dep :observed_synergies_bliss
@@ -280,7 +280,7 @@ weight:1
   dep :steady_states_paradigm
   dep :steady_states_activity
   dep :steady_states_tf
-  dep CLSS, :achilles_essential_genes, :compute => [:produce, :nofail => true]
+  dep CLSS, :achilles_essential_genes, :compute => :canfail
   input :steady_state_type, :select, "Type of SS calculation", :paradigm, :select_options => %w(paradigm TF RPPA Literature DrugScreen Merged)
   task :steady_states => :tsv do |type|
     s = case type.to_s.downcase
