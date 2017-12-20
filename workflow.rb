@@ -622,19 +622,40 @@ write(file='#{tmpfile}', auc)
     image_file = file('ROC.png')
     FileUtils.mkdir_p files_dir
 
-    acc.R <<-EOF
+    auc = acc.R <<-EOF
     d = data
+    fpr = as.numeric(d['FPR',])
+    tpr = as.numeric(d['TPR',])
+
     png('#{image_file}'); 
-    plot(as.numeric(d['FPR',]), as.numeric(d['TPR',]),xlim=c(0,1),ylim=c(0,1),t='l'); 
-    lines(c(0,1),c(0,1), col='red');
-    points(as.numeric(d['FPR',]), as.numeric(d['TPR',])); 
+
+    #plot(fpr, tpr, xlim=c(0,1), ylim=c(0,1), t='l'); 
+    #lines(c(0,1),c(0,1), col='red');
+    #points(fpr, tpr); 
+    
+    plot(fpr, tpr, type="b", xlim=c(0,1), ylim=c(0,1), xlab="FPR", ylab="TPR")
+    grid()
+    abline(0,1,col="grey",lty=2)
+    height=(tpr[-1]+tpr[-length(tpr)])/2
+    width=diff(fpr)
     dev.off()
+
+    auc<-sum(height*width)
+    auc
+
+    data = data.frame(AUC=c(auc))
     EOF
+
+    set_info :AUC, auc.values.flatten.first
 
     acc.R <<-EOF,nil, :monitor => true
     d = data
+    fpr = as.numeric(d['FPR',])
+    tpr = as.numeric(d['TPR',])
+
     rbbt.require('txtplot')
-    txtplot(as.numeric(d['FPR',]), as.numeric(d['TPR',]),xlim=c(0,1),ylim=c(0,1)); 
+    txtplot(fpr, tpr, type="b", xlim=c(0,1), ylim=c(0,1))
+    data = NULL
     EOF
  
     acc

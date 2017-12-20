@@ -37,7 +37,7 @@
       .ui.column.six.wide
         %img(src="/SINTEF/ROC/#{job.name}/file/ROC.png")
         %h1 AUC
-        %p= job.info[:AUC]
+        %p= "%.3f" % job.info[:AUC]
       .ui.column.six.wide
 
         - rec_inputs = job.recursive_inputs
