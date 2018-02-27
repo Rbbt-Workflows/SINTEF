@@ -2,13 +2,8 @@
 # Each line is a parameter name and value
 # Default parameters are given below
 #
-# Parameter	Value
+# Parameter    Value
 #
-# Input file - experimental systems, index file pointing to set of stable states describing each system
-experimental_systems:	<filename>
-
-# Input file - starting network (i.e. SIF file, Boolean model etc
-network:	<networkfile>
 
 # Output verbosity level
 verbosity:	3
@@ -20,33 +15,30 @@ preserve_tmp_files:	true
 # Preserve outputs
 preserve_outputs:	true
 
-# Preserve intputs
-preserve_intputs:	false
-
-# Invoke drug response module after automated model definitions
-invoke_drabme:	false
-
-# Location of directory with drabme
-location_drabme:	../Drabme
+# Preserve inputs
+preserve_inputs:	false
 
 # Parameters for evolutionary algorithms
 # Number of simulations (evolutions) to run
-simulations:	10
+simulations:	500
+
+# Run simulations in parallel
+parallel_simulations:	true
+
+# Number of generations per simulation (or less if target_fitness is defined, below)
+generations:	20
 
 # Number of models per generation
 population:	20
-
-# Number of generations per simulation (or less if target_fitness is defined, below)
-generations:	10
 
 # Number of crossovers
 crossovers:	1
 
 # Number of models selected for next generation
-selection:	4
+selection:	3
 
 # Type of mutations to introduce
-balancemutations:	2
+balancemutations:	3
 randommutations:	0
 complexmutations:	0
 familymutations:	0
@@ -54,13 +46,11 @@ inhibitorymutations:	0
 activatorymutations:	0
 ormutations:	0
 andmutations:	0
-shufflemutations:	5
+shufflemutations:	0
+topology_mutations:	5
 
-# Target fitness threshold to stop evolution (0 means disabled)
-target_fitness:	0
-
-# Target fitness threshold to stop evolution in percent of max possible fitness given by steady state (0 means disabled)
-target_fitness_percent:	90
+# Target fitness threshold to stop evolution (1 is the absolute maximum value)
+target_fitness:	0.9
 
 # Factor to multiply number of mutations until initial phase is over (>0 stable states obtained)
 bootstrap_mutations_factor:	1000
@@ -74,13 +64,14 @@ bootstrap_shuffle_factor:	0
 # Factor to multiply number of regulator priority shuffles after initial phase is over
 shuffle_factor:	1
 
-# Number of models to save
-models_saved:	5
+# Factor to multiply number of topology mutations until initial phase is over
+bootstrap_topology_mutations_factor:	10
 
-# Threshold for savig models
-fitness_threshold:	0.9
-
-# Mutations that take of regulators
-topology_mutations:	5
-bootstrap_topology_mutations_factor:	5
+# Factor to multiply number of topology mutations after initial phase is over
 topology_mutations_factor:	1
+
+# Number of models to save
+models_saved:	3
+
+# Threshold for saving models
+fitness_threshold:	0.9

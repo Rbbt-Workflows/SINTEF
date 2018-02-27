@@ -48,13 +48,15 @@
           %dt obs method
           %dd= rec_inputs[:obs_method]
 
-          - if rec_inputs[:use_steady_state]
+          - if rec_inputs.include? :tf_inference_method
             %dt tf_inference_method
             %dd= rec_inputs[:tf_inference_method]
 
-            %dt steady_state_type
-            %dd= rec_inputs[:steady_state_type]
+            -#%dt steady_state_type
+            -#%dd= rec_inputs[:steady_state_type]
 
+  
+          - if rec_inputs.include? :ceres_threshold
             %dt ceres_threshold
             %dd= rec_inputs[:ceres_threshold]
 
