@@ -20,16 +20,16 @@ preserve_inputs:	false
 
 # Parameters for evolutionary algorithms
 # Number of simulations (evolutions) to run
-simulations:	3
+simulations:	1000
 
 # Run simulations in parallel
 parallel_simulations:	true
 
 # Number of generations per simulation (or less if target_fitness is reached, see below)
-generations:	40
+generations:	10
 
 # Number of models per generation
-population:	10
+population:	40
 
 # Number of crossovers
 crossovers:	1
@@ -48,10 +48,10 @@ activatorymutations:	0
 ormutations:	0
 andmutations:	0
 shufflemutations:	0
-topology_mutations:	10
+topology_mutations:	0
 
 # Target fitness threshold to stop evolution (1 is the absolute maximum value)
-target_fitness:	0.9
+target_fitness:	0.5
 
 # Factor to multiply number of mutations until initial phase is over (>0 stable states obtained)
 bootstrap_mutations_factor:	1000

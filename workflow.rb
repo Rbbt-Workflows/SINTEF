@@ -484,6 +484,7 @@ end
 
 require 'rbbt/tasks/cimbinator'
 require 'rbbt/tasks/steady_states'
+require 'rbbt/tasks/battery'
 
 #require 'rbbt/knowledge_base/SINTEF'
 #require 'rbbt/entity/SINTEF'
