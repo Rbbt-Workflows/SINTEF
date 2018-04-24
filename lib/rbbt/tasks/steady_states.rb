@@ -112,6 +112,9 @@ module SINTEF
   input :literature_ss, :integer, "Use position in steady state (disable with 0)", 0
   input :drugscreen_ss, :integer, "Use position in steady state (disable with 0)", 0
   input :achilles_EG_ss, :integer, "Use position in steady state (disable with 0)", 2
+  input :active_proteins, :array, "Active proteins"
+  input :inactive_proteins, :array, "Inactive proteins"
+  input :unknown_proteins, :array, "Unknown proteins"
   input :cell_line, :string, "Cell line name"
   dep :steady_states_paradigm_expr do |jobname,options|
     {:task => :steady_states_paradigm_expr, :inputs => options} if options[:paradigm_expr_ss].to_i > 0
@@ -128,7 +131,7 @@ module SINTEF
   dep CLSS, :achilles_essential_genes, :compute => :canfail do |jobname,options|
     {:task => :achilles_essential_genes, :inputs => options} if options[:achilles_EG_ss].to_i > 0
   end
-  task :steady_states => :tsv do |paradigm_expr_ss,paradigm_ss,rppa_ss,tf_ss,literature_ss, drugscreen_ss, achilles_EG_ss|
+  task :steady_states => :tsv do |paradigm_expr_ss,paradigm_ss,rppa_ss,tf_ss,literature_ss, drugscreen_ss, achilles_EG_ss, active, inactive, unknown|
     order = []
     cell_line = recursive_inputs[:cell_line]
 
@@ -174,6 +177,19 @@ module SINTEF
     end
 
     tsv = TSV.setup({}, "Gene~Value") if tsv.nil?
+
+    active.each do |protein|
+      tsv[protein] = "1"
+    end if active
+    
+    inactive.each do |protein|
+      tsv[protein] = "1"
+    end if inactive
+    
+    unknown.each do |protein|
+      tsv.delete protein
+    end if unknown
+
     tsv
   end
 

@@ -33,6 +33,9 @@ SINTEF=/$PWD filter="*.rb *.rake Rakefile *.rdoc *.R *.sh *.js *.haml *.sass *.t
     battery=battery{
      job_result.haml
     }
+    biomarker_sweep=biomarker_sweep{
+     job_result.haml
+    }
    }
   }
  }

@@ -102,4 +102,18 @@ EOF
   task :ROC_all => :array do
     dependencies.collect{|d| d.path}
   end
+
+  dep :ROC, :compute => [:bootstrap, 1, :canfail] do |jobname,options|
+
+    topology_proteins = options[:topology].split("\n").collect{|l| l.split(/\s/).first}.compact
+    ss = SINTEF.job(:steady_states, jobname, options).run
+    cell_line = options[:cell_line]
+    proteins = ss.keys & topology_proteins
+    proteins.collect do |protein|
+      {:task => :ROC, :jobname => jobname, :inputs => options.merge({:unknown_proteins => [protein]})}
+    end
+  end
+  task :biomarker_sweep => :tsv do
+    dependencies.collect{|d| d.path}
+  end
 end
