@@ -107,11 +107,11 @@ module SINTEF
 
   input :paradigm_expr_ss, :integer, "Use position in steady state (disable with 0)", 0
   input :paradigm_ss, :integer, "Use position in steady state (disable with 0)", 1
-  input :rppa_ss, :integer, "Use position in steady state (disable with 0)", 3
-  input :tf_ss, :integer, "Use position in steady state (disable with 0)", 2
+  input :rppa_ss, :integer, "Use position in steady state (disable with 0)", 0
+  input :tf_ss, :integer, "Use position in steady state (disable with 0)", 0
   input :literature_ss, :integer, "Use position in steady state (disable with 0)", 0
   input :drugscreen_ss, :integer, "Use position in steady state (disable with 0)", 0
-  input :achilles_EG_ss, :integer, "Use position in steady state (disable with 0)", 0
+  input :achilles_EG_ss, :integer, "Use position in steady state (disable with 0)", 2
   input :cell_line, :string, "Cell line name"
   dep :steady_states_paradigm_expr do |jobname,options|
     {:task => :steady_states_paradigm_expr, :inputs => options} if options[:paradigm_expr_ss].to_i > 0
@@ -143,7 +143,7 @@ module SINTEF
       [TSV.excel(DATA_DIR["20170725_steady_states_from_drug_activties.xlsx"], :merge => true).to_list{|values| values.include?("1") ? "1" : "-"}.column(cell_line.upcase)] +
       (order[drugscreen_ss..-1] || []) if drugscreen_ss > 0
 
-    if achilles_EG_ss > 0
+    if (achilles_EG_ss > 0 && step(:achilles_essential_genes).done?)
 
       require 'rbbt/sources/CASCADE'
       members = CASCADE.members.tsv

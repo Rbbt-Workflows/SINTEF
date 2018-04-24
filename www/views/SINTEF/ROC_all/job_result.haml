@@ -1,0 +1,51 @@
+
+- if job 
+  .job_control
+    = workflow_partial('job_result/job_control', workflow, task, locals)
+
+:sass
+  pre.config, dl.inputs
+    max-height: 500px
+    overflow: auto
+
+- require 'rbbt/rest/common/tabs'
+- job.dependencies.each do |dep|
+  .ui.segment
+    .ui.header
+      %a(href="/SINTEF/ROC/#{dep.name}")= dep.recursive_inputs[:cell_line]
+      AUC = #{dep.info[:AUC]}
+    .ui.description
+      .ui.grid
+        .ui.eight.wide.column
+          %img(src="#{File.join('/SINTEF/ROC',dep.name, 'file', 'ROC.png')}")
+        .ui.eight.wide.column
+          -config = dep.step(:gitsbe).file('inputs').config.read
+          = tabs do |t|
+            - t.active "selected info"
+            - t.add "selected info" do
+              - topology_mutations = config.split("\n").select{|l| l.include? 'topology_mutations'}.first
+              %dl
+                %dt topology_mutations
+                %dd
+                  %pre= topology_mutations
+
+                %dt Steady state type
+                %dd 
+                  = dep.recursive_inputs.fields.zip(dep.recursive_inputs).select{|k,v| k.to_s.include?('_ss')}.collect{|k,v| [k, v] * "="} * ", "
+
+                %dt Model outputs
+                %dd 
+                  = (dep.recursive_inputs[:model_outputs].include? "TCF7") ? "Alternative" : "Normal"
+                  
+            - t.add "Config" do
+              %pre.config= config
+            - t.add "Inputs" do
+              %dl.inputs
+                - dep.recursive_inputs.fields.zip(dep.recursive_inputs).each do |name,value|
+                  %dt=name
+                  %dd
+                    %pre=value
+
+
+
+

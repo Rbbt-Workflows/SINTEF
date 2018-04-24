@@ -30,6 +30,9 @@ SINTEF=/$PWD filter="*.rb *.rake Rakefile *.rdoc *.R *.sh *.js *.haml *.sass *.t
     ROC=ROC{
      job_result.haml
     }
+    battery=battery{
+     job_result.haml
+    }
    }
   }
  }

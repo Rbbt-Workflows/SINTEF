@@ -30,11 +30,12 @@
   %a.ui.button(href='/CLSS/steady_states_paradigm/#{job.step(:steady_states_paradigm).name}') Steady states
 %a.ui.button(href='/DrugLogics/drabme/#{job.step(:drabme).name}') Drabme
 
+- log :tabs 
 = tabs do |t|
   - t.active "ROC"
   - t.add "ROC" do
     .ui.grid
-      .ui.column.six.wide
+      .ui.column.ten.wide
         %img(src="/SINTEF/ROC/#{job.name}/file/ROC.png")
         %h1 AUC
         %p= "%.3f" % job.info[:AUC]
@@ -131,3 +132,9 @@
 
     .figure
       = tool :Rpng, :data => tsv, :plot => "plot(data[,1], data[,2], xlab=\"#{tsv.fields.first}\", ylab=\"#{tsv.fields.last}\")"
+
+  - t.add "Config" do
+    %pre= job.step(:gitsbe).file('inputs').config.read
+
+  - t.add "Training data" do
+    %pre= job.step(:gitsbe).file('inputs').training_data.read
