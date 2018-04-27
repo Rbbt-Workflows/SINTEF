@@ -1,6 +1,19 @@
 
 module SINTEF
 
+  dep CLSS, :steady_states_roumeliotis, :protein => nil
+  task :steady_states_roumeliotis => :tsv do
+    tsv = step(:steady_states_roumeliotis).load
+    tsv.process tsv.fields.first do |values|
+      if values.uniq.length == 1
+        [values.first.to_i == 1 ? "1" : "0" ]
+      else
+        ["-"]
+      end
+    end
+    tsv.to_single.select{|k,v| v != "-"}
+  end
+
   dep CLSS, :steady_states_paradigm, :protein => nil
   task :steady_states_paradigm => :tsv do
     TSV.get_stream step(:steady_states_paradigm)
@@ -108,10 +121,11 @@ module SINTEF
   input :paradigm_expr_ss, :integer, "Use position in steady state (disable with 0)", 0
   input :paradigm_ss, :integer, "Use position in steady state (disable with 0)", 1
   input :rppa_ss, :integer, "Use position in steady state (disable with 0)", 0
+  input :roumeliotis_ss, :integer, "Use position in steady state (disable with 0)", 0
   input :tf_ss, :integer, "Use position in steady state (disable with 0)", 0
   input :literature_ss, :integer, "Use position in steady state (disable with 0)", 0
   input :drugscreen_ss, :integer, "Use position in steady state (disable with 0)", 0
-  input :achilles_EG_ss, :integer, "Use position in steady state (disable with 0)", 2
+  input :achilles_EG_ss, :integer, "Use position in steady state (disable with 0)", 0
   input :active_proteins, :array, "Active proteins"
   input :inactive_proteins, :array, "Inactive proteins"
   input :unknown_proteins, :array, "Unknown proteins"
@@ -122,6 +136,9 @@ module SINTEF
   dep :steady_states_paradigm do |jobname,options|
     {:task => :steady_states_paradigm, :inputs => options} if options[:paradigm_ss].to_i > 0
   end
+  dep :steady_states_roumeliotis do |jobname,options|
+    {:task => :steady_states_roumeliotis, :inputs => options} if options[:roumeliotis_ss].to_i > 0
+  end
   dep :steady_states_activity do |jobname,options|
     {:task => :steady_states_activity, :inputs => options} if options[:rppa_ss].to_i > 0
   end
@@ -131,13 +148,14 @@ module SINTEF
   dep CLSS, :achilles_essential_genes, :compute => :canfail do |jobname,options|
     {:task => :achilles_essential_genes, :inputs => options} if options[:achilles_EG_ss].to_i > 0
   end
-  task :steady_states => :tsv do |paradigm_expr_ss,paradigm_ss,rppa_ss,tf_ss,literature_ss, drugscreen_ss, achilles_EG_ss, active, inactive, unknown|
+  task :steady_states_cell_line => :tsv do |paradigm_expr_ss,paradigm_ss,rppa_ss,roumeliotis_ss,tf_ss,literature_ss, drugscreen_ss, achilles_EG_ss, active, inactive, unknown|
     order = []
     cell_line = recursive_inputs[:cell_line]
 
     order = order[0..paradigm_expr_ss-1] + [step(:steady_states_paradigm_expr)] + (order[paradigm_expr_ss..-1] || []) if paradigm_expr_ss > 0
     order = order[0..paradigm_ss-1] + [step(:steady_states_paradigm)] + (order[paradigm_ss..-1] || []) if paradigm_ss > 0
     order = order[0..rppa_ss-1] + [step(:steady_states_activity)] + (order[rppa_ss..-1] || []) if rppa_ss > 0
+    order = order[0..roumeliotis_ss-1] + [step(:steady_states_roumeliotis)] + (order[rppa_ss..-1] || []) if roumeliotis_ss > 0
     order = order[0..tf_ss-1] + [step(:steady_states_tf)] + (order[tf_ss..-1] || []) if tf_ss > 0
 
     order = order[0..literature_ss-1] + [DATA_DIR.Example["steadystate_AGS_for_barbara_topo.tab"]] + (order[literature_ss..-1] || []) if literature_ss > 0
@@ -191,6 +209,44 @@ module SINTEF
     end if unknown
 
     tsv
+  end
+
+  dep :steady_states_cell_line do |jobname, options|
+    if options[:meta_cell_line]
+      CELL_LINES.collect do |cl|
+        {:inputs => options.merge(:cell_line => cl), :jobname => cl}
+      end
+    else
+      {:inputs => options}
+    end
+  end
+  input :meta_cell_line, :boolean, "Use a meta-cell line to train", false
+  task :steady_states => :tsv do
+    if dependencies.length == 1
+      TSV.get_stream step(:steady_states_cell_line)
+    else
+      tsv = nil
+      dependencies.each do |dep|
+        this = dep.load.to_list
+        this.fields = [dep.clean_name]
+
+
+        if tsv.nil? 
+          tsv = this
+        else
+          tsv = tsv.attach this
+        end
+
+      end
+
+      tsv.add_field "Majority vote" do |gene,values|
+        num = values.select{|v| v != "-"}.length
+        (values.select{|v| v.to_i == 1}.length > num.to_f / 2) ? 1 : 0
+      end
+      tsv = tsv.slice("Majority vote").to_single
+      tsv.fields = ["Activity"]
+      tsv
+    end
   end
 
   input :cell_line, :string, "Cell line name"

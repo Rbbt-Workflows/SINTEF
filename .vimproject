@@ -7,9 +7,10 @@ SINTEF=/$PWD filter="*.rb *.rake Rakefile *.rdoc *.R *.sh *.js *.haml *.sass *.t
   .keep
   rbbt=rbbt{
    tasks=tasks{
-    cimbinator.rb
-    steady_states.rb
     battery.rb
+    cimbinator.rb
+    plots.rb
+    steady_states.rb
    }
   }
  }

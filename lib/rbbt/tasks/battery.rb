@@ -58,6 +58,7 @@ EOF
                 "AGS.fast"
               end
     basic_inputs = SINTEF.example_inputs("ROC", example)
+    basic_inputs.merge!(options)
     basic_config = Open.read(basic_inputs[:config])
 
 
@@ -82,7 +83,9 @@ EOF
         new_inputs[:achilles_EG_ss] = ss_types.index(:achilles_EG_ss) || 0
 
         job_inputs = basic_inputs.merge(new_inputs)
-        {:task => :ROC, :jobname => cell_line, :inputs => job_inputs}
+        jobname = cell_line
+        jobname = "META" if options[:meta_cell_line]
+        {:task => :ROC, :jobname => jobname, :inputs => job_inputs}
       end
 
       cjobs
@@ -90,6 +93,7 @@ EOF
 
     jobs
   end
+  input :meta_cell_line, :boolean, "Use a meta-cell line to train", false
   task :battery => :array do
     dependencies.collect{|d| d.path}
   end

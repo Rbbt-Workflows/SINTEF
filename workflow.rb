@@ -305,7 +305,7 @@ weight:1
   input :score_field, :select, "Score field to use for ROC", "Fold-change", :select_options => %w(Fold-change Difference Miguel)
   input :rejected_drugs, :array, "List of drugs ignored by evaluation", []
   task :ROC => :tsv do |score_field,rejected_drugs|
-    cl = step(:normalized_predictions).recursive_inputs[:cell_line]
+    cl = self.recursive_inputs[:cell_line]
 
     #obs = step(:observed_synergies).load
     #sintef_cl = sintef_cell_line(cl)
