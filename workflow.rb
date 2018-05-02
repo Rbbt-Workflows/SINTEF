@@ -156,7 +156,7 @@ module SINTEF
   dep :observed_synergies_GS
   dep :observed_synergies_averaged, :method => "Bliss"
   input :obs_method, :select, "Method to define observed synergies", :avg_bliss, :select_options => %w(bliss avg_bliss GS)
-  task :observed_synergies => :array do |obs_method|
+  task :observed_synergies_cell_line => :array do |obs_method|
     case obs_method.to_s
     when "GS"
       step(:observed_synergies_GS).load
@@ -166,6 +166,31 @@ module SINTEF
       step(:observed_synergies_averaged).load
     else
       raise ParameterException, "Method not understood: #{ method }"
+    end
+  end
+
+
+  dep :observed_synergies_cell_line, :compute => :bootstrap do |jobname, options|
+    if options[:meta_synergies]
+      CELL_LINES.collect do |cl|
+        {:inputs => options.merge(:cell_line => cl), :jobname => cl}
+      end
+    else
+      {:inputs => options}
+    end
+  end
+  input :meta_synergies, :boolean, "Consider synergies in at least one cell line", false
+  task :observed_synergies => :array do |meta|
+    if dependencies.length == 1
+      step(:observed_synergies_cell_line).load
+    else
+      all = []
+      dependencies.each do |dep|
+        this = dep.load
+        all += this
+      end
+
+      Misc.counts(all).select{|s,v| v >= 1 }.keys
     end
   end
 
