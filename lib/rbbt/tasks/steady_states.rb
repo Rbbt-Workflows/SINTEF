@@ -158,7 +158,7 @@ module SINTEF
     order = order[0..roumeliotis_ss-1] + [step(:steady_states_roumeliotis)] + (order[rppa_ss..-1] || []) if roumeliotis_ss > 0
     order = order[0..tf_ss-1] + [step(:steady_states_tf)] + (order[tf_ss..-1] || []) if tf_ss > 0
 
-    order = order[0..literature_ss-1] + [DATA_DIR.Example["steadystate_AGS_for_barbara_topo.tab"]] + (order[literature_ss..-1] || []) if literature_ss > 0
+    order = order[0..literature_ss-1] + [DATA_DIR.Example["steadystate_AGS_for_barbara_topo.tab"].tsv(:type => :single)] + (order[literature_ss..-1] || []) if literature_ss > 0
 
     order = order[0..drugscreen_ss-1] + 
       [TSV.excel(DATA_DIR["20170725_steady_states_from_drug_activties.xlsx"], :merge => true).to_list{|values| values.include?("1") ? "1" : "-"}.column(cell_line.upcase)] +

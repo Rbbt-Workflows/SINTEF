@@ -28,6 +28,7 @@
 
 - if job.rec_dependencies.select{|d| d.task_name == :steady_states_paradigm}.any?
   %a.ui.button(href='/CLSS/steady_states_paradigm/#{job.step(:steady_states_paradigm).name}') Steady states
+%a.ui.button(href='/DrugLogics/gitsbe/#{job.step(:gitsbe).name}') Gitsbe
 %a.ui.button(href='/DrugLogics/drabme/#{job.step(:drabme).name}') Drabme
 
 - log :tabs 
