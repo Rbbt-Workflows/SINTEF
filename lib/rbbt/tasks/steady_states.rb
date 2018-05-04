@@ -375,7 +375,8 @@ AKT_f:0
     end
 
     if extra_rules 
-      text << "\n" << extra_rules
+      text << "\n" unless text[-1] == "\n"
+      text << extra_rules
     end
 
     text
