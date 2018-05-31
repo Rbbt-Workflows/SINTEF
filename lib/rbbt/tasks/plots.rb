@@ -43,10 +43,14 @@ rbbt.heatmap('#{self.path}, data)
     require 'rbbt/sources/CASCADE'
 
     signor = CASCADE.members.tsv.values.flatten.uniq
-    COREADPhosphoProteome.signor_activity_levels.tsv.select do |site, values|
+    tsv = COREADPhosphoProteome.signor_activity_levels.tsv(:cast => :to_i, :type => :list).select do |site, values|
       gene = site.split(":").first
       signor.include? gene
     end
+
+    tsv.cast = :to_i
+
+    tsv
   end
 
 end
