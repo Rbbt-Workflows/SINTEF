@@ -11,6 +11,7 @@ SINTEF=/$PWD filter="*.rb *.rake Rakefile *.rdoc *.R *.sh *.js *.haml *.sass *.t
     cimbinator.rb
     plots.rb
     steady_states.rb
+    refining_cells.rb
    }
   }
  }

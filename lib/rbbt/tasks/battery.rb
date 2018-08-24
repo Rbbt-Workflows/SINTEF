@@ -107,8 +107,7 @@ EOF
     dependencies.collect{|d| d.path}
   end
 
-  dep :ROC, :compute => [:bootstrap, 1, :canfail] do |jobname,options|
-
+  dep :ROC, :compute => [:bootstrap, nil, :canfail] do |jobname,options|
     topology_proteins = options[:topology].split("\n").collect{|l| l.split(/\s/).first}.compact
     ss = SINTEF.job(:steady_states, jobname, options).run
     cell_line = options[:cell_line]
@@ -118,6 +117,29 @@ EOF
     end
   end
   task :biomarker_sweep => :tsv do
-    dependencies.collect{|d| d.path}
+    tsv = TSV.setup({}, "Biomarker~AUC#:type=:single#:cast=:to_f")
+    dependencies.collect{|d| 
+      bm = d.inputs[:unknown_proteins].first
+      tsv[bm] = d.info[:AUC]
+    }
+    tsv
+  end
+
+  dep :ROC, :compute => [:bootstrap, nil, :canfail] do |jobname,options|
+    topology_proteins = options[:topology].split("\n").collect{|l| l.split(/\s/).first}.compact
+    ss = SINTEF.job(:steady_states, jobname, options).run
+    cell_line = options[:cell_line]
+    proteins = ss.keys & topology_proteins
+    proteins.collect do |protein|
+      {:task => :ROC, :jobname => jobname, :inputs => options.merge({:flip_proteins => [protein]})}
+    end
+  end
+  task :biomarker_sweep_flip => :tsv do
+    tsv = TSV.setup({}, "Biomarker~AUC#:type=:single#:cast=:to_f")
+    dependencies.collect{|d| 
+      bm = d.inputs[:flip_proteins].first
+      tsv[bm] = d.info[:AUC]
+    }
+    tsv
   end
 end

@@ -60,7 +60,7 @@ module SINTEF
   end
 
   dep :bliss
-  input :run_threshold, :float, "Minimun average synergistic run length", 2
+  input :run_threshold, :float, "Minimun average synergistic run length", 2.0
   input :value_threshold, :float, "Excess value threshold (negative)", -0.05
   task :observed_synergies_bliss => :array do |run_threshold,value_threshold|
     parser = TSV::Parser.new step(:bliss)

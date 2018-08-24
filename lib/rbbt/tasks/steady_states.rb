@@ -129,6 +129,7 @@ module SINTEF
   input :active_proteins, :array, "Active proteins"
   input :inactive_proteins, :array, "Inactive proteins"
   input :unknown_proteins, :array, "Unknown proteins"
+  input :flip_proteins, :array, "Flip proteins"
   input :cell_line, :string, "Cell line name"
   dep :steady_states_paradigm_expr do |jobname,options|
     {:task => :steady_states_paradigm_expr, :inputs => options} if options[:paradigm_expr_ss].to_i > 0
@@ -148,7 +149,7 @@ module SINTEF
   dep CLSS, :achilles_essential_genes, :compute => :canfail do |jobname,options|
     {:task => :achilles_essential_genes, :inputs => options} if options[:achilles_EG_ss].to_i > 0
   end
-  task :steady_states_cell_line => :tsv do |paradigm_expr_ss,paradigm_ss,rppa_ss,roumeliotis_ss,tf_ss,literature_ss, drugscreen_ss, achilles_EG_ss, active, inactive, unknown|
+  task :steady_states_cell_line => :tsv do |paradigm_expr_ss,paradigm_ss,rppa_ss,roumeliotis_ss,tf_ss,literature_ss, drugscreen_ss, achilles_EG_ss, active, inactive, unknown,flip|
     order = []
     cell_line = recursive_inputs[:cell_line]
 
@@ -212,22 +213,47 @@ module SINTEF
       tsv.delete protein
     end if unknown
 
+    flip.each do |protein|
+      tsv[protein] = case tsv[protein] 
+                     when "1"
+                       "0"
+                     when "0"
+                       "1"
+                     else
+                       tsv[protein]
+                     end
+    end if flip
+
+
     tsv
   end
 
   dep :steady_states_cell_line do |jobname, options|
-    if options[:meta_cell_line]
-      CELL_LINES.collect do |cl|
+    if options[:meta_cell_line] || options[:consensus_cell_line]
+      CELL_LINES.reverse.collect do |cl|
         {:inputs => options.merge(:cell_line => cl), :jobname => cl}
       end
+    elsif options[:all_meta_cell_line]
+      {:workflow => CLSS, :task => :all_steady_states_meta, :inputs => options}
+    elsif options[:all_meta_cell_line_viper]
+      {:workflow => CLSS, :task => :all_steady_states_meta_viper, :inputs => options}
     else
       {:inputs => options}
     end
   end
   input :meta_cell_line, :boolean, "Use a meta-cell line to train", false
-  task :steady_states => :tsv do
+  input :consensus_cell_line, :boolean, "Use a consensus meta-cell line to train", false
+  input :all_meta_cell_line, :boolean, "Use a meta-cell line to train with all CCLE datasets", false
+  input :all_meta_cell_line_viper, :boolean, "Use a meta-cell line to train with all CCLE datasets", false
+  task :steady_states => :tsv do |meta_cell_line, consensus_cell_line,all_meta_cell_line,all_meta_cell_line_viper|
     if dependencies.length == 1
-      TSV.get_stream step(:steady_states_cell_line)
+      if all_meta_cell_line
+        TSV.get_stream step(:all_steady_states_meta)
+      elsif all_meta_cell_line_viper
+        TSV.get_stream step(:all_steady_states_meta_viper)
+      else
+        TSV.get_stream step(:steady_states_cell_line)
+      end
     else
       tsv = nil
       dependencies.each do |dep|
@@ -243,13 +269,31 @@ module SINTEF
 
       end
 
-      tsv.add_field "Majority vote" do |gene,values|
-        num = values.select{|v| v != "-"}.length
-        (values.select{|v| v.to_i == 1}.length > num.to_f / 2) ? 1 : 0
+      if consensus_cell_line
+        tsv.add_field "Consensus vote" do |gene,values|
+          v = values.select{|v| v != "-"}.uniq
+          case v
+          when ["1"]
+            "1"
+          when ["0"]
+            "0"
+          else
+            "-"
+          end
+        end
+
+        tsv = tsv.slice("Consensus vote").to_single
+        tsv.fields = ["Activity"]
+        tsv
+      else
+        tsv.add_field "Majority vote" do |gene,values|
+          num = values.select{|v| v != "-"}.length
+          (values.select{|v| v.to_i == 1}.length > num.to_f / 2) ? 1 : 0
+        end
+        tsv = tsv.slice("Majority vote").to_single
+        tsv.fields = ["Activity"]
+        tsv
       end
-      tsv = tsv.slice("Majority vote").to_single
-      tsv.fields = ["Activity"]
-      tsv
     end
   end
 

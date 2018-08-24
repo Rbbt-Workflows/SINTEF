@@ -327,7 +327,7 @@ weight:1
 
   dep :observed_synergies 
   dep :normalized_predictions, :compute => :produce
-  input :score_field, :select, "Score field to use for ROC", "Fold-change", :select_options => %w(Fold-change Difference Miguel)
+  input :score_field, :select, "Score field to use for ROC", "Fold-change", :select_options => %w(Fold-change Difference Miguel Original)
   input :rejected_drugs, :array, "List of drugs ignored by evaluation", []
   task :ROC => :tsv do |score_field,rejected_drugs|
     cl = self.recursive_inputs[:cell_line]
@@ -511,6 +511,7 @@ require 'rbbt/tasks/cimbinator'
 require 'rbbt/tasks/steady_states'
 require 'rbbt/tasks/battery'
 require 'rbbt/tasks/plots'
+require 'rbbt/tasks/refining_cells'
 
 #require 'rbbt/knowledge_base/SINTEF'
 #require 'rbbt/entity/SINTEF'
