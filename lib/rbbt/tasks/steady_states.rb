@@ -229,28 +229,28 @@ module SINTEF
   end
 
   dep :steady_states_cell_line do |jobname, options|
-    if options[:meta_cell_line] || options[:consensus_cell_line]
+    if options[:consensus_mayority_cell_line] || options[:consensus_intersect_cell_line]
       CELL_LINES.reverse.collect do |cl|
         {:inputs => options.merge(:cell_line => cl), :jobname => cl}
       end
-    elsif options[:all_meta_cell_line]
-      {:workflow => CLSS, :task => :all_steady_states_meta, :inputs => options}
-    elsif options[:all_meta_cell_line_viper]
-      {:workflow => CLSS, :task => :all_steady_states_meta_viper, :inputs => options}
+    elsif options[:all_consensus_mayority_cell_line]
+      {:workflow => CLSS, :task => :all_steady_states_consensus_mayority, :inputs => options}
+    elsif options[:all_consensus_mayority_cell_line_expr]
+      {:workflow => CLSS, :task => :all_steady_states_consensus_mayority_expr, :inputs => options}
     else
       {:inputs => options}
     end
   end
-  input :meta_cell_line, :boolean, "Use a meta-cell line to train", false
-  input :consensus_cell_line, :boolean, "Use a consensus meta-cell line to train", false
-  input :all_meta_cell_line, :boolean, "Use a meta-cell line to train with all CCLE datasets", false
-  input :all_meta_cell_line_viper, :boolean, "Use a meta-cell line to train with all CCLE datasets", false
-  task :steady_states => :tsv do |meta_cell_line, consensus_cell_line,all_meta_cell_line,all_meta_cell_line_viper|
+  input :consensus_mayority_cell_line, :boolean, "Use a consensus mayority line to train", false
+  input :consensus_intersect_cell_line, :boolean, "Use a consensus intersect line to train", false
+  input :all_consensus_mayority_cell_line, :boolean, "Use a consensus mayority line to train with all CCLE datasets", false
+  input :all_consensus_mayority_cell_line_expr, :boolean, "Use a consensus mayority line to train with all CCLE datasets using only mRNA levels", false
+  task :steady_states => :tsv do |consensus_mayority_cell_line, consensus_intersect_cell_line,all_consensus_mayority_cell_line,all_consensus_mayority_cell_line_expr|
     if dependencies.length == 1
-      if all_meta_cell_line
-        TSV.get_stream step(:all_steady_states_meta)
-      elsif all_meta_cell_line_viper
-        TSV.get_stream step(:all_steady_states_meta_viper)
+      if all_consensus_mayority_cell_line
+        TSV.get_stream step(:all_steady_states_consensus_mayority)
+      elsif all_consensus_mayority_cell_line_expr
+        TSV.get_stream step(:all_steady_states_consensus_mayority_expr)
       else
         TSV.get_stream step(:steady_states_cell_line)
       end
@@ -269,7 +269,7 @@ module SINTEF
 
       end
 
-      if consensus_cell_line
+      if consensus_intersect_cell_line
         tsv.add_field "Consensus vote" do |gene,values|
           v = values.select{|v| v != "-"}.uniq
           case v

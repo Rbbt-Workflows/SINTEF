@@ -84,7 +84,7 @@ EOF
 
         job_inputs = basic_inputs.merge(new_inputs)
         jobname = cell_line
-        jobname = "META" if options[:meta_cell_line]
+        jobname = "CONS_MAY" if options[:consensus_mayority_cell_line]
         {:task => :ROC, :jobname => jobname, :inputs => job_inputs}
       end
 
@@ -93,7 +93,7 @@ EOF
 
     jobs
   end
-  input :meta_cell_line, :boolean, "Use a meta-cell line to train", false
+  input :consensus_mayority_cell_line, :boolean, "Use a consensus mayority line to train", false
   task :battery => :array do
     dependencies.collect{|d| d.path}
   end
