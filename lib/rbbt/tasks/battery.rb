@@ -137,7 +137,7 @@ EOF
   task :biomarker_sweep_flip => :tsv do
     tsv = TSV.setup({}, "Biomarker~AUC#:type=:single#:cast=:to_f")
     dependencies.collect{|d| 
-      bm = d.inputs[:flip_proteins].first
+      bm = d.recursive_inputs[:flip_proteins].first
       tsv[bm] = d.info[:AUC]
     }
     tsv
