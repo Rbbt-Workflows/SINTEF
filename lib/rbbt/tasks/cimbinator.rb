@@ -10,7 +10,7 @@ module SINTEF
     _cell_line = cell_line.upcase.gsub(/[^\w]/,'')
     files.select!{|f| File.basename(f).split(".").first.upcase.gsub(/[^\w]/,'') == _cell_line}
     files.collect do |file|
-      CombinationIndex.job(:report_bliss, cell_line, :file => file)
+      {:task => :report_bliss, :jobname => cell_line, :inputs => {:file => file}}
     end
   end
   task :bliss => :tsv do |cell_line|
@@ -39,7 +39,7 @@ module SINTEF
     _cell_line = cell_line.upcase.gsub(/[^\w]/,'')
     files.select!{|f| File.basename(f).split(".").first.upcase.gsub(/[^\w]/,'') == _cell_line}
     files.collect do |file|
-      CombinationIndex.job(:report_hsa, cell_line, :file => file, :response_type => :viability)
+      {:task => :report_hsa, :jobname => cell_line, :inputs => {:file => file, :response_type => :viability}}
     end
   end
   task :hsa => :tsv do |cell_line|

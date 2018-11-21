@@ -355,21 +355,21 @@ module SINTEF
   dep :achilles_training do |jobname, options|
     jobs = []
     if options[:use_achilles]
-      jobs << SINTEF.job(:achilles_training, jobname, options)
+      jobs << {:task => :achilles_training, :inputs => options, :jobname => jobname}
     end
     jobs
   end
   dep :steady_states do |jobname, options|
     jobs = []
     if options[:use_steady_state]
-      jobs << SINTEF.job(:steady_states, jobname, options)
+      jobs << {:task => :steady_states, :inputs => options, :jobname => jobname}
     end
     jobs
   end
   dep :observed_synergies_training do |jobname, options|
     jobs = []
     if options[:use_observed_synergies]
-      jobs << SINTEF.job(:observed_synergies_training, jobname, options)
+      jobs << {:task => :observed_synergies_training, :inputs => options, :jobname => jobname}
     end
     jobs
   end
