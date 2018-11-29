@@ -16,13 +16,14 @@
 
 - svg_files = {}
 - job.step(:bliss).dependencies.each do |rb_dep|
+  - iif rb_dep
   - name = rb_dep.name
-  - files = rb_dep.files.each do |f|
+  - files = rb_dep.info[:jobs].each do |f|
     - cmb = File.basename(f).split("_").first
     - cmb.sub!("-",'~')
     - svg_files[cmb] ||= {}
     - svg_files[cmb][name] ||= []
-    - svg_files[cmb][name] << f
+    - svg_files[cmb][name] << File.basename(f)
 
 - require 'rbbt/rest/common/tabs'
 
@@ -91,13 +92,13 @@
         td.click(function(e,t){
           var name = this.innerHTML
           var cannonical = name.replace(/[\[\]]/g,'').replace('-','~')
-          var url_template = '../../CombinationIndex/report_bliss/NAME/file/FILE'
+          var url_template = '../../CombinationIndex/bliss/JOB?_format=raw'
 
           
           var urls = []
           forHash(svg_files[cannonical], function(name, files){
             var file = files[0] 
-            var url = url_template.replace('NAME', name).replace("FILE", file)
+            var url = url_template.replace('NAME', name).replace("JOB", file)
             urls.push(url)
           })
           
@@ -135,7 +136,13 @@
       = tool :Rpng, :data => tsv, :plot => "plot(data[,1], data[,2], xlab=\"#{tsv.fields.first}\", ylab=\"#{tsv.fields.last}\")"
 
   - t.add "Config" do
-    %pre= job.step(:gitsbe).file('inputs').config.read
+    - begin
+      %pre= job.step(:gitsbe).file('inputs').config.read
+    - rescue
+      .ui.error.message=$!.message
 
   - t.add "Training data" do
-    %pre= job.step(:gitsbe).file('inputs').training_data.read
+    - begin
+      %pre= job.step(:gitsbe).file('inputs').training_data.read
+    - rescue
+      .ui.error.message=$!.message
