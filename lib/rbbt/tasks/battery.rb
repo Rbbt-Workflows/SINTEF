@@ -100,7 +100,13 @@ EOF
 
   dep :ROC, :compute => [:bootstrap, 3], :cell_line => :placeholder do |jobname,options|
     CELL_LINES.collect do |cell_line|
-      {:task => :ROC, :jobname => cell_line, :inputs => options.merge({:cell_line => cell_line})}
+      consensus = options.select{|key,value| TrueClass === value && key.to_s.include?('consensus')}.any?
+      jobname = if consensus
+                  "Consensus"
+                else
+                  cell_line
+                end
+      {:task => :ROC, :jobname => jobname, :inputs => options.merge({:cell_line => cell_line})}
     end
   end
   task :ROC_all => :array do

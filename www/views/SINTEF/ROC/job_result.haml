@@ -16,7 +16,6 @@
 
 - svg_files = {}
 - job.step(:bliss).dependencies.each do |rb_dep|
-  - iif rb_dep
   - name = rb_dep.name
   - files = rb_dep.info[:jobs].each do |f|
     - cmb = File.basename(f).split("_").first
@@ -106,6 +105,7 @@
           forArray(urls,function(url){
             promises.push(rbbt.get(url, {deserialize:function(e){ return e}}))
           })
+
           m.sync(promises).then(function(svgs){
             var content = ""
             forArray(svgs, function(svg){ content = content + svg})
