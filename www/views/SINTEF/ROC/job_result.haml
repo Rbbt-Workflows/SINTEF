@@ -74,7 +74,8 @@
           %dd= rec_inputs[:use_hand_rules]
 
           %dt training_data
-          %dd= Misc.digest(rec_inputs[:training_data])
+          - training_data = job.step(:gitsbe).inputs[:training_data]
+          %dd= Misc.digest(training_data)
 
     = table do 
       - result
