@@ -100,7 +100,7 @@ EOF
 
   dep :ROC, :compute => [:bootstrap, 3], :cell_line => :placeholder do |jobname,options|
     CELL_LINES.collect do |cell_line|
-      consensus = options.select{|key,value| TrueClass === value && key.to_s.include?('consensus')}.any?
+      consensus = options.select{|key,value| TrueClass === value && key.to_s.include?('consensus') && key.to_s.include?('cell_line')}.any?
       jobname = if consensus
                   "Consensus"
                 else
