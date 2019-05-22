@@ -14,17 +14,8 @@ module SINTEF
     tsv.to_single.select{|k,v| v != "-"}
   end
 
-  dep CLSS, :steady_states_paradigm, :protein => nil
-  task :steady_states_paradigm => :tsv do
-    TSV.get_stream step(:steady_states_paradigm)
-  end
+  dep_task :steady_states_paradigm, CLSS, :paradigm_ss, :binarize => true
 
-  dep CLSS, :steady_states_paradigm_expr, :protein => nil
-  task :steady_states_paradigm_expr => :tsv do
-    TSV.get_stream step(:steady_states_paradigm_expr)
-  end
-  
-  
   dep CLSS, :steady_states_activity
   task :steady_states_activity => :tsv do
     require 'rbbt/sources/CASCADE'
@@ -118,9 +109,7 @@ module SINTEF
   #  tsv
   #end
 
-  input :paradigm_expr_ss, :integer, "Use position in steady state (disable with 0)", 0
   input :paradigm_ss, :integer, "Use position in steady state (disable with 0)", 1
-  input :rppa_ss, :integer, "Use position in steady state (disable with 0)", 0
   input :roumeliotis_ss, :integer, "Use position in steady state (disable with 0)", 0
   input :tf_ss, :integer, "Use position in steady state (disable with 0)", 0
   input :literature_ss, :integer, "Use position in steady state (disable with 0)", 0
@@ -131,17 +120,11 @@ module SINTEF
   input :unknown_proteins, :array, "Unknown proteins"
   input :flip_proteins, :array, "Flip proteins"
   input :cell_line, :string, "Cell line name"
-  dep :steady_states_paradigm_expr do |jobname,options|
-    {:task => :steady_states_paradigm_expr, :inputs => options} if options[:paradigm_expr_ss].to_i > 0
-  end
-  dep :steady_states_paradigm do |jobname,options|
+  dep :steady_states_paradigm, :binarize => true do |jobname,options|
     {:task => :steady_states_paradigm, :inputs => options} if options[:paradigm_ss].to_i > 0
   end
   dep :steady_states_roumeliotis do |jobname,options|
     {:task => :steady_states_roumeliotis, :inputs => options} if options[:roumeliotis_ss].to_i > 0
-  end
-  dep :steady_states_activity do |jobname,options|
-    {:task => :steady_states_activity, :inputs => options} if options[:rppa_ss].to_i > 0
   end
   dep :steady_states_tf do |jobname,options|
     {:task => :steady_states_tf, :inputs => options} if options[:tf_ss].to_i > 0
@@ -149,13 +132,11 @@ module SINTEF
   dep CLSS, :achilles_essential_genes, :compute => :canfail do |jobname,options|
     {:task => :achilles_essential_genes, :inputs => options} if options[:achilles_EG_ss].to_i > 0
   end
-  task :steady_states_cell_line => :tsv do |paradigm_expr_ss,paradigm_ss,rppa_ss,roumeliotis_ss,tf_ss,literature_ss, drugscreen_ss, achilles_EG_ss, active, inactive, unknown,flip|
+  task :steady_states_cell_line => :tsv do |paradigm_ss,roumeliotis_ss,tf_ss,literature_ss, drugscreen_ss, achilles_EG_ss, active, inactive, unknown,flip|
     order = []
     cell_line = recursive_inputs[:cell_line]
 
-    order = order[0..paradigm_expr_ss-1] + [step(:steady_states_paradigm_expr)] + (order[paradigm_expr_ss..-1] || []) if paradigm_expr_ss > 0
     order = order[0..paradigm_ss-1] + [step(:steady_states_paradigm)] + (order[paradigm_ss..-1] || []) if paradigm_ss > 0
-    order = order[0..rppa_ss-1] + [step(:steady_states_activity)] + (order[rppa_ss..-1] || []) if rppa_ss > 0
     order = order[0..roumeliotis_ss-1] + [step(:steady_states_roumeliotis)] + (order[rppa_ss..-1] || []) if roumeliotis_ss > 0
     order = order[0..tf_ss-1] + [step(:steady_states_tf)] + (order[tf_ss..-1] || []) if tf_ss > 0
 
