@@ -180,7 +180,7 @@ module SINTEF
       end
     end
 
-    tsv = TSV.setup({}, "Gene~Value") if tsv.nil?
+    tsv = TSV.setup({}, "Gene~Value#:type=:single") if tsv.nil?
 
     active.each do |protein|
       tsv[protein] = "1"
