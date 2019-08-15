@@ -187,7 +187,7 @@ module SINTEF
     end if active
     
     inactive.each do |protein|
-      tsv[protein] = "1"
+      tsv[protein] = "0"
     end if inactive
     
     unknown.each do |protein|
