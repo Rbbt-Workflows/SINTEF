@@ -17,6 +17,7 @@
 - svg_files = {}
 - job.step(:bliss).dependencies.each do |rb_dep|
   - name = rb_dep.name
+  - next if rb_dep.info[:jobs].nil?
   - files = rb_dep.info[:jobs].each do |f|
     - cmb = File.basename(f).split("_").first
     - cmb.sub!("-",'~')
