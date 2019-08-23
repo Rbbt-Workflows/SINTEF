@@ -1,0 +1,6917 @@
+protein	TP53
+complex	g-secretase
+protein	FGFR2
+protein	DDB2
+protein	AKT1
+protein	CSNK2A1
+complex	ULK1/Atg13/Fip200
+protein	SHC1
+protein	IL2RG
+protein	IL7R
+protein	DVL3
+protein	BMP7
+protein	AURKB
+protein	MAPK3
+protein	FOXO1
+protein	ACVR1
+complex	RBPJ/NOTCH
+protein	BMPR2
+protein	PIPP
+protein	DLX5
+protein	WNT3A
+protein	PTPN1
+protein	PHLPP1
+protein	calcium ion
+protein	PDPK1
+protein	PRKACA
+protein	JAK2
+protein	TGFB1
+protein	PIM1
+protein	NME1
+protein	PDGFRB
+protein	PIP5K1A
+protein	CSNK1E
+protein	PAK1
+protein	CTNNB1
+protein	CDK2
+protein	MARK3
+protein	CDK5
+protein	MAPK1
+protein	PTPN6
+family	JNK
+protein	FNTA
+protein	ITCH
+protein	MAPK11
+family	14-3-3
+protein	CDK1
+protein	MRE11
+protein	CSNK1D
+protein	MAPK8
+protein	PTPN12
+protein	MAP3K1
+protein	MAPK14
+protein	NBN
+protein	GNB3
+protein	PPP1R15A
+protein	inositol 1,4,5-trisphosphate
+protein	WNT2
+protein	IFNG
+protein	WNT16
+protein	MAML1
+protein	WNT2B
+protein	LYN
+protein	WNT3
+protein	MAPK8IP1
+protein	PRKCH
+protein	WNT9B
+protein	WWTR1
+protein	TRAF2
+protein	PTK7
+protein	PRKCA
+protein	FOXO3
+protein	PAX3
+protein	PRKDC
+protein	SRC
+protein	YAP1
+protein	PRKAA1
+protein	WNT10B
+protein	CDK3
+protein	CDC25A
+protein	CHUK
+protein	SPAG9
+protein	PLK1
+protein	AKT2
+protein	MAPK13
+protein	PPP2CA
+protein	CDH2
+protein	PRKCD
+protein	LCK
+protein	AURKA
+protein	RPS6KA1
+protein	PTPN11
+protein	CSNK1A1L
+protein	FZD2
+protein	TTK
+protein	ABL1
+protein	JAG2
+protein	PIM2
+protein	GSK3A
+protein	INS
+protein	NEK2
+protein	CHEK2
+protein	PTPN7
+protein	GSK3B
+family	AKT
+protein	PRKCG
+protein	PPP1CA
+protein	PRKCB
+protein	ARAF
+protein	RPA2
+protein	WNT5B
+protein	FOXL2
+protein	DVL2
+protein	EPHA2
+protein	PRKAA2
+protein	CDC25C
+protein	TEAD1
+protein	EGFR
+family	ERK1/2
+protein	NCOR2
+protein	NR3C1
+protein	CDKN2A
+protein	CD40
+protein	NCSTN
+protein	CDC7
+protein	MTOR
+protein	CAMK2G
+protein	RARG
+protein	THRA
+protein	DDX5
+protein	ETV2
+protein	FYN
+protein	KLF4
+protein	MAPK12
+protein	PPARG
+protein	SMO
+protein	CBL
+protein	SIAH1
+protein	NR0B2
+protein	RUNX2
+protein	RBPJ
+protein	NTRK1
+protein	CDK8
+protein	NR2F2
+protein	FGF2
+protein	CCNC
+protein	CCNT1
+protein	CDK9
+protein	IL17A
+protein	CHEK1
+protein	STK4
+protein	HOXA9
+protein	AGTR1
+protein	PTPRF
+protein	GRK2
+protein	NRAS
+complex	CyclinB/CDK1
+protein	MAP2K7
+protein	FHIT
+protein	IL1B
+protein	CREB1
+protein	LRIG1
+protein	ATM
+protein	STAT6
+protein	E2F1
+protein	DTX1
+protein	BMP2
+protein	CXCL1
+protein	F2R
+protein	ATR
+protein	MAP3K5
+protein	PKM
+protein	JAK1
+protein	USF1
+protein	PIAS1
+protein	CSK
+protein	HABP4
+protein	KLF3
+protein	MAPK10
+protein	SOX9
+protein	CTNND1
+protein	ESR1
+protein	GNB1
+protein	GNB2
+protein	IL10RA
+protein	GNG12
+protein	GNGT1
+protein	KLF2
+protein	RARA
+protein	PTGER2
+protein	ADAM17
+protein	SMAD7
+protein	MAPKAPK2
+protein	PRKCE
+protein	EP300
+protein	DAXX
+protein	TAOK1
+protein	SMAD3
+protein	MYC
+protein	CCNE1
+protein	RPS6KA3
+protein	BMX
+protein	HDAC1
+protein	MAPK9
+protein	NEK11
+protein	SHH
+protein	LRRK2
+protein	NF2
+protein	BAZ1B
+protein	NGF
+protein	GLI3
+protein	SDC4
+protein	HDAC3
+protein	CDKN2AIP
+protein	PRKCZ
+protein	KHSRP
+protein	IL6ST
+protein	MAP2K6
+protein	ATG13
+protein	MDC1
+protein	MDM4
+protein	LIF
+protein	LIFR
+protein	PDGFRA
+protein	TAB1
+protein	YWHAB
+protein	TAB2
+protein	TAB3
+protein	MAP3K11
+protein	AREG
+protein	GNA12
+protein	TLR4
+protein	NFIL3
+protein	EIF2AK2
+protein	TBK1
+protein	BIRC3
+protein	ROCK1
+protein	NLK
+protein	PPP2CB
+protein	MAP2K1
+protein	H2AFX
+protein	APAF1
+protein	SRPK2
+protein	CDK4
+protein	RXRB
+protein	TGFBR2
+protein	MAPK8IP3
+protein	IL22RA1
+protein	TYK2
+protein	IL6
+protein	PSEN1
+protein	NTRK2
+protein	DUSP1
+protein	BIK
+protein	CDKN1A
+protein	CYCS
+protein	MTSS1
+protein	PELI3
+protein	ARFGAP1
+protein	DLK1
+protein	NFATC2
+protein	RB1
+protein	FADD
+protein	DAPK1
+protein	STK11
+protein	GNAT1
+protein	MUSK
+protein	TBX2
+protein	AKT3
+protein	FAS
+protein	NFKBIA
+protein	VEGFA
+protein	CASP3
+protein	TRADD
+protein	TBX3
+protein	INPPL1
+protein	HDAC5
+protein	ULK2
+protein	ITK
+protein	PRMT5
+protein	FZD8
+protein	IKBKE
+complex	CyclinD/CDK4
+protein	CREBBP
+protein	FGFR1
+protein	CSNK2B
+protein	MAP2K4
+protein	FZD1
+protein	SMURF2
+protein	EPHA3
+protein	STK3
+protein	IGF1R
+protein	MAPKAPK5
+protein	GPER1
+protein	GNG2
+protein	FOXA1
+protein	BMI1
+protein	DLL4
+protein	DLL1
+protein	MAF
+protein	BRSK1
+protein	FGFR3
+complex	PP2Ca_R1A_Bd
+protein	LPAR1
+protein	HES1
+protein	STAT1
+protein	FGFR4
+protein	TNF
+protein	PPP3CA
+protein	IER3
+complex	TSC1/TSC2
+protein	BAD
+protein	BCL2L11
+protein	CAMK2A
+protein	STAT5A
+protein	RHEB
+protein	PIK3CA
+protein	BAX
+protein	MITF
+protein	PTPRA
+protein	DUSP3
+protein	IFNGR1
+protein	PRKD1
+family	MEK1/2
+protein	GNAS
+protein	PPM1A
+protein	IKBKB
+protein	INSR
+protein	SEMA3C
+protein	IRAK4
+protein	JAK3
+protein	KIT
+protein	TFAP4
+protein	CBLB
+protein	MAP2K3
+protein	BMP4
+protein	NUAK1
+protein	FSTL3
+complex	AMPK
+protein	SKI
+protein	CDON
+protein	CD79B
+protein	TRAF6
+protein	MAP3K7
+family	PAK
+protein	GATA3
+protein	MAP4K5
+protein	PTEN
+protein	WNT11
+protein	IL4
+protein	SOSTDC1
+protein	VAV1
+protein	DIABLO
+protein	PPP5C
+protein	Prostaglandin E2
+complex	CBP/p300
+protein	SGK1
+protein	PLCE1
+protein	UBE2N
+protein	HIP1
+protein	MYOD1
+protein	MET
+protein	ULK1
+protein	WNT5A
+protein	XIAP
+protein	MAP3K4
+complex	IKK-complex
+protein	TDGF1
+protein	KRAS
+protein	cAMP
+protein	RNF111
+protein	BIRC5
+protein	PRKCI
+protein	KAT5
+protein	PAK2
+protein	PIK3CG
+protein	MDM2
+protein	RELA
+protein	LATS2
+protein	SMAD6
+protein	SIK2
+protein	FZD5
+protein	FHL2
+protein	PLAG1
+protein	BMPR1B
+protein	ELF4
+protein	GLI1
+protein	CAMK1
+protein	ZAP70
+protein	MEF2C
+protein	NFKB1
+protein	USP6
+protein	RIPK2
+protein	MAPK6
+protein	MAP3K8
+protein	DUSP6
+protein	RPS6KB1
+protein	SH2B3
+protein	NFIB
+protein	RASSF1
+protein	GNG3
+protein	KLF15
+protein	GCG
+protein	IFNGR2
+protein	RARB
+protein	FZD3
+protein	IRS2
+protein	NR4A1
+protein	BAK1
+protein	SMAD4
+protein	IGF2
+protein	NCK1
+protein	RIN1
+protein	KREMEN2
+protein	RIPK1
+protein	RAF1
+protein	TGFBR1
+protein	IRS1
+protein	TNFRSF1A
+protein	PTPN22
+protein	TNFRSF1B
+protein	SPEN
+protein	MARK2
+protein	FASLG
+protein	FLT4
+protein	RXRA
+protein	HRAS
+protein	PPP2R5C
+protein	SOS1
+protein	MCL1
+protein	MAPK7
+protein	ACP1
+protein	RASA1
+protein	MAP3K14
+protein	NPM1
+protein	GRB2
+protein	LAT
+protein	FLT3
+protein	PPARGC1A
+protein	GADD45A
+protein	CDK7
+protein	SFRP1
+protein	SOX17
+protein	IL1R1
+protein	MYD88
+protein	IRAK1
+protein	arachidonic acid
+protein	BRAF
+protein	SIRT1
+protein	LTBR
+protein	ERBB2
+protein	KITLG
+protein	CYP19A1
+protein	BMPR1A
+protein	HEY2
+protein	FBXW7
+protein	CCND1
+protein	TNFAIP3
+protein	RPS6KA5
+protein	CDH1
+protein	CTNNA1
+protein	IKBKG
+protein	PLA2G4A
+protein	RNF11
+protein	GAB1
+protein	DHH
+protein	PSTPIP1
+protein	CAMK4
+protein	VHL
+protein	LATS1
+protein	RET
+protein	HSP90AB1
+protein	CASP8
+protein	SMAD2
+complex	CyclinE/CDK2
+protein	PRRX1
+protein	BCL2L1
+protein	SYK
+protein	AR
+protein	SPRY2
+protein	LRP5
+protein	ADCY1
+protein	CD19
+protein	CDC25B
+complex	SUZ12/EZH2
+protein	DUSP16
+protein	HTRA2
+protein	MAP3K3
+protein	IL22
+protein	CEBPA
+protein	MKNK1
+protein	NCOA3
+protein	NCOA2
+protein	EZH2
+protein	NKX3-1
+protein	ERG
+protein	TEC
+protein	PLCG1
+protein	Diacylglycerol
+protein	MYOG
+family	Frizzled
+protein	GRIN2A
+protein	RUNX1
+protein	CAPN1
+protein	CAPN2
+protein	CALM1
+protein	NOS3
+protein	PRKCQ
+protein	alpha-ketoglutarate
+protein	KMT2A
+protein	MECOM
+complex	Calcineurin
+protein	IGF1
+protein	RCAN1
+protein	CBFB
+protein	PtsIns(3,4,5)P3
+protein	BCL2
+protein	estradiol
+protein	AIFM1
+protein	NAMPT
+protein	BID
+protein	LRIG3
+protein	RALA
+protein	PEA15
+protein	PIK3C2A
+protein	PIK3R1
+protein	CEBPB
+protein	EGR2
+protein	YY1
+protein	CLK2
+protein	HDAC8
+protein	DEPTOR
+protein	HSPA1A
+protein	PELP1
+protein	POMC
+protein	MC1R
+protein	EDN1
+protein	JUN
+protein	FST
+protein	HIF1A
+protein	HNF1A
+protein	IRF3
+protein	LEF1
+protein	CCL3
+protein	NFATC1
+protein	NFATC3
+protein	PPP3CB
+protein	PPP3CC
+protein	SP1
+protein	SP3
+protein	STAT3
+protein	TPSAB1
+protein	NOD2
+protein	HBB
+protein	HBA1
+protein	ACVR1B
+protein	AHSP
+protein	EPO
+protein	KLF1
+protein	ETV6
+protein	HMOX1
+protein	HMOX2
+protein	EIF2S1
+protein	CEBPD
+protein	SREBF1
+protein	TRPS1
+protein	GDF5
+protein	ASH2L
+protein	TBX1
+protein	PITX2
+protein	PAX6
+protein	KRT1
+protein	FBN1
+protein	ITGA6
+protein	ITGB4
+protein	PMP22
+protein	PRL
+protein	KRT14
+protein	HSP90AA1
+protein	HSPA1B
+protein	heme
+protein	NODAL
+protein	FGG
+protein	SUFU
+protein	IL1RAP
+protein	TOLLIP
+complex	mTORC2
+protein	CDR2
+protein	CDC20
+protein	SLK
+protein	GDF11
+complex	APC
+protein	FKBP4
+protein	INCENP
+protein	TIRAP
+protein	ERRFI1
+complex	SMAD1/4
+complex	SMAD5/SMAD4
+complex	SMAD8/SMAD4
+protein	TGFA
+protein	FOS
+protein	ABCA1
+protein	APOA1
+protein	MPO
+protein	CTNND2
+protein	ENPP1
+protein	DNMT3A
+protein	INPP5D
+protein	PIP2(16:0/18:1(9Z))
+protein	PIN1
+protein	SNAI1
+protein	AGT
+protein	REN
+protein	BRCA1
+protein	TTC3
+complex	GSK3B/Axin/APC
+protein	FBXO5
+protein	CRKL
+complex	SMAD1/5/8/SMAD4
+protein	WNK1
+complex	mTORC1
+family	SMAD1/5/8
+protein	PERP
+protein	WNT7A
+protein	FN1
+protein	SKIL
+protein	PPP1CC
+protein	SIK3
+protein	SGK3
+protein	VAV2
+protein	PRKG1
+protein	ROR1
+protein	ACVR2B
+protein	PTPRC
+protein	DYRK1B
+protein	CDK11B
+protein	CTBP1
+protein	IL4R
+protein	ILK
+protein	PIK3C3
+protein	POU5F1
+protein	TRIB3
+protein	FZD7
+protein	CARM1
+protein	HGF
+protein	ERBB3
+protein	ERBB4
+protein	GAB2
+complex	PI3K
+protein	TET2
+protein	PIK3R3
+protein	WT1
+protein	PAX2
+protein	PTK2
+protein	TEK
+protein	CCNA1
+protein	ARHGEF7
+family	RPS6K
+complex	AMOT/MPP5/INADL/LIN7C
+protein	NDN
+protein	CASP9
+complex	NfKb-p65/p50
+protein	ASXL1
+family	FOXO
+protein	DDIT3
+protein	BCL2L2
+protein	CDC42
+protein	PKN1
+protein	SGK2
+protein	NCOA1
+complex	AP1
+protein	SPRY4
+protein	TNFSF11
+protein	TNFRSF11A
+protein	SOCS3
+protein	SH2B1
+protein	MC4R
+protein	MC3R
+protein	GCGR
+protein	CDH4
+protein	RHOA
+protein	DIAPH1
+protein	PFN1
+protein	WNT1
+protein	SREBF2
+protein	ERN1
+protein	GATA6
+protein	NANOG
+protein	KLF10
+protein	ALK
+complex	Laminin-5
+protein	ID1
+protein	MAX
+protein	MMP2
+protein	VCAM1
+complex	a7/b1 integrin
+family	SMURF
+complex	SMAD3/SMAD4
+protein	GRB10
+protein	TGFBI
+complex	A6/b1 integrin
+complex	A4/b1 integrin
+complex	A5/b1 integrin
+protein	CAMK2D
+protein	SPP1
+protein	TSC22D3
+protein	VTN
+complex	A8/b1 integrin
+complex	A9/b1 integrin
+protein	MMP3
+protein	TCF4
+protein	TRPC6
+protein	NPNT
+protein	ICAM3
+protein	TLN1
+complex	AIIB/b3 integrin
+protein	DEF6
+complex	AD/b2 integrin
+protein	SNTA1
+protein	EID1
+protein	SRF
+protein	PTGS2
+protein	MAGEL2
+protein	CLOCK
+protein	ARNTL
+protein	DVL1
+complex	SETDB1/NLK/CHD7
+protein	GATA2
+protein	MAML2
+protein	PTCH1
+protein	MN1
+protein	INHBA
+complex	TCR
+protein	CAMKK1
+protein	PPP2R2A
+protein	NUMB
+protein	AXIN1
+protein	BBC3
+protein	SMURF1
+protein	NOTCH1
+protein	SMAD1
+protein	GOLPH3
+protein	GNAI2
+protein	CFLAR
+protein	SOS2
+protein	HDAC4
+protein	CAMKK2
+protein	SHC3
+protein	KAT2B
+protein	SOST
+protein	DKK1
+protein	HBEGF
+protein	GNAI3
+protein	RPS6KA4
+protein	SH2B2
+protein	SPI1
+complex	PRC2
+protein	NAB2
+protein	ZFP36
+protein	GFI1
+protein	HEY1
+protein	FLI1
+protein	GATA1
+protein	SNW1
+protein	ZFPM1
+protein	NF1
+protein	NKX2-5
+complex	CLOCK/ARNTL
+protein	NR1H2
+protein	NR1H3
+protein	ARNT
+protein	PEBP1
+protein	BHLHE41
+protein	BHLHE40
+protein	NR1D1
+protein	ATF4
+protein	NUPR1
+protein	IDH1
+protein	MTA1
+protein	BCL3
+protein	ESRRA
+protein	NOTCH4
+protein	PRDM16
+protein	CTCF
+protein	PRDM1
+protein	FGF10
+protein	prostaglandin E2(1-)
+protein	TFDP1
+protein	EGR1
+protein	RASGEF1B
+protein	BCAR1
+protein	TRAF3
+protein	TAL1
+protein	LYL1
+protein	ESR2
+protein	CHRNA7
+protein	MECP2
+protein	MBD2
+protein	DNMT1
+protein	SNAI2
+protein	ETS1
+protein	CHD4
+protein	ALOX15
+protein	Icomucret
+protein	PML
+protein	BAG1
+protein	CCL11
+protein	CCR3
+protein	EVX1
+protein	GSC
+protein	PER2
+protein	POU2F1
+protein	HDAC2
+protein	TUBB
+protein	PRLR
+protein	GFI1B
+protein	HOXA10
+protein	MYCN
+protein	CRTC2
+protein	NCOR1
+protein	HIC1
+protein	PTGES
+protein	ZFYVE9
+protein	TBX21
+protein	DLL3
+protein	MAML3
+protein	EIF3F
+family	NOTCH
+protein	MAP4K2
+protein	GH1
+protein	LRP6
+protein	PLD1
+protein	GLI2
+protein	MAP4K1
+protein	CBLC
+protein	DAB2
+protein	SOX4
+protein	HMGA1
+protein	CAV1
+protein	NFYA
+protein	ADRB2
+protein	HOXB13
+protein	SIRT2
+protein	ING1
+protein	IRF5
+protein	CIITA
+protein	IRF4
+protein	JUNB
+protein	PROX1
+protein	ATF2
+protein	ATF1
+protein	FOXP3
+protein	MAFA
+protein	POU1F1
+protein	LHX2
+protein	BTG2
+protein	NFE2L2
+protein	PTPRR
+protein	DAB2IP
+protein	SKP2
+protein	FZD6
+protein	NHLH2
+protein	F2RL1
+protein	KDM6B
+protein	NR5A1
+protein	NR5A2
+protein	CDX2
+protein	GNRH1
+protein	PITX1
+protein	RNF8
+protein	MMP9
+protein	FOXA2
+protein	PLD2
+protein	GNAI1
+protein	PLCB2
+protein	PLCB3
+protein	RORC
+protein	ABI1
+protein	CSF2RA
+protein	IL6R
+protein	HDAC9
+complex	P300/PCAF
+protein	REST
+protein	RUNX3
+protein	CCL2
+protein	CCR2
+protein	CCR1
+protein	CCR5
+protein	SALL4
+protein	TP63
+protein	TWIST1
+protein	ZEB1
+protein	ZEB2
+protein	HDAC7
+protein	CASP8AP2
+protein	SOCS1
+protein	HSPH1
+protein	TBX5
+protein	SPRY1
+protein	PLAUR
+protein	ICK
+complex	FN1/SDC4
+protein	PAX7
+protein	FRS2
+protein	AXIN2
+protein	MCOLN1
+protein	MSI1
+protein	MSTN
+protein	nitric oxide
+protein	dinoprost
+protein	MCM2
+protein	NOS2
+protein	TCF3
+protein	GNAQ
+protein	TRIP11
+protein	RAC1
+protein	GHR
+protein	MAP2K5
+protein	TP73
+protein	EFNA1
+protein	IRF9
+protein	PDX1
+protein	HACE1
+protein	CSF1
+protein	CSF1R
+complex	CSF2RA/CSF2RB
+protein	YBX1
+protein	GRHL2
+protein	ALOX5
+protein	PPP1R8
+protein	PJA1
+protein	SET
+protein	CRK
+protein	HSPB1
+complex	BMPR1A/1B/2
+protein	SIK1
+protein	CLSPN
+protein	NRARP
+protein	BUB1
+protein	BTK
+protein	SFN
+protein	ABL2
+protein	TAX1BP1
+protein	TNFRSF21
+protein	TICAM2
+protein	UBE2V1
+protein	TP53RK
+protein	HES6
+protein	TICAM1
+protein	PHB2
+protein	TRIM27
+protein	KNL1
+protein	PELI1
+protein	PTCRA
+protein	RPS6KA2
+protein	SMARCD3
+protein	RANBP9
+protein	MSX1
+protein	TNFSF10
+protein	ZNHIT1
+protein	BNIP2
+protein	PPP1R2
+protein	WNT7B
+protein	VEGFC
+protein	WNT10A
+protein	ARHGEF1
+protein	CP
+protein	coenzyme I
+protein	JAG1
+protein	MEF2A
+family	p38
+protein	GRB7
+protein	PGR
+protein	FRAT1
+protein	AIMP1
+protein	PARD6A
+protein	KIF7
+protein	CDK6
+protein	E2F2
+protein	GABARAP
+complex	BAK/BAX
+protein	NOXA1
+protein	PXN
+protein	AGTR2
+protein	SMARCB1
+protein	CDK5R1
+protein	PBX1
+family	PP2B
+protein	EDNRA
+protein	MSX2
+protein	MKL1
+protein	MYOCD
+protein	CRTC3
+protein	SOX2
+protein	ID2
+protein	PKMYT1
+protein	BAG4
+complex	CDK5/CDK5R1
+protein	WEE1
+protein	CD79A
+protein	WNT4
+protein	PSENEN
+protein	NOS1
+protein	NOTCH2
+protein	MAP3K10
+protein	AC1NUST0
+protein	PLAU
+protein	BDNF
+protein	TRIM28
+protein	VEPH1
+protein	TIAM1
+protein	EPHB2
+protein	PTGER3
+protein	SH3RF1
+protein	CDH15
+complex	IFNGR2/INFGR1
+protein	NOTCH3
+protein	CDKN1B
+protein	LFNG
+protein	SMAD5
+protein	GTF2I
+protein	IHH
+protein	HHIP
+protein	CD28
+protein	RBBP8
+protein	IL23A
+protein	IL23R
+protein	MALT1
+protein	KDR
+protein	BCL10
+protein	PI4K2A
+protein	E2F3
+protein	FBXO32
+protein	DAAM1
+protein	FOXO4
+protein	NUAK2
+protein	ID3
+protein	MSC
+protein	NRP2
+protein	KLF6
+protein	TSC1
+protein	TSC2
+protein	PIK3CB
+complex	MYOD/E12E47
+protein	RBL2
+protein	BIRC2
+protein	APC
+complex	SMAD2/SMAD4
+protein	FNTB
+protein	FOXO6
+protein	CUL1
+protein	EPS15
+protein	MAP3K20
+protein	ASCL1
+protein	SMARCA4
+protein	BRSK2
+protein	PTK2B
+protein	HGS
+protein	TCF12
+protein	APH1A
+protein	DDR2
+protein	IL22RA2
+protein	DAB1
+protein	KMT2D
+complex	MLL2 complex
+protein	FASN
+protein	FLNA
+protein	MAP2K2
+protein	FKBP8
+protein	MSI2
+protein	RND1
+protein	FHL1
+protein	FLT1
+protein	S1PR1
+protein	BORA
+protein	GNA13
+protein	RAC2
+protein	ANGPT2
+protein	ACVR2A
+protein	NR1I3
+protein	STK39
+protein	MEF2D
+protein	MAPK15
+protein	CARD11
+protein	FGR
+protein	TNFRSF10B
+protein	IL10
+protein	PPP2R5A
+protein	TRAF1
+protein	IFNB1
+protein	THBS1
+protein	RYK
+protein	KSR1
+protein	ABRAXAS1
+protein	NUMA1
+protein	NGFR
+protein	KREMEN1
+protein	SIAH2
+protein	NR2E3
+protein	NR2F1
+protein	MOB1A
+protein	MOB1B
+protein	SAV1
+protein	ENDOG
+protein	SMAD9
+protein	AP2M1
+protein	RACK1
+protein	PRKAB1
+protein	HOXB7
+protein	OXSR1
+protein	NEDD4L
+protein	FCGR2B
+protein	CDKN2B
+protein	DOK4
+protein	IL15RA
+protein	IL2RB
+protein	DLX2
+protein	PPP2R5D
+protein	APP
+protein	CASP6
+protein	NR1I2
+protein	WNT8A
+protein	KLF5
+protein	PELI2
+protein	CTGF
+protein	PTN
+protein	STAT2
+protein	TNFRSF10A
+protein	ROR2
+protein	IL13RA1
+protein	IL10RB
+family	SRC
+NFYA	NFY	component>
+DEPTOR	mTORC2	component>
+DEPTOR	mTORC1	component>
+MTOR	mTORC1	component>
+CUL1	SCF-betaTRCP	component>
+EP300	CBP/p300	component>
+CREBBP	CBP/p300	component>
+CREBBP	P300/PCAF	component>
+KAT2B	P300/PCAF	component>
+EP300	P300/PCAF	component>
+SMAD2	SMAD2/SMAD4	component>
+SMAD4	SMAD2/SMAD4	component>
+SMAD3	SMAD3/SMAD4	component>
+SMAD4	SMAD3/SMAD4	component>
+JUN	SMAD4/JUN	component>
+SMAD4	SMAD4/JUN	component>
+SMURF2	SMAD2/SMURF2	component>
+SMAD2	SMAD2/SMURF2	component>
+E2F1	SMAD7/HDAC1/E2F-1	component>
+HDAC1	SMAD7/HDAC1/E2F-1	component>
+SMAD7	SMAD7/HDAC1/E2F-1	component>
+RELA	NfKb-p65/p50	component>
+NFKB1	NfKb-p65/p50	component>
+IKBKB	IKK-complex	component>
+CHUK	IKK-complex	component>
+PRKAA2	AMPK	component>
+PRKAA1	AMPK	component>
+PRKAB1	AMPK	component>
+CDK2	CyclinE/CDK2	component>
+CDK1	CyclinB/CDK1	component>
+CCND1	CyclinD/CDK4	component>
+CDK4	CyclinD/CDK4	component>
+ASH2L	HMT	component>
+KMT2D	HMT	component>
+CDON	CDON/SPAG9	component>
+SPAG9	CDON/SPAG9	component>
+SPAG9	CDO/JLP/P38	component>
+CDON	CDO/JLP/P38	component>
+SRF	NKX3-1/SRF	component>
+NKX3-1	NKX3-1/SRF	component>
+BMPR2	BMPR1A/1B/2	component>
+BMPR1B	BMPR1A/1B/2	component>
+BMPR1A	BMPR1A/1B/2	component>
+BMPR2	ACVR1/BMPR2	component>
+ACVR1	ACVR1/BMPR2	component>
+EP300	CDX2/PAX6/P300	component>
+CDX2	CDX2/PAX6/P300	component>
+PAX6	CDX2/PAX6/P300	component>
+DDX5	RNA helicases p68/p72	component>
+DDB2	DDB2/DDB1	component>
+DDX5	DDX5/DDX17	component>
+DNMT1	DNMT1/DNMT3A	component>
+DNMT3A	DNMT1/DNMT3A	component>
+DNMT1	DNMT1/DNMT3B	component>
+ELF4	ELF4/RUNX1	component>
+RUNX1	ELF4/RUNX1	component>
+PML	KAT6A/PML	component>
+KMT2A	KMT2A/WDR5	component>
+RELA	REL/RELA	component>
+SOX2	SOX2/POU5F1	component>
+POU5F1	SOX2/POU5F1	component>
+STAT3	SP1/STAT3	component>
+SP1	SP1/STAT3	component>
+EZH2	SUZ12/EZH2	component>
+CDK2	CyclinA2/CDK2	component>
+NR3C1	NR3C1/STAT5A	component>
+STAT5A	NR3C1/STAT5A	component>
+SMAD4	SMAD1/4	component>
+SMAD1	SMAD1/4	component>
+JUN	SMAD3/JUN	component>
+SMAD3	SMAD3/JUN	component>
+ASH2L	MLL/SET subcomplex	component>
+KMT2D	MLL2 complex	component>
+KMT2A	MLL1 complex	component>
+PAX7	PAX7/MLL1 complex	component>
+MLL2 complex	PAX7/MLL2 complex	component>
+PAX7	PAX7/MLL2 complex	component>
+SMARCA4	SWI/SNF complex	component>
+SMARCB1	SWI/SNF complex	component>
+MYOD1	MYOD1/SWI/SNF complex	component>
+PBX1	MYOD1/SWI/SNF complex	component>
+MYOG	Myog/SWI/SNF complex	component>
+MEF2D	Myog/SWI/SNF complex	component>
+PTCH1	CDON/BOC/PTCH1	component>
+CDON	CDON/BOC/PTCH1	component>
+BAK1	BAK/BAX	component>
+BAX	BAK/BAX	component>
+NOTCH1	RBPJ/NOTCH	component>
+RBPJ	RBPJ/NOTCH	component>
+NOTCH	RBPJ/NOTCH	component>
+PSENEN	g-secretase	component>
+NCSTN	g-secretase	component>
+APH1A	g-secretase	component>
+PSEN1	g-secretase	component>
+ULK1	ULK1/Atg13/Fip200	component>
+ATG13	ULK1/Atg13/Fip200	component>
+TSC2	TSC1/TSC2	component>
+TSC1	TSC1/TSC2	component>
+SUZ12/EZH2	SUZ12/EZH2/YY1	component>
+YY1	SUZ12/EZH2/YY1	component>
+HDAC1	CoREST-HDAC complex	component>
+HDAC2	CoREST-HDAC complex	component>
+PRKDC	Ku70/Ku80/DNA-PK	component>
+GSK3B	GSK3B/Axin/APC	component>
+AXIN1	GSK3B/Axin/APC	component>
+APC	GSK3B/Axin/APC	component>
+REST	REST-CoREST	component>
+SMURF1	PARD6/SMURF1	component>
+PARD6A	PARD6/SMURF1	component>
+CDK9	AEP complex	component>
+CCNT1	AEP complex	component>
+STAT1	STAT1/STAT3	component>
+STAT3	STAT1/STAT3	component>
+STAT3	JAK1/STAT1/STAT3	component>
+JAK1	JAK1/STAT1/STAT3	component>
+STAT1	JAK1/STAT1/STAT3	component>
+PRKCQ	PKCtheta/Nfix	component>
+MTA1	MTA1/DJ1 complex	component>
+STAT1	ISGF3 complex	component>
+IRF9	ISGF3 complex	component>
+STAT2	ISGF3 complex	component>
+ARNT	AHR-ARNT	component>
+MYOD1	MYOD/E12E47	component>
+TCF3	MYOD/E12E47	component>
+MYOD1	MYOD/HEB	component>
+TCF12	MYOD/HEB	component>
+TCF4	MYOD/E2-2	component>
+MYOD1	MYOD/E2-2	component>
+EZH2	PRC2	component>
+PPP2R2A	PP2Ca_R1A_Ba	component>
+PPP2CA	PP2Ca_R1A_Ba	component>
+PPP2CA	PP2Ca_R1A_Bd	component>
+PPP2R5D	PP2Ca_R1A_Bd	component>
+FBXW7	SCF-FBW7	component>
+CUL1	SCF-FBW7	component>
+SKP2	SCF-SKP2	component>
+CUL1	SCF-SKP2	component>
+IFNGR2	IFNGR2/INFGR1	component>
+IFNGR1	IFNGR2/INFGR1	component>
+CDK6	CDK6/CCND1	component>
+CCND1	CDK6/CCND1	component>
+CDK5R1	CDK5/CDK5R1	component>
+CDK5	CDK5/CDK5R1	component>
+MRE11	MRE11/RAD50/NBS1	component>
+NBN	MRE11/RAD50/NBS1	component>
+WT1	PAX2/TLE4	component>
+FOS	AP1	component>
+JUN	AP1	component>
+PPP3CA	Calcineurin	component>
+PIK3R1	PI3K	component>
+PIK3CA	PI3K	component>
+ITGA6	A6/b1 integrin	component>
+ITGA6	A6/b4 integrin	component>
+ITGB4	A6/b4 integrin	component>
+NLK	SETDB1/NLK/CHD7	component>
+ABI1	WRC complex	component>
+CLOCK	CLOCK/ARNTL	component>
+ARNTL	CLOCK/ARNTL	component>
+RELA	SNAIL/RELA/PARP1	component>
+SNAI1	SNAIL/RELA/PARP1	component>
+SMAD5	SMAD5/SMAD4	component>
+SMAD4	SMAD5/SMAD4	component>
+SMAD4	SMAD8/SMAD4	component>
+SMAD9	SMAD8/SMAD4	component>
+HBA1	Hemoglobin	component>
+HBB	Hemoglobin	component>
+RUNX1	Core Binding Factor complex	component>
+CBFB	Core Binding Factor complex	component>
+MAPK3	ERK1/2	member>
+MAPK1	ERK1/2	member>
+LPAR1	LPAR	member>
+GNGT1	Ggamma	member>
+GNG12	Ggamma	member>
+GNG2	Ggamma	member>
+GNG3	Ggamma	member>
+MAPK3	Gbeta	member>
+MAPK1	Gbeta	member>
+TGFB1	TGFb	member>
+PRKAA2	AMPKc	member>
+PRKAA1	AMPKc	member>
+YWHAB	14-3-3	member>
+SFN	14-3-3	member>
+FGF10	FGF	member>
+BMPR2	BMPR	member>
+BMPR1A	BMPR	member>
+BMPR1B	BMPR	member>
+DVL2	DVL	member>
+DVL1	DVL	member>
+DVL3	DVL	member>
+FZD6	Frizzled	member>
+FZD7	Frizzled	member>
+FZD5	Frizzled	member>
+FZD8	Frizzled	member>
+FZD1	Frizzled	member>
+FZD2	Frizzled	member>
+FZD3	Frizzled	member>
+NFKB1	NF-kB	member>
+RELA	NF-kB	member>
+PAK2	PAK	member>
+PAK1	PAK	member>
+MAPK8	JNK	member>
+MAPK9	JNK	member>
+MAPK10	JNK	member>
+MAPK14	p38	member>
+MAPK11	p38	member>
+MAPK13	p38	member>
+MAPK12	p38	member>
+PRKACA	PKA	member>
+PPP3CA	PP2B	member>
+PPP3CC	PP2B	member>
+PPP3CB	PP2B	member>
+TLR4	TLRs	member>
+TAOK1	TAOK	member>
+TEAD1	TEAD	member>
+FGFR4	FGFR	member>
+FGFR1	FGFR	member>
+FGFR2	FGFR	member>
+FGFR3	FGFR	member>
+AKT1	AKT	member>
+AKT2	AKT	member>
+AKT3	AKT	member>
+MAP2K1	MEK1/2	member>
+MAP2K2	MEK1/2	member>
+RPS6KA2	RPS6K	member>
+RPS6KA3	RPS6K	member>
+RPS6KA5	RPS6K	member>
+RPS6KA4	RPS6K	member>
+RPS6KA1	RPS6K	member>
+FOXO3	FOXO	member>
+FOXO1	FOXO	member>
+FOXO6	FOXO	member>
+FOXO4	FOXO	member>
+SMURF2	SMURF	member>
+SMURF1	SMURF	member>
+NOTCH3	NOTCH	member>
+NOTCH4	NOTCH	member>
+NOTCH1	NOTCH	member>
+NOTCH2	NOTCH	member>
+PIM1	PIM	member>
+PIM2	PIM	member>
+EGFR	ErbB receptor family	member>
+ERBB2	ErbB receptor family	member>
+ERBB3	ErbB receptor family	member>
+ERBB4	ErbB receptor family	member>
+TP53	NOXA1	-t>
+g-secretase	NOTCH1	-a>
+FGFR2	MAP2K1	-a>
+DDB2	E2F1	-a>
+AKT1	TSC1/TSC2	-a|
+CSNK2A1	HMOX2	-a>
+CSNK2A1	HOXB7	-a|
+CSNK2A1	SRF	-a>
+ULK1/Atg13/Fip200	mTORC1	-a|
+SHC1	INPP5D	-a>
+IL2RG	JAK3	-a>
+IL7R	JAK1	-a>
+DVL3	PIP5K1A	-a>
+BMP7	MAPK14	-a>
+AURKB	TP53	-a|
+MAPK3	GAB1	-a>
+FOXO1	PPARG	-t|
+ACVR1	AMOT/MPP5/INADL/LIN7C	-a>
+SHC1	GRB2	-a>
+RBPJ/NOTCH	MYOD1	-t|
+CSNK2A1	HSPH1	-a|
+AKT1	CDKN1B	-t|
+AKT1	CDKN1B	-a|
+CSNK2A1	NKX2-5	-a>
+BMPR2	BMPR1A	-a>
+PIPP	LRP6	-a>
+CSNK2A1	SP1	-a|
+DLX5	MSX2	-a|
+WNT3A	LRP6	-a>
+PTPN1	SRC	-a>
+PHLPP1	RPS6KB1	-a|
+calcium ion	CALM1	-a>
+PHLPP1	STK4	-a>
+PDPK1	SGK3	-a>
+PDPK1	SGK1	-a>
+PDPK1	SGK2	-a>
+PRKACA	GNA13	-a|
+JAK2	PTPN11	-a>
+TGFB1	RUNX2	-t|
+PIM1	BAD	-a|
+NME1	KSR1	-a|
+PDGFRB	PTPN11	-a>
+PIP5K1A	LRP6	-a>
+CSNK1E	APC	-a>
+PAK1	RAF1	-a>
+PRKACA	STK11	-a>
+PRKACA	PPP1R8	-a|
+CTNNB1	CCND1	-t>
+PRKACA	BAD	-a|
+CDK2	ID2	-a|
+MAPK3	STAT3	-a>
+MARK3	CDC25C	-a|
+CDK5	CAMKK2	-a|
+MAPK1	STAT5A	-a>
+PTPN6	LCK	-a|
+JNK	BCL2L1	-a|
+FNTA	KRAS	-a>
+ITCH	GLI1	-a|
+MAPK11	SMAD2	-a|
+14-3-3	GRB10	-a>
+CDK1	PML	-a|
+MRE11	ATM	-a>
+CSNK1D	YAP1	-a|
+MAPK8	APP	-a>
+PTPN12	PTK2B	-a|
+MAP3K1	FADD	-a|
+MAPK14	FOXO3	-a>
+NBN	ATM	-a>
+GNB3	PIK3CA	-a>
+PPP1R15A	PPP1CC	-a>
+inositol 1,4,5-trisphosphate	calcium ion	-a>
+MAPK1	RPS6KA5	-a>
+MAPK3	RPS6KA5	-a>
+WNT2	LRP5	-a>
+IFNG	IFNGR1	-a>
+WNT16	LRP6	-a>
+MAML1	CDK8	-a>
+MAPK14	DDIT3	-a>
+WNT2	LRP6	-a>
+WNT2B	LRP5	-a>
+LYN	CD19	-a>
+WNT3	FZD3	-a>
+MAPK8IP1	NOTCH1	-a|
+MAPK14	CDX2	-a>
+MAPK14	KHSRP	-a|
+MAPK14	NCOA3	-a>
+CDK5	TP53	-a>
+PRKCH	GSK3A	-a|
+WNT9B	FZD3	-a>
+WNT9B	LRP5	-a>
+WWTR1	TEAD1	-a>
+TRAF2	BIRC3	-a>
+PTK7	CTNNB1	-a|
+PRKCA	CBL	-a|
+FOXO3	MYOD1	-t>
+PAX3	MYOD1	-t>
+PRKDC	SRF	-a>
+SRC	TGFBR2	-a>
+YAP1	DVL1	-a|
+PRKAA1	CTBP1	-a|
+MAPK1	FGFR1	-a|
+WNT10B	FZD5	-a>
+CDK3	JUN	-a>
+CDC25A	MAPK3	-a|
+CHUK	TSC2	-a|
+SPAG9	MAPK11	-a>
+CDK1	TP53	-a>
+PLK1	TP73	-a|
+AKT2	STK4	-a|
+MAPK13	TP53	-a>
+PPP2CA	STK4	-a|
+PPP2CA	STK3	-a|
+PRKCA	DDX5	-a|
+MAPK8	IRF3	-a>
+CDH2	CDON	-a>
+PRKCD	FLI1	-a|
+LCK	FOXP3	-a|
+AURKA	PIN1	-a|
+RPS6KA1	CDC25A	-a|
+CSNK2A1	PIAS1	-a>
+PTPN11	MAP3K5	-a>
+CSNK1A1L	LRP6	-a>
+PRKDC	USF1	-a>
+CTNNB1	CEBPA	-a|
+MAML1	EP300	-a>
+CTNNB1	PPARG	-a|
+FZD2	PPARG	-a|
+TTK	TP53	-a>
+CHUK	FOXA2	-a|
+CDK5	TLN1	-a>
+ABL1	RACK1	-a>
+JAG2	NOTCH2	-a>
+PIM2	BAD	-a|
+GSK3A	CAMKK2	-a|
+INS	CEBPB	-a>
+NEK2	NEK11	-a>
+CHEK2	TP53	-a>
+CHEK2	RB1	-a>
+CSNK2A1	NR1H3	-a|
+AKT1	CDKN1A	-a|
+SRC	NFKBIA	-a>
+PLK1	DVL2	-a>
+PTPN7	MAPK1	-a|
+PPP2CA	FOXO3	-a>
+GSK3B	SNAI1	-a|
+AKT	CDKN1A	-a|
+PRKCG	HSP90AA1	-a|
+PPP1CA	MAPK3	-a|
+PLK1	TP53	-a|
+IFNG	MYOD1	-a|
+PRKCB	GSK3A	-a|
+ARAF	MEK1/2	-a>
+RPA2	NBN	-a>
+MAPK3	DUSP6	-a|
+WNT5B	PPARG	-a>
+FOXL2	SIRT1	-t>
+DVL2	PARD6A	-a>
+EPHA2	SHC1	-a>
+PRKAA2	ULK1	-a>
+CDC25C	CDK1	-a>
+TEAD1	CCND1	-t>
+CTNNB1	FOXA2	-t>
+EGFR	SOX2	-t>
+ERK1/2	MITF	-a|
+PRKACA	MC4R	-a>
+NCOR2	SPEN	-a>
+BMP7	DLK1	-t|
+NR3C1	NR4A1	-t|
+CDKN2A	CDK4	-a|
+CDK2	RBL2	-a|
+CD40	TRAF3	-a>
+AKT	PEA15	-a>
+CDK2	SKP2	-a>
+AKT	RAF1	-a|
+AKT	TBX3	-a>
+CDK1	CSNK2A1	-a>
+CSNK2A1	CTNNA1	-a|
+PRKCA	PLD1	-a>
+AKT	STK3	-a|
+AKT	TSC2	-a|
+MAPK1	CSNK2A1	-a>
+CSNK2A1	LEF1	-a>
+NCSTN	APH1A	-a>
+CDC7	MCM2	-a>
+MTOR	STAT3	-a>
+CAMK2G	ATF1	-a>
+RARG	THRA	-a>
+THRA	RARA	-a>
+DDX5	TP53	-a>
+ABL1	CASP9	-a>
+ETV2	FLI1	-t>
+SRC	RAC1	-a>
+MAML1	CCNT1	-a>
+SRC	CTNND1	-a>
+PLK1	MDM2	-a>
+SRC	GRIN2A	-a>
+SRC	PTK2	-a>
+FYN	GRIN2A	-a>
+KLF4	STAT6	-a>
+MAPK14	JUNB	-t>
+MAPK14	JUNB	-a>
+MAPK12	JUNB	-t>
+PPARG	JUN	-a>
+SMO	TIAM1	-a>
+CBL	LRIG1	-a|
+CAMK2G	EGFR	-a|
+SIAH1	NOTCH1	-a>
+NR0B2	NR5A2	-a|
+RUNX2	SPP1	-t>
+RUNX2	TNFSF11	-t>
+RBPJ	CDKN1A	-t>
+NTRK1	ABL1	-a>
+SRC	NOXA1	-a>
+PIM1	RELA	-a>
+WNT3A	FZD2	-a>
+CDK8	HES1	-t>
+NR2F2	NR3C1	-t>
+NR3C1	NR2F2	-t>
+FGF2	MAPK1	-a>
+FGF2	MAPK14	-a>
+FGF2	MAPK3	-a>
+FGF2	MAPK8	-a>
+TP53	SIAH1	-t>
+MAPK1	LRP6	-a>
+CCNC	HES1	-t>
+CCNT1	HES1	-t>
+CDK9	HES1	-t>
+IL17A	KLF2	-t>
+CHEK1	E2F3	-a>
+STK4	MOB1A	-a>
+HOXA9	MSI2	-t>
+CTNNB1	MYC	-t>
+AGTR1	GNA13	-a>
+CDK2	CDX2	-a|
+PTPRF	AKT1	-a|
+GRK2	SMO	-a>
+FGF2	TGFB1	-t>
+SRC	PDPK1	-a>
+NRAS	ARAF	-a>
+PPP2CA	MAPK15	-a|
+CyclinB/CDK1	MEF2C	-a|
+CDK1	CHEK1	-a>
+MAP2K7	MAPK9	-a>
+TP53	TNFRSF10B	-t>
+FHIT	TP53	-a>
+PRKDC	H2AFX	-a>
+CSNK1D	HIF1A	-a|
+MAPK3	TP53	-a>
+CDK1	SIRT1	-a>
+CDK1	BRCA1	-a>
+IL1B	IL1R1	-a>
+CREB1	BCL2L1	-t>
+CDK2	NFYA	-a>
+PTPN1	MAPK15	-a|
+LRIG1	CBL	-a>
+ATM	AKT	-a|
+STAT6	SOCS1	-t>
+E2F1	ATM	-t>
+CREB1	PKM	-t>
+WWTR1	RUNX2	-a>
+DTX1	ERBB2	-t>
+BMP2	SMAD5	-a>
+CDC25A	CDK2	-a>
+BMP2	SMAD9	-a>
+CXCL1	GLI2	-t>
+FGF2	FGFR3	-a>
+F2R	GNAI1	-a>
+ATR	PRKDC	-a>
+MAP3K5	CDKN1A	-a>
+CHUK	IKBKB	-a>
+CHEK1	MDM4	-a|
+PPP1CA	CASP9	-a>
+PKM	STAT3	-a>
+CXCL1	GLI3	-t>
+FOXO1	CDKN2B	-t>
+JAK1	STAT2	-a>
+MAPK14	ZNHIT1	-a>
+MAPK8	ITCH	-a>
+BMP7	PRDM16	-t>
+USF1	POMC	-t>
+CHEK1	RB1	-a>
+AKT	AR	-a|
+PIAS1	PRDM1	-a>
+CSK	FGR	-a|
+CHEK2	KIT	-a>
+PIAS1	RPA2	-a>
+CDKN2A	CDK6	-a|
+PRKAA1	SNAI1	-a>
+AKT1	AR	-a|
+CSNK2A1	SNAI1	-a>
+ERK1/2	AR	-a|
+MAPK3	PTPN7	-a>
+CSNK2A1	MDC1	-a>
+HABP4	MEF2C	-a|
+CSNK1D	DVL2	-a>
+ATM	TP63	-a|
+PIM1	MAP3K5	-a|
+MAPK8	SIRT1	-a>
+KLF3	CEBPA	-t|
+AURKA	AR	-a|
+MAPK10	JUN	-a>
+SOX9	CEBPB	-t|
+CTNND1	VAV2	-a>
+ESR1	NR0B2	-t|
+LCK	CD28	-a>
+CSNK1E	BID	-a>
+GNB1	PLCG1	-a>
+GNB2	PLCG1	-a>
+IL10RA	JAK1	-a>
+NR0B2	ESR2	-t|
+GNG12	AKT2	-a>
+GNG12	PIK3CA	-a>
+GNB3	PLCG1	-a>
+GNGT1	PLCG1	-a>
+SMO	GNB3	-a>
+SMO	GNG2	-a>
+SMO	GNG3	-a>
+KLF2	PPARG	-t|
+ESR1	PGR	-t|
+RARA	EGFR	-t|
+TP53	BIRC5	-t|
+TP53	BIRC5	-a|
+PTGER2	EGFR	-a>
+NR0B2	THRA	-t|
+ADAM17	EGFR	-a>
+MAPK8	STK4	-a>
+PPP2CA	SMAD3	-a|
+SMAD7	TAB2	-a>
+SMAD7	TAB3	-a>
+MAPKAPK2	PIAS1	-a>
+PRKCE	STAT3	-a>
+CSNK2A1	BID	-a>
+EP300	FLI1	-a>
+DAXX	MDM2	-a>
+ATR	BRCA1	-a>
+ITCH	NOTCH1	-a|
+TAOK1	STK3	-a>
+MAPK11	TP53	-a>
+TAOK1	STK4	-a>
+DLX5	MSX1	-a|
+LRIG1	EGFR	-a|
+CSNK2A1	CDH1	-a>
+CSNK2A1	DDIT3	-a|
+CSNK2A1	CTNNB1	-a>
+CDK2	CEBPB	-a>
+SMAD3	CDC25A	-t|
+IFNG	IFNGR2/INFGR1	-a>
+YAP1	SMAD1	-a>
+EGFR	STAT5A	-a>
+MYC	CDKN1A	-t|
+GSK3B	CDKN1A	-a|
+CCNE1	CDK2	-a>
+GSK3B	BORA	-a>
+RPS6KA3	EIF2AK2	-a>
+BMX	PTK2	-a>
+HDAC1	CEBPA	-t|
+MAPK9	CTNNB1	-a>
+NEK11	CDC25A	-a|
+CDK1	NME1	-a>
+MAPKAPK2	PLK1	-a>
+RPS6KA1	CDC25B	-a>
+CSNK2A1	HES6	-a>
+CSNK2A1	HDAC2	-a>
+CSNK2A1	HDAC3	-a>
+SHH	MYOD1	-a>
+LRRK2	DVL3	-a>
+NF2	LATS1	-a>
+NF2	LATS2	-a>
+BAZ1B	H2AFX	-a>
+NGF	NGFR	-a>
+GLI3	MYCN	-t|
+CHEK2	VHL	-a>
+SDC4	DVL1	-a>
+SDC4	DVL2	-a>
+SDC4	DVL3	-a>
+CSNK2A1	MEF2C	-a>
+FHIT	BIRC5	-t|
+AKT2	MAP3K5	-a|
+SRC	IKBKB	-a>
+HDAC3	E2F1	-a>
+HDAC3	HDAC1	-a>
+HDAC3	SMAD7	-a>
+CDKN2AIP	MDM2	-t|
+EGFR	EPS15	-a>
+MAPK14	EPS15	-a>
+CSNK2A1	PPP1R8	-a>
+AURKB	YY1	-a>
+CSNK2A1	PTEN	-a|
+CSNK1D	MDM2	-a|
+CSNK2A1	RELA	-a>
+TP53	CDKN1A	-t>
+PRKCZ	SP1	-a>
+MYC	CDKN1B	-t|
+TGFB1	CDKN1B	-a>
+MYC	CDKN2A	-t|
+MYC	CDKN2B	-t|
+AKT	CDKN1B	-a|
+SMAD3	CDKN2B	-t>
+TGFB1	CDKN2B	-t>
+KHSRP	DVL3	-a|
+IL6ST	JAK1	-a>
+CSNK2A1	VTN	-a>
+MAP2K6	MAPK12	-a>
+ATG13	ULK2	-a>
+MDC1	NBN	-a>
+MDM4	MDM2	-a>
+LIF	LIFR	-a>
+PPP2CA	MAPK1	-a|
+JAK2	CSF2RA	-a>
+LIFR	IL6ST	-a>
+PRKACA	NOXA1	-a|
+ABL1	ABL2	-a>
+PDGFRA	CRK	-a>
+PAK1	AURKA	-a>
+ATM	HNF1A	-a>
+MAPK14	GATA2	-a>
+TAB1	JNK	-a>
+YWHAB	SRPK2	-a|
+TAB2	JNK	-a>
+TAB2	p38	-a>
+TAB3	JNK	-a>
+TAB3	p38	-a>
+PRKCG	ARHGEF7	-a>
+MAP3K11	PIN1	-a>
+AREG	ERBB2	-a>
+GNA12	RHOA	-a>
+TLR4	TICAM2	-a>
+NFIL3	SOSTDC1	-t|
+PRKAA1	RB1	-a|
+PPP1CA	PFN1	-a>
+EIF2AK2	NFKBIA	-a|
+TBK1	IRF5	-a>
+CSNK1E	DVL2	-a>
+CTNND1	RAC1	-a>
+BIRC3	CASP9	-a|
+YAP1	TEAD1	-a>
+ROCK1	PTEN	-a>
+MAPK1	MAPKAPK2	-a>
+TBK1	IKBKB	-a>
+NLK	NOTCH1	-a|
+ATM	MDC1	-a>
+PPP2CB	MDM2	-a>
+MAP2K1	PPARG	-a|
+PTPRF	INSR	-a|
+H2AFX	MDC1	-a>
+APAF1	CASP9	-a>
+SRPK2	CCND1	-t>
+CDK4	SMAD3	-a|
+CDK2	SMAD3	-a|
+PRKAA2	TSC2	-a>
+MAPK14	BAZ1B	-a>
+RXRB	RARB	-t>
+RXRB	RARB	-a>
+CSNK2A1	JUN	-a|
+PAK1	BAD	-a|
+CHUK	CREBBP	-a>
+TGFBR2	PARD6A	-a>
+CDK1	RB1	-a|
+WNT10B	FZD1	-a>
+MAPK8IP3	MAP2K7	-a>
+IL22RA1	STAT3	-a>
+MAPK1	PTPN7	-a>
+TYK2	STAT3	-a>
+MAPK8IP3	MAP3K11	-a>
+GSK3A	JUN	-a|
+IL6	IL6R	-a>
+CDK1	HMGA1	-a|
+TGFB1	CDK2	-a|
+PSEN1	CTNNB1	-a|
+ABL1	EGFR	-a>
+PRKACA	SUFU	-a>
+PAK1	FLNA	-a>
+NTRK2	SHC3	-a>
+DUSP1	MAPK1	-a|
+PRKCD	HMGA1	-a|
+MAPK3	SOS1	-a|
+BIK	BCL2L1	-a|
+EGFR	CALM1	-a|
+MAPK14	MAX	-a|
+CDKN1A	CDK6	-a|
+PRKCA	KIT	-a|
+CYCS	APAF1	-a>
+MTSS1	RAC1	-a>
+CDKN1A	CDK3	-a|
+CDKN1A	CDK4	-a|
+CDC25A	RAF1	-a|
+MAPK3	LIFR	-a|
+MAPK1	LIFR	-a|
+PELI3	JUN	-a>
+CSNK2A1	MAX	-a|
+ARFGAP1	LRRK2	-a>
+CDK1	MAP2K1	-a|
+DLK1	FN1	-a>
+NFATC2	MYOG	-t>
+CSNK2A1	FKBP4	-a|
+RB1	ABL1	-a|
+FADD	RIPK1	-a>
+DAPK1	CAMKK2	-a|
+STK11	PRKAA1	-a>
+CDK1	PPP1CA	-a|
+GNAT1	ADCY1	-a|
+PPP2CA	CTNNB1	-a>
+KHSRP	CDKN1A	-a|
+CDK2	RBBP8	-a>
+CDK5	PPP1CA	-a|
+MUSK	WNT11	-a>
+GSK3B	GLI2	-a|
+TBX2	CDKN1A	-t|
+TP53	BID	-t>
+PTPN12	SHC1	-a|
+AKT3	BMI1	-a>
+AKT3	CASP9	-a|
+FAS	FADD	-a>
+NFKBIA	NFKB1	-a|
+VEGFA	KDR	-a>
+14-3-3	BAD	-a|
+TP53	BCL2L1	-a|
+CASP3	STK4	-a>
+MAPK10	NFATC1	-a|
+DUSP1	MAPK8	-a|
+MAPK14	NFATC1	-a|
+TRADD	FADD	-a>
+MAPK3	NFATC1	-a|
+JAK2	GTF2I	-a>
+PTPN1	NFKBIA	-a|
+PAX3	TBX2	-t>
+FHIT	MDM2	-a|
+TBX3	CDKN1A	-t|
+INPPL1	PtsIns(3,4,5)P3	-a|
+HDAC5	MEF2C	-a|
+DAXX	FAS	-a|
+RB1	TRIP11	-a|
+ULK2	ATG13	-a>
+TRADD	TRAF2	-a>
+CDK2	RB1	-a|
+ITK	CD28	-a>
+MAPK1	SMAD1	-a|
+PRMT5	HOXA9	-a>
+AKT3	FOXO3	-a|
+PTPN6	PTK2B	-a|
+FZD8	LRP6	-a>
+PRKCD	SRC	-a>
+CyclinB/CDK1	NPM1	-a|
+AKT2	HTRA2	-a|
+TBK1	IRF3	-a>
+IKBKE	IRF3	-a>
+PTPN6	INSR	-a|
+JAK1	IFNGR1	-a>
+CDK2	NPM1	-a|
+CDK1	NPM1	-a|
+ATM	NBN	-a>
+CyclinB/CDK1	NME1	-a>
+PRKCA	ITGB4	-a|
+CyclinD/CDK4	BRCA1	-a|
+PTPN11	GAB2	-a|
+ERK1/2	PPARG	-a>
+PRKCA	SRF	-a|
+CREBBP	IRF9	-a>
+FGFR1	BCAR1	-a>
+MAPK1	SMAD3	-a|
+AKT2	KHSRP	-a|
+CSNK2B	BID	-a>
+CSNK2B	CTNNB1	-a>
+CSNK1D	AXIN1	-a>
+MAP2K4	MAPK8	-a>
+PRKACA	SREBF1	-a|
+CDKN1A	CDK2	-a|
+PRKCZ	STK11	-a>
+FZD1	CEBPA	-a|
+SMURF2	BMPR1A	-a|
+SMURF2	BMPR2	-a|
+SMURF2	SMAD5	-a|
+SRC	PPP2CA	-a|
+DAPK1	MAPK1	-a|
+SHH	CP	-a|
+EGFR	JAK2	-a>
+FGF2	RUNX2	-a>
+EPHA3	CRK	-a>
+EGFR	CRK	-a|
+ATM	MRE11	-a>
+CSNK2A1	PML	-a|
+EGFR	ERBB2	-a>
+PTPN12	INSR	-a|
+STK11	SIK2	-a>
+STK11	NUAK2	-a>
+PRKCZ	BAX	-a|
+CD40	TRAF2	-a>
+CDK2	ID3	-a|
+PRKDC	POU2F1	-a|
+EGFR	PLD2	-a>
+MAPK1	FOS	-a>
+MAPK14	ADAM17	-a>
+MAPK9	NFATC3	-a|
+STK3	LATS1	-a>
+IGF1R	PDPK1	-a>
+MAPK8	LAT	-a|
+MAPK3	LAT	-a|
+FGFR2	GRB2	-a>
+MAPKAPK5	TP53	-a>
+MAPK8	STAT1	-a>
+GPER1	GNAS	-a>
+GPER1	GNB1	-a>
+GPER1	GNG2	-a>
+GNB1	GNG2	-a>
+GNG2	GNB1	-a>
+GNB1	SRC	-a>
+GNG2	SRC	-a>
+SRC	MMP3	-a>
+MAPK1	POU5F1	-a|
+PTPN11	IRS1	-a|
+CDK9	TP53	-a>
+PRKCD	MAPK8	-a>
+PRKACA	GRK2	-a>
+FOXA1	BCL2	-t|
+PPARG	CTNNB1	-t|
+BMI1	CDKN2A	-t|
+DLL4	KDR	-t|
+DLL1	NOTCH3	-a>
+CSNK2A1	KLF1	-a>
+STK11	MARK3	-a>
+SRC	PTPN6	-a>
+MAF	ETS1	-a|
+SHH	GLI2	-a>
+PTPN1	ABL1	-a|
+MAPK9	BCL2L11	-a>
+BRSK1	CDC25C	-a|
+RPS6KA1	CREB1	-a>
+FGFR3	STAT1	-a>
+EP300	RELA	-a>
+AKT2	TSC2	-a|
+CSNK1E	CTNNB1	-a|
+PP2Ca_R1A_Bd	RAF1	-a>
+MAPK14	TAB1	-a|
+LPAR1	GNA13	-a>
+MAPK1	CASP9	-a|
+SMO	GNAI2	-a>
+SRC	TGFA	-a>
+HES1	DTX1	-t|
+STAT1	RELA	-a|
+FGFR4	STAT3	-a>
+TNF	TNFRSF1A	-a>
+PPP3CA	FLNA	-a|
+MAPK14	NR3C1	-a>
+IER3	PPP2R5C	-a|
+FZD1	PPARG	-a|
+PRKCA	PLCB3	-a|
+FGFR3	STAT3	-a>
+TSC1/TSC2	RHEB	-a|
+BAD	TP53	-a>
+BCL2L11	BAX	-a>
+CDK2	CDKN1A	-a|
+CAMK2A	CREB1	-a|
+MAPK1	MITF	-a|
+STAT5A	PIM1	-t>
+SMAD3	RUNX2	-a|
+RHEB	MTOR	-a>
+PTPN1	PDGFRB	-a|
+MAPK13	CDC25B	-a|
+CDK4	BRCA1	-a|
+PIK3CA	BTK	-a>
+BAX	BCL2	-a|
+BAD	BCL2L1	-a|
+MITF	BCL2	-t>
+CREB1	MITF	-t>
+PTPRA	LYN	-a|
+PTPN6	STAT6	-a|
+CSNK2A1	PTPRC	-a>
+DUSP3	ERBB2	-a|
+WWTR1	PAX3	-a>
+IFNGR1	JAK2	-a>
+PTPN6	LYN	-a|
+FYN	ACP1	-a>
+IFNGR1	JAK1	-a>
+PRKAA1	TP53	-a>
+JAK2	IFNGR1	-a>
+JAK1	IFNGR2	-a>
+PTPN11	PDGFRB	-a|
+PRKD1	CTNNB1	-a>
+FYN	CD79B	-a>
+FYN	CD79A	-a>
+ERK1/2	SMAD4	-a>
+ERK1/2	SREBF1	-a>
+ERK1/2	SOX9	-t>
+JAK1	STAT1	-a>
+FYN	CTNNB1	-a|
+MEK1/2	MAPK3	-a>
+MEK1/2	CEBPA	-t>
+MEK1/2	ERK1/2	-a>
+PTPN1	INSR	-a|
+MEK1/2	GSK3B	-a>
+ERK1/2	TSC2	-a|
+MEK1/2	IRS1	-a|
+FYN	PTPRF	-a>
+PTPRA	FYN	-a>
+CSNK2A1	HSP90AB1	-a|
+SRC	RACK1	-a>
+GNAS	PIK3R1	-a>
+GSK3A	MCL1	-a|
+GSK3B	CDH1	-a>
+SRC	PRKCI	-a>
+FZD2	CEBPA	-a|
+GSK3B	MYOCD	-a|
+PRKACA	PIN1	-a>
+GSK3B	CEBPA	-a>
+GSK3B	MCL1	-a|
+PPM1A	PAK1	-a|
+PPP2CB	PAK1	-a|
+PDPK1	PRKCB	-a>
+PPM1A	PIK3R1	-a>
+GSK3B	NOTCH2	-a|
+GSK3B	PPP1R2	-a>
+GSK3B	NFKB1	-a>
+IGF1R	CRK	-a|
+CDK2	TP53	-a>
+MAPK14	ESR1	-a>
+IKBKB	IRS1	-a|
+STK11	BRSK1	-a>
+STK11	NUAK1	-a>
+IKBKB	NCOA3	-a>
+STK11	SIK1	-a>
+INSR	CBL	-a>
+PPP2CB	IKBKB	-a|
+INSR	ADRB2	-a|
+INSR	PTK2	-a>
+INSR	GAB1	-a>
+INSR	PIK3R1	-a>
+SEMA3C	NRP2	-a>
+IRAK4	IRAK1	-a>
+PPP1CA	BRCA1	-a|
+ITK	BMX	-a>
+ITK	BTK	-a>
+INSR	SHC1	-a>
+JAK1	IRS1	-a>
+JAK2	EGFR	-a>
+JAK1	IL2RB	-a>
+JAK1	IL10RA	-a>
+JAK3	JAK1	-a>
+KIT	STAT1	-a>
+LCK	ACP1	-a>
+LCK	DEF6	-a>
+PPP2CA	AKT2	-a|
+JAK2	RAF1	-a>
+GLI3	PTCH1	-t>
+ABL1	DDB2	-a|
+TFAP4	SP1	-a>
+CBLB	GRB2	-a>
+BMPR2	ACVR1	-a>
+SRC	EGFR	-a>
+PRKCZ	GSK3B	-a|
+ABL1	PDGFRB	-a|
+BAX	CYCS	-a>
+MAP2K3	MAPK14	-a>
+AKT1	RAF1	-a|
+PTPN1	IGF1R	-a|
+CDK4	MYOG	-a|
+BMP4	BMPR1A/1B/2	-a>
+NUAK1	TP53	-a>
+FSTL3	MSTN	-a|
+AMPK	mTORC1	-a|
+MAPK8	TP53	-a>
+SKI	SMAD3	-a|
+CDON	ABL1	-a>
+ABL1	CRK	-a|
+AMPK	HDAC5	-a|
+ATM	BRCA1	-a>
+MAP2K1	ERK1/2	-a>
+CD79B	TP53	-a>
+TRAF6	TAB1	-a>
+MAP3K11	MAP2K3	-a>
+MAP3K7	IKBKG	-a>
+SMAD3	LEF1	-a>
+ATM	ABL1	-a>
+MAPKAPK2	CREB1	-a>
+NLK	STAT3	-a>
+MAP2K6	MAPK14	-a>
+PAK	MAP2K1	-a>
+DLK1	SOX9	-t>
+GATA3	PPARG	-t|
+MAP4K5	GSK3B/Axin/APC	-a|
+PTEN	PtsIns(3,4,5)P3	-a|
+DUSP1	MAPK14	-a|
+WNT11	FZD6	-a>
+GSK3B	NFATC2	-a|
+PRKAA1	SREBF1	-a|
+PRKCZ	MARK2	-a|
+CyclinD/CDK4	RASSF1	-a|
+FYN	SHC1	-a>
+IL4	IL4R	-a>
+SOSTDC1	WNT8A	-a|
+VAV1	PRKCQ	-a>
+DIABLO	XIAP	-a|
+IL6	IL6ST	-a>
+MAPK14	MKNK1	-a>
+PPP5C	ICK	-a|
+MAP2K7	MAPK8	-a>
+MAPK8IP3	MAP3K1	-a>
+Prostaglandin E2	PTGER3	-a>
+PPP2CB	TRAF2	-a|
+MAPK3	CASP8	-a|
+CBP/p300	MEF2C	-a>
+PRKACA	BRAF	-a|
+SGK1	CDKN1B	-a|
+ABL1	ATR	-a>
+STK3	MOB1A	-a>
+CD40	BCL2L1	-t>
+NTRK1	PLCG1	-a>
+ESR1	ESR2	-a>
+PLCE1	PRKCA	-a>
+UBE2N	H2AFX	-a>
+HIP1	AR	-t|
+MYOD1	MYOG	-t>
+PTPRF	PLCG1	-a|
+CDKN2A	CyclinD/CDK4	-a|
+GSK3B	SMAD3	-a|
+PPP2CA	PAK1	-a|
+LCK	SHC1	-a>
+LCK	PRKCD	-a>
+PPP2CA	AKT3	-a|
+GSK3B	CREB1	-a>
+LYN	CD79A	-a>
+LYN	CD79B	-a>
+LYN	PTPN6	-a>
+LYN	PPP1R8	-a|
+LYN	MAP4K1	-a>
+ABL1	PRKD1	-a>
+ABL1	MAP4K1	-a>
+ABL1	CDKN1B	-a|
+ABL1	JAK2	-a>
+MAP2K7	MAPK10	-a>
+MAP2K4	MAPK10	-a>
+ABL1	PTPN6	-a>
+SRC	MAPK7	-a>
+MET	RANBP9	-a>
+CSNK1D	TP53	-a>
+CREBBP	RELA	-a>
+ULK1	ATG13	-a>
+CREB1	BCL2	-t>
+GSK3B	AXIN1	-a>
+BIRC3	MAP3K14	-a|
+TRADD	TRAF1	-a>
+WNT5A	FZD5	-a>
+XIAP	CASP9	-a|
+MAP3K4	MAP2K3	-a>
+SRC	BTK	-a>
+CSNK1D	CDK5	-a>
+PTPRA	SRC	-a>
+IKK-complex	BAD	-a|
+FYN	CDK5	-a>
+SRC	CHRNA7	-a|
+GSK3B	TP53	-a>
+ATM	ATF2	-a>
+CAMK2A	PEA15	-a>
+MAP2K4	MAPK14	-a>
+JNK	ATF2	-a>
+TDGF1	ACVR2A	-a|
+CXCL1	PRKACA	-a|
+KRAS	RAF1	-a>
+cAMP	PRKACA	-a>
+Prostaglandin E2	AKT1	-a>
+RNF111	SKIL	-a|
+PHLPP1	AKT2	-a|
+PRKCA	GSK3A	-a|
+MAPK3	GRK2	-a|
+BIRC5	DIABLO	-a|
+PRKCI	NUMB	-a|
+KAT5	NOTCH1	-a|
+GSK3B	MAP3K4	-a|
+PRKACA	ITGB4	-a|
+GSK3B	MAPK14	-a|
+CDK2	HMGA1	-a|
+PAK2	JUN	-a>
+PIK3CG	PtsIns(3,4,5)P3	-a>
+PAK2	NF2	-a|
+PAK2	ABL1	-a|
+CHEK2	MDM4	-a|
+MDM2	CDKN2AIP	-a|
+CDK1	BORA	-a|
+RELA	TRAF1	-t>
+TGFB1	NfKb-p65/p50	-a>
+MAPK8IP1	MAPK8	-a|
+PLK1	BORA	-a|
+PRKCE	TICAM2	-a>
+PRKD1	HDAC7	-a|
+SRC	CBLC	-a>
+PDPK1	PRKCG	-a>
+ABL1	NCOA3	-a>
+JAK1	PTPN11	-a>
+BIRC3	BIRC2	-a>
+MAP3K5	DAXX	-a>
+LATS2	YAP1	-a|
+GSK3B	CAMKK2	-a|
+AURKB	HDAC9	-a|
+PRKD1	HDAC5	-a|
+ITK	PLCG1	-a>
+SMAD6	PELI1	-a>
+PDGFRB	CRK	-a>
+SMURF2	SMAD9	-a|
+MAPK3	FGFR1	-a|
+AKT3	STK4	-a|
+SIK2	CDK5R1	-a|
+FZD5	CEBPA	-a|
+FZD5	PPARG	-a|
+FHL2	AR	-a>
+FOXA1	NFIB	-a>
+ATM	DAXX	-a|
+PRKCA	MET	-a|
+CDK1	MYOD1	-a|
+GSK3B	KLF5	-a|
+AURKB	HDAC4	-a|
+VEGFA	DLL4	-t>
+ESR1	NCOA2	-t>
+PLAG1	IGF2	-t>
+PRKAA1	NR0B2	-a>
+BMPR1B	SMAD1	-a>
+ELF4	MDM2	-t>
+GLI1	CCND1	-t>
+CAMK1	NUMB	-a|
+SRC	HSP90AB1	-a>
+BMPR1B	SMAD5	-a>
+ZAP70	GAB2	-a>
+HOXA9	IGF1	-t>
+MEF2C	JUN	-t>
+MYC	CCNE1	-t>
+NFKB1	BIRC2	-t>
+NFKB1	BIRC3	-t>
+AKT1	TWIST1	-a>
+CDK2	BRCA1	-a>
+JAK1	STAT6	-a>
+MAPK1	CEBPB	-a>
+MAPK3	LRP6	-a>
+USP6	MMP9	-t>
+MAPK3	SOX9	-t>
+MAPK1	RPS6KB1	-a>
+ABL1	NCK1	-a>
+RIPK2	IRF5	-a>
+MAPK6	NCOA3	-a>
+MAPK8	CTBP1	-a|
+MAP3K8	MAP2K4	-a>
+CSK	NOTCH1	-a>
+BCL2L11	BAK1	-a>
+BMP7	PPARGC1A	-t>
+DUSP6	FOXO1	-a>
+CyclinB/CDK1	SREBF1	-a>
+RPS6KB1	GLI1	-a>
+WNT3A	FZD8	-a>
+MAPK1	AR	-a|
+SH2B3	BCL2L1	-t|
+NFIB	EZH2	-t|
+RASSF1	STK4	-a>
+GNG3	PLCG1	-a>
+KLF15	PPARG	-t>
+CDK1	AR	-a>
+CDK5	AR	-a>
+ERK1/2	GAB1	-a|
+GCG	LATS1	-a>
+GCG	LATS2	-a>
+NR3C1	AR	-t|
+IFNGR2	JAK2	-a>
+AKT1	DLX5	-a>
+RARB	THRA	-a>
+KRAS	MAP3K1	-a>
+AKT	MDM2	-a>
+CSNK2A1	YY1	-a>
+FZD3	GNGT1	-a>
+JAG2	NOTCH1	-a>
+PRKACA	PTPRR	-a|
+CyclinD/CDK4	RB1	-a|
+PRKCD	STAT3	-a>
+PRKCA	PRKD1	-a>
+NFKBIA	RELA	-a>
+IRS2	PIK3CA	-a>
+CDK4	RB1	-a|
+JAG2	NOTCH3	-a>
+NR4A1	NR3C1	-t|
+MDM2	NOTCH1	-a>
+EGFR	PIK3R1	-a>
+LPAR1	GNA12	-a>
+MAPK1	BCL2	-a>
+ATR	RBBP8	-a>
+BAK1	HTRA2	-a>
+MAPK1	RAF1	-a|
+ARAF	MAP2K1	-a>
+CDKN2A	CDK2	-a|
+TBK1	STAT6	-a>
+SMAD4	MYC	-t|
+SMAD3	MYC	-t|
+CSNK1A1L	CTNNB1	-a|
+MAPK1	RXRA	-a|
+IGF2	IGF1R	-a>
+ESR1	PPARG	-t|
+GLI3	GLI1	-t|
+NCK1	PAK1	-a>
+RIN1	HRAS	-a>
+RPS6KA1	BAD	-a|
+KREMEN2	LRP6	-a|
+ESR1	CCND1	-t>
+PRKAA1	FOXO3	-a>
+AKT	CTNNB1	-t>
+AKT	CTNNB1	-a>
+PRKACA	NEDD4L	-a|
+PPM1A	SMAD1	-a|
+MAPK1	FOXO3	-a|
+MAPK11	EGFR	-a|
+RIPK1	TRAF6	-a>
+CDKN1A	CyclinB/CDK1	-a|
+AKT2	FOXO3	-a|
+AKT2	mTORC1	-a>
+INSR	IRS1	-a>
+PRKACA	NFATC1	-a|
+ATM	MDM4	-a|
+MAPK8	PXN	-a>
+RAF1	MAP2K1	-a>
+AKT2	GSK3B	-a|
+TGFBR1	SMAD2	-a>
+AKT3	GSK3B	-a|
+PTEN	PIK3CA	-a|
+IKBKE	NFKBIA	-a|
+IRS1	PIK3CA	-a>
+TNFRSF1A	TRADD	-a>
+PTPN22	LCK	-a|
+TNFRSF1B	TRAF2	-a>
+SPEN	RBPJ	-a|
+RPS6KB1	MAPK8	-a|
+MAPK8	IRS1	-a|
+MAPK8	NR3C1	-a|
+MAP3K7	HDAC7	-a|
+MAPK3	NR3C1	-a|
+MARK2	HDAC7	-a|
+RBPJ	MAML2	-a>
+AKT2	CTNNB1	-t>
+AKT2	CTNNB1	-a>
+CHEK1	CDC7	-a>
+GSK3B	CCND1	-a|
+WNT10B	FZD2	-a>
+PIK3CA	AKT1	-a>
+PAK1	MAP2K1	-a>
+E2F1	CCNE1	-t>
+NLK	LEF1	-a|
+PRKACA	FRAT1	-a|
+PAK1	MAP3K1	-a>
+FASLG	FAS	-a>
+TRADD	RIPK1	-a>
+FLT4	RPS6KA3	-a|
+RXRA	CTNNB1	-a|
+NR0B2	NR1I2	-a|
+DUSP6	MAPK3	-a|
+PPP1CA	MAPK1	-a|
+FGF2	FGFR2	-a>
+CHUK	NFKBIA	-a|
+GSK3B	SREBF1	-a|
+DLL4	NOTCH1	-a>
+ITCH	DTX1	-a|
+BIRC5	CASP9	-a|
+FAS	RIPK1	-a>
+HRAS	BRAF	-a>
+PPP2CA	MAP2K1	-a|
+PPP2R5C	MAPK1	-a|
+NRAS	BRAF	-a>
+RARB	RXRA	-a>
+RARB	RXRB	-a>
+SOS1	NRAS	-a>
+CHUK	NFKB1	-a|
+RPS6KA3	GSK3A	-a|
+RARG	RXRA	-a>
+RARG	RXRB	-a>
+RXRA	RARA	-a>
+RXRA	RARB	-a>
+MCL1	BAK1	-a|
+MAPK7	MEF2D	-a>
+SRC	ARAF	-a>
+ACP1	EPHA2	-a|
+KRAS	BRAF	-a>
+AKT1	FOXO3	-a|
+RXRB	RARA	-a>
+MAP3K7	NFKBIA	-a|
+ATM	IKBKG	-a|
+PPP5C	MAP3K5	-a|
+ATM	CHEK2	-a>
+RASA1	HRAS	-a|
+PTPN6	EGFR	-a|
+MAPK8	PPARG	-a|
+MAP3K14	CHUK	-a>
+PRKAA1	POU2F1	-a|
+RPS6KA1	IRS1	-a|
+SMO	SUFU	-a|
+NPM1	FBXW7	-a>
+CDK1	KAT5	-a>
+GRB2	GAB1	-a>
+LAT	GRB2	-a>
+CDK1	RPA2	-a>
+FLT3	GRB2	-a>
+SMAD7	MAP3K1	-a|
+PTPN11	GAB1	-a|
+ERK1/2	FOS	-a>
+ATM	CDC25C	-a|
+PPARGC1A	NFKB1	-t|
+GSK3B	JUN	-a|
+GADD45A	CDK1	-a|
+SRC	STAT3	-a>
+MAPK8IP1	MAPK9	-a|
+PRKAA1	EP300	-a|
+CDK7	E2F1	-a|
+SFRP1	WNT1	-a|
+SOX17	CTNNB1	-a|
+CBP/p300	SMAD2	-a>
+STK3	SAV1	-a>
+TNF	TNFRSF1B	-a>
+ADAM17	NOTCH1	-a>
+IL1R1	MYD88	-a>
+PRKACA	PTPN7	-a|
+SKI	EP300	-a|
+BIRC5	CASP3	-a|
+MYD88	IRAK1	-a>
+PRKCG	GSK3A	-a|
+IRAK1	TRAF6	-a>
+TBK1	IKBKE	-a>
+arachidonic acid	PRKCA	-a>
+AKT	TSC1/TSC2	-a|
+TSC1/TSC2	mTORC1	-a|
+BRAF	MAP2K1	-a>
+MAPK14	TP53	-a>
+MAPK1	MAP2K1	-a|
+IRAK1	PELI1	-a>
+DLK1	NOTCH1	-a|
+FGF2	FGFR4	-a>
+MAP2K1	MAPK1	-a>
+MAPK14	SMAD3	-a>
+CSNK1E	YAP1	-a|
+SIRT1	RELA	-a|
+LTBR	TRAF2	-a>
+IKBKB	NFKB1	-a|
+CSNK1E	WWTR1	-a|
+ERK1/2	RPS6KA1	-a>
+ERBB2	PLCG1	-a>
+TP53	RPS6KA1	-a>
+AKT1	MDM2	-a>
+KITLG	KIT	-a>
+CYP19A1	estradiol	-a>
+MAP3K7	IKBKB	-a>
+SRC	CASP8	-a|
+BMPR1A	BMPR1B	-a>
+HES1	RBPJ	-a|
+HEY2	NOTCH1	-a|
+RHEB	mTORC1	-a>
+PAK1	ILK	-a>
+MAPK3	JAK2	-a|
+PHLPP1	PRKCA	-a|
+IKBKB	CDKN2A	-a|
+FBXW7	MYC	-a|
+NFKB1	TRAF1	-t>
+CCND1	HDAC2	-a>
+TAB2	MAP3K7	-a>
+MAPK1	MYC	-a>
+UBE2N	TRAF2	-a>
+TFAP4	HDAC1	-a>
+ABL1	MTOR	-a|
+CSK	SRC	-a|
+PIM1	CDKN1B	-a|
+ATR	KMT2A	-a>
+IKBKB	RELA	-a>
+PHLPP1	PRKCB	-a|
+CDK1	BCL2	-a|
+TNFAIP3	TRAF6	-a|
+RPS6KA5	PLA2G4A	-a>
+CDH1	CTNNA1	-a>
+CTNNA1	YAP1	-a|
+AKT2	BRAF	-a|
+NEK2	PPP1CC	-a|
+IKBKG	RELA	-a>
+CHUK	RELA	-a>
+RASSF1	STK3	-a>
+PLA2G4A	arachidonic acid	-a>
+TRAF2	UBE2N	-a>
+RNF11	ITCH	-a>
+TRAF6	TAB2	-a>
+AKT3	BRAF	-a|
+CHUK	TAX1BP1	-a>
+GAB1	PIK3CA	-a>
+TBX3	CDH1	-t|
+AMPK	SREBF1	-a|
+NFKB1	RELA	-a>
+MAP3K7	NFKB1	-t>
+RELA	TRAF2	-t>
+SRC	GRB10	-a|
+SRC	PRKD1	-a>
+STK11	PTEN	-a|
+FYN	GRB10	-a|
+EGFR	SHC1	-a>
+DIABLO	BIRC5	-a|
+DHH	PTCH1	-a|
+STK3	MOB1B	-a>
+PSTPIP1	ABL1	-a|
+CAMK4	HDAC4	-a|
+VHL	HIF1A	-a|
+LATS1	YAP1	-a|
+RET	MAPK14	-a>
+STK4	MOB1B	-a>
+AKT3	BAD	-a|
+HSP90AB1	APAF1	-a|
+CASP8	CASP8AP2	-a>
+IRS1	PIK3CB	-a>
+SMAD2	SMURF2	-a>
+AKT2	PTPN1	-a|
+KRAS	PIK3CA	-a>
+AKT2	BAD	-a|
+LATS1	WWTR1	-a|
+CyclinE/CDK2	MYOD1	-a|
+TRAF2	MAP3K7	-a>
+PIK3CA	PtsIns(3,4,5)P3	-a>
+AKT2	ESR1	-a>
+AKT2	FOXO4	-a|
+MTOR	RPS6KB1	-a>
+TFAP4	MDM2	-t|
+FLT3	PTPN11	-a>
+PRRX1	MAF	-a|
+14-3-3	YAP1	-a|
+GRB2	SOS1	-a>
+MAPK1	SOS1	-a|
+BCL2L1	HIP1	-a|
+RNF111	SMAD2	-a|
+TNFRSF1B	TRAF1	-a>
+SYK	IL15RA	-a>
+CAMK2A	SMAD2	-a|
+AR	NR3C1	-a|
+F2R	GNA13	-a>
+SYK	LCK	-a|
+SPRY2	CBLB	-a|
+GSK3B	GLI3	-a|
+HRAS	JUN	-a>
+SRC	RAF1	-a>
+PRKACA	GSK3A	-a|
+LRP5	AXIN1	-a|
+BCL2L11	BCL2	-a|
+SYK	PLCG1	-a>
+F2R	LATS1	-a|
+CCND1	CDK4	-a>
+MAPK9	ATF2	-a>
+F2R	GNA12	-a>
+GCG	GCGR	-a>
+GNAS	ADCY1	-a>
+ADCY1	cAMP	-a>
+LAT	VAV1	-a>
+MAPK8	ATF2	-a>
+CyclinB/CDK1	CASP9	-a|
+CD19	MAPK1	-a>
+CSNK1D	WWTR1	-a|
+MAPK3	FOS	-a>
+MAP3K1	MAP2K1	-a>
+PTPN11	SPRY1	-a|
+FLT3	STAT5A	-a>
+MDM2	TP53	-a|
+PRKACA	SOX9	-a>
+PTPN1	PRKCD	-a|
+CDC25B	CDK1	-a>
+PRKACA	RXRA	-a|
+PTPRF	RET	-a|
+CDK2	FOXO1	-a|
+TP53	MDM2	-t>
+MAP3K14	IKK-complex	-a>
+GNG12	PRKACA	-a|
+PPP2CA	MAP3K7	-a|
+TBK1	NFKBIA	-a|
+SUZ12/EZH2	YY1	-a>
+DUSP16	MAPK14	-a|
+LAT	PIK3R1	-a>
+calcium ion	PLA2G4A	-a>
+PPP1CA	AURKA	-a|
+DTX1	ASCL1	-a|
+HTRA2	XIAP	-a|
+MAP3K8	MAP2K1	-a>
+RPS6KA1	GSK3B	-a|
+LCK	PTPN6	-a>
+MAPK3	POU5F1	-a|
+MAP2K6	MAPK13	-a>
+LCK	PIK3R1	-a|
+LCK	ITK	-a>
+IGF1R	AKT	-a>
+MAP3K3	MAP2K6	-a>
+MAPK7	PML	-a|
+RXRB	RARG	-a>
+TNF	PIK3CG	-a>
+ARAF	MAP2K2	-a>
+Prostaglandin E2	PTGER2	-a>
+IL22	IL10RB	-a>
+ACVR1	SMAD1	-a>
+MAPK1	TNFRSF1A	-a|
+RAF1	STK3	-a|
+CEBPA	SOX4	-t|
+MKNK1	SPRY2	-a|
+EGFR	GAB1	-a>
+RB1	MYOD1	-a>
+CDKN2A	ATR	-a>
+TBX2	CDKN2A	-t|
+NCOA3	AR	-a>
+NCOA2	AR	-a>
+MAPK3	MKL1	-a|
+TBX3	CDKN2A	-t|
+SIRT1	MYOD1	-a|
+CDKN2A	MDM2	-a|
+FOXA1	AR	-t|
+EZH2	AR	-a>
+AR	ERG	-t>
+AR	NKX3-1	-t>
+NKX3-1	AR	-t|
+NPM1	CDKN2A	-a>
+NKX3-1	TP53	-a>
+NKX3-1	HDAC1	-a|
+CDKN2A	NPM1	-a|
+NKX3-1	AKT	-a|
+ERG	NKX3-1	-t|
+ERG	EZH2	-t>
+ERG	MYC	-t>
+TEC	BMX	-a>
+TBX2	MYOD1	-a|
+PLCG1	Diacylglycerol	-a>
+Diacylglycerol	PRKCA	-a>
+PAX3	FGFR4	-t>
+MYOG	CDKN1A	-t|
+NRAS	PIK3CA	-a>
+Frizzled	CTNNB1	-a>
+NR3C1	NFKBIA	-t>
+TNF	NfKb-p65/p50	-a>
+g-secretase	APP	-a>
+GRIN2A	calcium ion	-a>
+RUNX1	IKK-complex	-a|
+calcium ion	CAPN1	-a>
+CAPN1	CDK5/CDK5R1	-a>
+CAPN1	CDK5R1	-a>
+CAPN1	GSK3A	-a>
+CAPN1	GSK3B	-a>
+CAPN2	CDK5/CDK5R1	-a>
+CAPN2	CDK5R1	-a>
+CAPN2	GSK3A	-a>
+CAPN2	GSK3B	-a>
+SMAD6	SMAD1	-a|
+TRAF2	RIPK1	-a>
+CALM1	NOS3	-a>
+AKT3	NOS3	-a>
+NOS3	nitric oxide	-a>
+AKT	NOS3	-a>
+AKT1	NOS3	-a>
+AKT2	NOS3	-a>
+PRKACA	NOS3	-a>
+PRKCA	NOS3	-a|
+PRKCZ	NOS3	-a|
+PRKCH	NOS3	-a|
+PRKCQ	NOS3	-a|
+PRKCI	NOS3	-a|
+PRKCD	NOS3	-a|
+PRKCB	NOS3	-a|
+PRKCD	HABP4	-a|
+CEBPA	USF1	-a>
+PPP1CA	NEK2	-a|
+CAMK2A	SRF	-a>
+PRKCE	NOS3	-a|
+USF1	CEBPA	-t>
+RPS6KA1	FOS	-a>
+MAPK8	MYC	-a>
+PRKACA	LATS1	-a>
+IL17A	KLF3	-t>
+PDPK1	RPS6KB1	-a>
+PRKCG	NOS3	-a|
+LCK	ESR1	-a>
+alpha-ketoglutarate	TET2	-a>
+CHEK2	CDC25A	-a|
+KMT2A	RUNX1	-a>
+CDK2	TP63	-a|
+RPS6KA1	FLNA	-a>
+CDK1	INCENP	-a>
+MECOM	RUNX1	-a|
+Calcineurin	NFATC2	-a>
+CDKN2A	TP53	-a>
+LCK	TCR	-a>
+IGF1	Calcineurin	-a>
+Calcineurin	MEF2C	-a>
+calcium ion	Calcineurin	-a>
+Calcineurin	NFATC3	-a>
+Calcineurin	NFATC1	-a>
+FLT3	ID1	-t>
+CALM1	Calcineurin	-a>
+Calcineurin	BAD	-a>
+Calcineurin	IL6	-t>
+RCAN1	Calcineurin	-a|
+Calcineurin	FLNA	-a|
+RUNX1	MECOM	-t>
+CBFB	RUNX1	-a>
+GNG2	PLCG1	-a>
+AKT	SMAD3	-a|
+PtsIns(3,4,5)P3	AKT2	-a>
+BCL2	DIABLO	-a|
+BAK1	AIFM1	-a>
+PTEN	AKT	-a|
+PIK3CA	AKT	-a>
+INPPL1	AKT	-a|
+INPPL1	AKT1	-a|
+PTEN	AKT1	-a|
+PIK3CA	AKT2	-a>
+estradiol	AKT2	-a>
+MAPK14	MAPK10	-a|
+MYOD1	PJA1	-t>
+PtsIns(3,4,5)P3	AKT3	-a>
+MAPK8	BAX	-a>
+AIFM1	BAX	-a>
+NAMPT	coenzyme I	-a>
+RARA	CTNNB1	-a|
+BCL2	CYCS	-a|
+BID	CYCS	-a>
+CASP8	CYCS	-a>
+BAK1	CYCS	-a>
+BAK1	DIABLO	-a>
+BAX	DIABLO	-a>
+BAK1	ENDOG	-a>
+LRIG3	ERBB2	-a>
+LRIG1	ERBB2	-a|
+LRIG1	ERBB4	-a|
+LRIG3	ERBB4	-a>
+RARA	CCNA1	-t|
+RALA	FOXO4	-a>
+PPARG	HDAC1	-a|
+BCL2	HTRA2	-a|
+GPER1	inositol 1,4,5-trisphosphate	-a>
+INS	IRS1	-a|
+PIK3CA	IRS1	-a|
+GRB2	KIT	-a|
+LRIG1	LRIG3	-a|
+PEA15	MAPK1	-a|
+CDON	MAPK14	-a>
+PEA15	MAPK3	-a|
+BMP4	MKL1	-a>
+MAP3K7	NfKb-p65/p50	-a>
+TNF	PIK3CB	-a>
+PIK3C2A	PLCG1	-a>
+MAPK14	PPARG	-a>
+PIK3R1	PtsIns(3,4,5)P3	-a>
+TGFB1	SKP2	-a|
+AKT	FOXO1	-a|
+GSK3B	PDX1	-a|
+CEBPB	PPARG	-t>
+CEBPB	SREBF1	-t>
+EGR2	CEBPB	-t>
+YY1	NOTCH1	-a|
+ERK1/2	AP1	-a>
+MAPK8	AP1	-a>
+CLK2	PTPN1	-a>
+HDAC8	TP53	-a|
+TBX2	MYOG	-a|
+PRKACA	FOS	-a|
+NR3C1	CEBPB	-a>
+NR3C1	CEBPB	-t>
+DEPTOR	MTOR	-a|
+DEPTOR	mTORC1	-a|
+DEPTOR	mTORC2	-a|
+HSPA1A	NR3C1	-a|
+SGK1	GLI1	-a|
+SGK1	SMO	-a|
+HES1	NR3C1	-t|
+HES1	NR3C1	-a|
+NR3C1	JUN	-t|
+NR3C1	NFKB1	-t|
+PELP1	NR3C1	-t>
+NR3C1	NCOA1	-t>
+NR3C1	CAV1	-a>
+NR3C1	LCK	-a>
+POMC	MC1R	-a>
+HSPA1A	APAF1	-a|
+HSPA1A	MAPK8	-a|
+RBPJ/NOTCH	DUSP1	-t>
+POMC	NFKB1	-a|
+POMC	MC4R	-a>
+MC1R	TNF	-t|
+POMC	CDKN2A	-t>
+TNF	MC1R	-t|
+IL1B	MC1R	-t>
+EDN1	MC1R	-t>
+JUN	TGFB1	-t>
+CREB1	FST	-t>
+FST	INHBA	-a|
+FST	GDF11	-a|
+HIF1A	IL1B	-t>
+HIF1A	CCL2	-t>
+HNF1A	IGF1	-t>
+IRF3	IL6	-t>
+LEF1	FST	-t>
+CCL3	CCR2	-a>
+CCL3	CCR5	-a>
+MITF	TPSAB1	-t>
+MYOD1	FST	-t>
+NFATC1	IL4	-t>
+NFATC2	FST	-t>
+NFATC1	IL6	-t>
+NFATC2	IL6	-t>
+NFATC3	IL6	-t>
+PPP3CA	IL6	-t>
+PPP3CB	IL6	-t>
+PPP3CC	IL6	-t>
+RELA	IL1B	-t|
+RELA	IL6	-t>
+RUNX1	CCL3	-t>
+SP1	HGF	-t>
+SP1	TGFB1	-t>
+SP3	HGF	-t>
+STAT3	HGF	-t>
+STAT5A	IGF1	-t>
+TPSAB1	F2RL1	-a>
+NOD2	RIPK2	-a>
+HBB	AHSP	-a|
+HBA1	AHSP	-a|
+HBB	TNF	-t>
+HBA1	TNF	-t>
+HBB	EDN1	-a|
+HBA1	EDN1	-a|
+ACVR1B	HBB	-a>
+ACVR1B	HBA1	-a>
+AHSP	HBA1	-a>
+SP1	ID1	-t>
+EPO	HBB	-t>
+STAT5A	HBB	-t>
+EPO	HBA1	-t>
+STAT5A	HBA1	-t>
+CBP/p300	KLF1	-a>
+KLF1	HBB	-t>
+ETV6	HBB	-t>
+ETV6	HBA1	-t>
+FGF2	HBB	-t|
+FGF2	HBA1	-t|
+TGFB1	HBB	-t>
+TGFB1	HBA1	-t>
+RUNX1	CDKN2A	-t>
+STAT1	CIITA	-t>
+NR3C1	PPARG	-t>
+HMOX1	HBA1	-a|
+HMOX2	HBA1	-a|
+TNF	NOD2	-t>
+IFNG	NOD2	-t>
+TNF	RIPK2	-t>
+RXRA	RARG	-a>
+EIF2S1	ATF4	-t>
+RXRB	PPARG	-a>
+CEBPD	PPARG	-t>
+MAPK11	HBB	-t>
+MAPK11	HBA1	-t>
+NR3C1	CEBPD	-t>
+PTPN11	NRAS	-a>
+MAPK14	HBB	-t>
+SREBF1	PPARG	-a>
+MAPK14	HBA1	-t>
+IFNG	RIPK2	-t>
+IGF1	FBN1	-t>
+IGF1R	FBN1	-t>
+IL1B	GDF5	-t|
+TRPS1	GDF5	-t|
+GDF5	TRPS1	-a>
+ASH2L	TBX1	-a>
+TBX1	FLT4	-t>
+PITX2	TBX1	-t|
+GDF5	ID1	-t>
+GDF5	ID3	-t>
+NOD2	NfKb-p65/p50	-a>
+TGFB1	PAX6	-t|
+SMAD3	PAX6	-a|
+E2F1	CTNND2	-t>
+HES1	CTNND2	-t|
+PAX6	CTNND2	-t>
+KRT1	APC	-a>
+IL1B	KRT1	-t|
+TGFB1	KRT1	-t|
+KRT1	MPO	-a>
+FBN1	TGFB1	-a>
+FBN1	SMAD2	-a>
+PPP2CA	RAF1	-a>
+RIPK2	IKBKG	-a>
+WNT3A	FBN1	-a>
+ITGA6	PMP22	-a>
+ITGB4	PMP22	-a>
+PMP22	ITGA6	-t>
+EGFR	KRT14	-t>
+PRL	KRT14	-t>
+KRT14	TNFRSF1A	-a|
+KRT14	TRADD	-a|
+HSP90AA1	NOD2	-a>
+HSP90AB1	NOD2	-a>
+HSPA1A	NOD2	-a>
+HSPA1B	NOD2	-a>
+heme	HBB	-a>
+heme	HBA1	-a>
+AMPK	FOXO3	-a>
+FOXO3	STK11	-t|
+NR3C1	FOXO3	-t>
+HMOX1	heme	-a|
+HMOX2	heme	-a|
+TDGF1	NODAL	-a>
+TDGF1	ACVR1B	-a>
+NODAL	ACVR1B	-a>
+NODAL	MMP2	-t>
+NODAL	LIF	-t>
+NODAL	TDGF1	-t>
+ACVR1B	SMAD2	-a>
+PPP1CA	SP1	-a|
+PPP1CA	SP3	-a|
+FGG	VTN	-a|
+FGG	FN1	-a|
+SUFU	GLI1	-a|
+IL1RAP	TOLLIP	-a|
+TOLLIP	IRAK1	-a|
+IL1R1	IL1RAP	-a>
+IL1R1	IRAK1	-a>
+mTORC2	AKT	-a>
+BRAF	TGFB1	-a>
+PPARG	PTEN	-a|
+RIPK1	MAP3K1	-a>
+BRAF	MEK1/2	-a>
+GSK3B	ESR1	-a>
+CDR2	MYC	-a>
+CDC20	APC	-a>
+CDH1	APC	-a>
+BMP2	BMPR1A	-a>
+SLK	MAP3K5	-a>
+GDF11	ACVR2B	-a>
+CDR2	TTK	-t>
+CDR2	AURKA	-t>
+APC	CDR2	-a|
+RCAN1	PPP3CA	-a|
+HES1	RCAN1	-t|
+GSK3B	CEBPB	-a>
+RBPJ/NOTCH	CDKN1A	-t>
+FKBP4	AR	-a>
+AURKA	INCENP	-a>
+INCENP	AURKA	-a>
+BMPR1A	SMAD9	-a>
+NR0B2	AR	-a|
+MAPK14	RUNX2	-a>
+PPP1CA	RAF1	-a>
+PTPN6	KDR	-a|
+BMPR1A	SMAD1/4	-a>
+BMPR1A	SMAD5/SMAD4	-a>
+TIRAP	MYD88	-a>
+TLR4	TIRAP	-a>
+TLR4	MYD88	-a>
+TLR4	TICAM1	-a>
+FOXO1	FBXO32	-t>
+FOXO3	FBXO32	-t>
+ERRFI1	EGFR	-a|
+SMAD1/4	RUNX2	-a>
+SMAD5/SMAD4	RUNX2	-t>
+SMAD8/SMAD4	RUNX2	-t>
+BMPR1A	MAPK14	-a>
+BMPR1A	SMAD8/SMAD4	-a>
+IL1R1	NfKb-p65/p50	-a>
+AKT3	TBX3	-a>
+ERRFI1	ERBB2	-a|
+MAPK1	NR3C1	-a|
+SMAD1/4	DLX5	-t>
+AKT1	BAD	-a|
+SGK1	FOXO3	-a|
+SMAD5/SMAD4	DLX5	-t>
+TGFA	EGFR	-a>
+AREG	EGFR	-a>
+GSK3B	MYC	-a|
+EGFR	ERRFI1	-a>
+ERK1/2	JUN	-a>
+FOS	JUN	-a>
+EGFR	NCK1	-a>
+EGFR	MYC	-a>
+ERK1/2	MYC	-a>
+MAPK14	DLX5	-a>
+CAMK2A	EGFR	-a|
+MYD88	IRAK4	-a>
+PTPN11	HRAS	-a>
+ABCA1	APOA1	-a>
+APOA1	ABCA1	-a>
+MPO	APOA1	-a|
+JAK2	APOA1	-a>
+APOA1	JAK2	-a>
+PRKACA	CREB1	-a>
+CTNND1	CDH1	-a>
+CTNND1	CDH2	-a>
+CTNND2	CDH2	-a>
+BCL2L11	BCL2L1	-a|
+CTNND2	CDH1	-a>
+BCL2	BAK1	-a|
+LRRK2	AKT1	-a>
+F2R	LATS2	-a|
+ENPP1	INSR	-a|
+FGF2	ENPP1	-t>
+RUNX2	ENPP1	-t>
+HSPA1A	ENPP1	-a>
+HSPA1B	ENPP1	-a>
+IL1B	ENPP1	-t|
+PIM1	MARK3	-a|
+PDPK1	AKT1	-a>
+TGFB1	ENPP1	-t>
+HSP90AB1	NOS3	-a>
+MYC	DNMT3A	-a>
+DNMT3A	CCND1	-t|
+DNMT3A	CDKN2A	-t|
+CASP3	IKBKB	-a|
+INPP5D	PIP2(16:0/18:1(9Z))	-a>
+INPP5D	PtsIns(3,4,5)P3	-a|
+PtsIns(3,4,5)P3	mTORC2	-a>
+PRKDC	AKT1	-a>
+JAK2	MYC	-a>
+JAK2	MYC	-t>
+BMPR1A	MAP3K7	-a>
+TRAF6	MAP3K8	-a>
+TRAF6	IRAK1	-a>
+PIP2(16:0/18:1(9Z))	AKT1	-a>
+PIN1	IRF3	-a|
+IRF3	IFNB1	-t>
+SNAI1	CDH1	-t|
+SNAI1	PLAU	-t>
+PIN1	IFNB1	-t|
+AGT	AGTR1	-a>
+AGTR1	PAX2	-t>
+REN	AGT	-a>
+MAPK3	TSC2	-a|
+GSK3A	AKT1	-a|
+MAPK1	TSC2	-a|
+ACP1	AKT2	-a|
+RPS6KA1	MITF	-a|
+AKT	GATA1	-a>
+NUAK1	CASP6	-a|
+BRCA1	AKT1	-a|
+MAPK8	H2AFX	-a>
+MAPK1	MAPKAPK5	-a>
+TTC3	AKT1	-a|
+EGFR	PTPN1	-a>
+MAPK1	SREBF1	-a>
+MAPK3	SREBF1	-a>
+mTORC2	AKT1	-a>
+CDK1	CDC25A	-a>
+CSNK2A1	SLK	-a|
+GSK3B/Axin/APC	CTNNB1	-a|
+FBXO5	CDH1	-a|
+CDK4	RASSF1	-a|
+MAPK3	RUNX2	-a>
+INSR	CALM1	-a|
+PRKCG	HABP4	-a|
+PRKCA	HABP4	-a|
+AKT2	MDM2	-a>
+AKT2	SH3RF1	-a|
+AURKA	BRCA1	-a>
+MAPK3	RPS6KA1	-a>
+AKT	BAD	-a|
+AURKB	HDAC5	-a|
+PRKACA	HDAC5	-a>
+IKK-complex	IKBKG	-a|
+MAPK3	RCAN1	-a>
+GRK2	MC4R	-a|
+MAPK9	MAPK8IP3	-a>
+MAPK3	PTPRR	-a>
+CDK1	CASP9	-a|
+SIRT1	AKT1	-a>
+AKT	ESR1	-a>
+PRKCG	VTN	-a>
+PPP2CA	CHEK1	-a|
+PAK2	MKNK1	-a|
+DUSP3	MAPK1	-a|
+CBL	FLT3	-a|
+PIK3CG	AKT1	-a>
+PPP2CB	AKT3	-a|
+PtsIns(3,4,5)P3	AKT1	-a>
+CRKL	PIK3CB	-a>
+PPP3CA	NFATC2	-a>
+SIAH1	NUMB	-a|
+RET	SHC1	-a>
+AMPK	ULK1	-a>
+MAP2K1	MAPK3	-a>
+AURKA	RASSF1	-a|
+HES1	MYOD1	-t|
+ACVR1	AKT	-a|
+PRKCI	BAD	-a|
+INSR	PTPN1	-a>
+MAPK1	RPS6KA1	-a>
+CDK5	DNMT1	-a>
+MAPK8	NR4A1	-a|
+GSK3A	RELA	-a>
+PTPN12	ABL1	-a|
+MAPK3	BRAF	-a|
+FYN	CBL	-a>
+AKT	NR4A1	-a|
+AKT	S1PR1	-a>
+AKT	GAB2	-a|
+AKT	MAP3K5	-a|
+AKT	ADRB2	-a|
+GSK3B	RELA	-a>
+AKT	FAS	-a|
+MAP2K4	RXRA	-a|
+BMPR1A	SMAD1/5/8	-a>
+SMAD1/5/8/SMAD4	RUNX2	-a>
+SMAD1/5/8/SMAD4	RUNX2	-t>
+WNK1	OXSR1	-a>
+PTPN11	JAK2	-a|
+SMAD1/5/8/SMAD4	DLX5	-t>
+RPS6KA5	STAT3	-a>
+PRKCD	KLF5	-a>
+CyclinE/CDK2	RB1	-a|
+mTORC1	RPS6KB1	-a>
+SMAD1/5/8	SMAD1/5/8/SMAD4	-a>
+STK4	LATS1	-a>
+MTOR	RPS6K	-a>
+SRC	FLT4	-a>
+MAPK8	BCL2L1	-a|
+CSNK2A1	TWIST1	-a>
+DUSP3	MAPK3	-a|
+FYN	LAT	-a>
+MAPK1	NR5A1	-a>
+MAPK1	PAK1	-a|
+PERP	NFKB1	-a|
+WNT7A	FZD7	-a>
+PDPK1	PAK1	-a>
+FN1	SDC4	-a>
+SKIL	SMAD1/4	-a|
+AKT2	PPARGC1A	-a|
+ATM	H2AFX	-a>
+AKT3	CHUK	-a>
+MAPK3	ADAM17	-a>
+PDPK1	PRKCE	-a>
+AKT	TAL1	-a|
+AKT	WNK1	-a>
+SDC4	RAC1	-a>
+MAPK14	ATF2	-a>
+EIF2AK2	EIF2S1	-a|
+AKT	FOXO4	-a|
+AKT3	POU5F1	-a>
+MAPK1	PPARG	-a|
+AKT	BCL2L11	-a|
+PAK1	ARAF	-a>
+PPP1CC	TP53	-a|
+AKT	RARA	-a|
+AKT1	BRAF	-a|
+HDAC1	FLI1	-a>
+AKT	PRKACA	-a>
+MAPK14	RPS6KA5	-a>
+MAPK14	PTPN7	-a|
+PLK1	CDC25C	-a>
+STK11	BRSK2	-a>
+SRC	GAB1	-a>
+SRC	HRAS	-a|
+CDC25A	CDK1	-a>
+AKT	KHSRP	-a|
+RPS6KB1	IRS1	-a|
+CSNK1D	CTNNB1	-a|
+CDKN1A	CDK1	-a|
+AKT	CHEK1	-a|
+AKT	SH3RF1	-a|
+CREBBP	KLF1	-a>
+PLK1	YY1	-a>
+AKT	HTRA2	-a|
+AKT	PPARGC1A	-a|
+AKT	TP53RK	-a>
+FGFR4	STAT1	-a>
+MAPK12	SNTA1	-a>
+PRKACA	CASP9	-a|
+SIK3	CRTC2	-a|
+AKT	STK4	-a|
+AKT2	CHUK	-a>
+MAPK11	TCF3	-a>
+AKT	TTC3	-a>
+PTPN22	CBL	-a|
+MAPK3	ESR1	-a>
+SRC	CDC42	-a>
+TGFB1	MEF2D	-a|
+MAPK10	MAPK8IP3	-a>
+SGK3	FOXO3	-a|
+MAPK7	MEF2A	-a>
+MAPK1	BRAF	-a|
+MAPK3	GAB2	-a>
+MAPK3	RXRA	-a>
+CAMK4	HDAC5	-a|
+DUSP3	EGFR	-a|
+PLK1	IRS1	-a|
+CAMK2A	NCOR2	-a|
+VAV2	EGFR	-a>
+AKT	DLX5	-a>
+ATR	ATM	-a>
+EP300	SMAD7	-a>
+PRKG1	HSPB1	-a|
+SMAD1/4	PPARG	-t>
+MTOR	IRS1	-a|
+AKT1	CHEK1	-a|
+CDK2	CDC25A	-a|
+ROR1	SRC	-a>
+PTPN6	CASP8	-a>
+AKT1	TSC2	-a|
+PTEN	PTK2	-a|
+CDK2	NR3C1	-a>
+AKT	MDM4	-a>
+SRC	PAK2	-a>
+PTPN12	PSTPIP1	-a|
+ACVR2B	ACVR1B	-a>
+PTPRC	LYN	-a|
+PTPN1	MET	-a|
+DYRK1B	HDAC5	-a|
+CDK11B	EIF3F	-a|
+AKT	FOXO3	-a|
+AKT	HSPB1	-a|
+AKT	SKI	-a|
+CTBP1	ZEB2	-a>
+CyclinB/CDK1	KAT5	-a>
+RET	PTK2	-a>
+CDK5	ERBB3	-a>
+STK11	MARK2	-a>
+PRKDC	PDX1	-a|
+STK11	SIK3	-a>
+ERK1/2	RUNX1	-a>
+FHIT	AXIN2	-t|
+AKT	PTPN1	-a|
+AKT	NR3C1	-a|
+AKT	POU5F1	-a>
+PRKCD	ADRB2	-a|
+AKT	PHB2	-a|
+AKT	GSK3B	-a|
+AKT	CFLAR	-a|
+AKT	CREB1	-a>
+RUNX1	SPI1	-t>
+AKT	IRAK1	-a|
+AKT	RAC1	-a|
+AKT	SH2B2	-a>
+AKT	RNF11	-a|
+KMT2A	SPI1	-a>
+AKT	CASP9	-a|
+IL4R	IL2RG	-a>
+AKT	GSK3A	-a|
+AKT	FOXO6	-a|
+AKT	NUAK1	-a>
+TBK1	AKT	-a>
+PRKCB	RAF1	-a>
+AKT	MAP3K11	-a|
+AKT	YAP1	-a|
+CSNK2A1	AKT	-a>
+ILK	AKT	-a>
+LRRK2	AKT	-a>
+MTOR	AKT	-a>
+PHLPP1	AKT	-a|
+PPP1CA	AKT	-a|
+PPP1CC	AKT	-a|
+PPP2CA	AKT	-a|
+PDPK1	AKT	-a>
+RET	AKT	-a>
+SRC	AKT	-a>
+CASP3	AKT	-a|
+FHIT	AKT	-a|
+FLT3	AKT	-a>
+INS	AKT	-a>
+JUN	SPI1	-a>
+PIK3C3	AKT	-a>
+POU5F1	AKT	-t|
+PPP2CB	AKT	-a|
+FLT3	SPI1	-t|
+PTPN1	AKT	-a|
+PtsIns(3,4,5)P3	AKT	-a>
+TRIB3	AKT	-a|
+PRKDC	AKT	-a>
+Frizzled	DVL1	-a>
+FZD7	DVL1	-a>
+GSK3A	AKT	-a|
+SIRT1	AKT	-a>
+BRCA1	AKT	-a|
+TTC3	AKT	-a|
+CARM1	PAX7	-a>
+ACVR1	AKT1	-a|
+AKT1	MAP3K5	-a|
+AKT1	NR4A1	-a|
+AKT1	S1PR1	-a>
+AKT1	GAB2	-a|
+AKT1	ADRB2	-a|
+AKT1	CASP9	-a|
+AKT1	FAS	-a|
+AKT1	YBX1	-a>
+AKT1	TAL1	-a|
+AKT1	FOXO4	-a|
+AKT1	BCL2L11	-a|
+AKT1	RARA	-a|
+AKT1	PRKACA	-a>
+TGFB1	MYOG	-a|
+AKT1	WNK1	-a>
+AKT1	KHSRP	-a|
+AKT1	PPP1CA	-a|
+AKT1	CTNNB1	-a>
+AKT1	HTRA2	-a|
+AKT1	SH3RF1	-a|
+AKT1	PPARGC1A	-a|
+AKT1	TP53RK	-a>
+AKT1	STK4	-a|
+AKT1	TTC3	-a>
+AKT1	STK3	-a|
+AKT1	MDM4	-a>
+AKT1	HSPB1	-a|
+AKT1	SKI	-a|
+AKT1	PHB2	-a|
+AKT1	PTPN1	-a|
+AKT1	NR3C1	-a|
+AKT1	POU5F1	-a>
+AKT1	CFLAR	-a|
+AKT1	CREB1	-a>
+AKT1	IRAK1	-a|
+AKT1	RAC1	-a|
+AKT1	SH2B2	-a>
+AKT1	RNF11	-a|
+AKT1	BMI1	-a>
+AKT1	FOXO6	-a|
+AKT1	GSK3A	-a|
+AKT1	NUAK1	-a>
+AKT1	MAP3K11	-a|
+AKT1	YAP1	-a|
+CSNK2A1	AKT1	-a>
+ILK	AKT1	-a>
+MTOR	AKT1	-a>
+PHLPP1	AKT1	-a|
+PPP1CA	AKT1	-a|
+PPP1CC	AKT1	-a|
+PPP2CA	AKT1	-a|
+TBK1	AKT1	-a>
+RET	AKT1	-a>
+SRC	AKT1	-a>
+PIK3C3	AKT1	-a>
+POU5F1	AKT1	-t|
+PPP2CB	AKT1	-a|
+PRKACA	CAPN2	-a|
+CASP3	AKT1	-a|
+FHIT	AKT1	-a|
+FLT3	AKT1	-a>
+INS	AKT1	-a>
+PTPN1	AKT1	-a|
+TRIB3	AKT1	-a|
+HGF	MET	-a>
+EGFR	PI3K	-a>
+CD19	PIK3R1	-a>
+IGF1R	PIK3R1	-a>
+CBL	PI3K	-a|
+CD19	PI3K	-a>
+ERBB3	PI3K	-a>
+ERBB4	PI3K	-a>
+ESR1	PI3K	-a>
+GAB1	PI3K	-a>
+GAB2	PI3K	-a>
+GNAS	PI3K	-a>
+GNB1	PI3K	-a>
+GNB3	PI3K	-a>
+GNG12	PI3K	-a>
+GNG2	PI3K	-a>
+GNG3	PI3K	-a>
+GNGT1	PI3K	-a>
+HRAS	PI3K	-a>
+IGF1R	PI3K	-a>
+INSR	PI3K	-a>
+IRS1	PI3K	-a>
+ITGB4	PI3K	-a>
+KRAS	PI3K	-a>
+PRKACA	WT1	-a|
+LCK	PI3K	-a|
+NRAS	PI3K	-a>
+PI3K	AKT	-a>
+PI3K	AKT1	-a>
+PI3K	MTOR	-a>
+PI3K	RAC1	-a>
+PI3K	BTK	-a>
+PI3K	PIK3CG	-a>
+TET2	WT1	-a>
+PI3K	PtsIns(3,4,5)P3	-a>
+PI3K	AKT2	-a>
+PI3K	IRS1	-a|
+PI3K	PIK3CB	-a>
+PIK3R3	PI3K	-a>
+WT1	AREG	-t>
+PAX2	WT1	-t>
+PPM1A	PI3K	-a>
+PTEN	PI3K	-a|
+PTK2	PI3K	-a>
+TEK	PI3K	-a>
+WT1	REN	-t|
+TGFBR1	PI3K	-a>
+TGFBR2	PI3K	-a>
+TNF	PI3K	-a>
+WT1	PAX2	-t|
+LAT	PI3K	-a>
+PIAS1	AKT1	-a>
+ERK1/2	RPS6K	-a>
+CCNA1	WT1	-t|
+PIAS1	AKT	-a>
+AKT1	PRKAA1	-a|
+AKT	PRKAA1	-a|
+MAPK1	RPS6K	-a>
+MAPK3	RPS6K	-a>
+ARHGEF7	CBLC	-a|
+RPS6K	CDC25A	-a|
+RPS6K	BAD	-a|
+AMOT/MPP5/INADL/LIN7C	SMAD4	-a>
+RPS6K	CDC25B	-a>
+RPS6K	FLNA	-a>
+RPS6K	MITF	-a|
+RPS6K	mTORC1	-a>
+GSK3B	CCNE1	-a|
+RPS6K	CREB1	-a>
+RPS6K	IRS1	-a|
+RPS6K	GSK3B	-a|
+RPS6K	FOS	-a>
+RPS6K	DEPTOR	-a|
+RPS6K	TSC2	-a|
+RPS6K	YBX1	-a>
+RPS6K	STK11	-a|
+RPS6K	ESR1	-a>
+TP53	RPS6K	-a>
+NDN	PPARGC1A	-a>
+AKT	mTORC1	-a>
+14-3-3	FOXO	-a|
+AKT	FOXO	-a|
+CASP9	CASP3	-a>
+MAPK3	PLA2G4A	-a>
+BMP7	ACVR1	-a>
+NfKb-p65/p50	MAP3K8	-a|
+INS	PPARG	-t>
+AKT1	FOXO	-a|
+ASXL1	RARA	-a>
+ASXL1	RARA	-t>
+ASXL1	RXRA	-a>
+AKT2	FOXO	-a|
+ABL1	PPARG	-a>
+AKT3	FOXO	-a|
+AMPK	FOXO	-a>
+PRKCG	RAF1	-a>
+CDK1	FOXO	-a|
+CDK2	FOXO	-a|
+CHUK	FOXO	-a|
+CREB1	FOXO	-a|
+DUSP6	FOXO	-a>
+FOXO	PPARG	-t|
+FOXO	BCL2L11	-t>
+FOXO	CDKN2B	-t>
+FOXO	NOTCH3	-t|
+FOXO	FASLG	-t>
+FOXO	FBXO32	-t>
+FOXO	CDKN1B	-t>
+MAPK12	CARM1	-a|
+FOXO	RBL2	-t>
+FOXO	MYOD1	-t>
+FOXO	NOTCH1	-t|
+DDIT3	CEBPA	-t|
+RNF111	SMAD7	-a|
+DDIT3	CEBPB	-t|
+IKBKE	FOXO	-a|
+IKK-complex	FOXO	-a|
+INS	FOXO	-a|
+CHEK2	E2F1	-a>
+BCL2L2	BAX	-a|
+CDC42	GSK3B	-a|
+STK11	GSK3B	-a|
+JNK	FOXO	-a>
+MAPK14	FOXO	-a>
+MAPK3	FOXO	-a|
+MAPK8	FOXO	-a>
+TEC	BTK	-a>
+MAPK1	FOXO	-a|
+PIM1	FOXO	-a|
+PKN1	FOXO	-a|
+PPARGC1A	FOXO	-t|
+PPARGC1A	FOXO	-a|
+SGK1	FOXO	-a|
+PPP2CA	FOXO	-a>
+PRKAA1	FOXO	-a>
+RALA	FOXO	-a>
+STK4	FOXO	-a>
+SGK2	FOXO	-a|
+SGK3	FOXO	-a|
+MYOG	PAX7	-a|
+TEAD1	FOXO	-t>
+ASXL1	PRC2	-a>
+NCOA1	ASXL1	-a>
+SGK1	FOXO1	-a|
+NR3C1	SGK1	-t>
+SKI	SMAD4	-a|
+AP1	NFATC1	-a>
+ENPP1	cAMP	-a|
+PRKACA	PPARG	-a>
+SPRY4	RAF1	-a|
+ASXL1	NCOA1	-a>
+NCOA1	RARA	-t>
+NfKb-p65/p50	SP1	-a>
+NfKb-p65/p50	JUN	-a>
+WNT7A	SPRY4	-t|
+SPRY4	MMP9	-a|
+SPRY4	TP53	-t>
+SPRY4	CDKN1A	-t>
+TNFSF11	TNFRSF11A	-a>
+TRAF6	TNFRSF11A	-a>
+TNFRSF11A	NfKb-p65/p50	-a>
+TRAF6	MAP3K14	-a>
+STAT3	CCND1	-t>
+STAT3	SOCS3	-t>
+SOCS3	JAK1	-a|
+SOCS3	NfKb-p65/p50	-a|
+HDAC1	HES1	-t|
+ABL1	MYOD1	-a|
+NfKb-p65/p50	HES1	-t>
+NR3C1	HDAC1	-a>
+POMC	MC3R	-a>
+SH2B1	JAK2	-a>
+PTPN11	PTK2	-a|
+MC4R	GNAS	-a>
+MC3R	GNAS	-a>
+GCGR	GNAS	-a>
+TRAF6	TAB3	-a>
+PPARGC1A	CYCS	-t>
+CDH4	RAC1	-a>
+CDH4	CDH15	-a|
+CDH4	CDH2	-a|
+RHOA	DIAPH1	-a>
+RHOA	PFN1	-a>
+DIAPH1	CDH4	-a>
+PFN1	CDH4	-a>
+Frizzled	GNAS	-a>
+WNT1	Frizzled	-a>
+WNT11	Frizzled	-a>
+WNT3A	Frizzled	-a>
+WNT5A	Frizzled	-a>
+WNT7A	Frizzled	-a>
+SREBF1	IDH1	-t>
+SREBF2	IDH1	-t>
+alpha-ketoglutarate	HIF1A	-a>
+ERN1	JUN	-a>
+JUN	RCAN1	-t>
+GATA6	SEMA3C	-t>
+POU5F1	DNMT1	-t>
+POU5F1	GATA6	-t|
+NANOG	GATA6	-t|
+POU5F1	PAX6	-t|
+GATA6	MYC	-a>
+GATA6	HES1	-a>
+GATA6	RARB	-a>
+GATA6	CDX2	-a>
+GSK3A	GATA6	-a|
+NANOG	DNMT1	-t>
+NANOG	PAX6	-t|
+POU5F1	FOXA2	-t|
+NANOG	FOXA2	-t|
+POU5F1	SOX17	-t|
+NANOG	SOX17	-t|
+DYRK1B	HNF1A	-a>
+IFNG	NfKb-p65/p50	-a|
+NfKb-p65/p50	IL1B	-t>
+KLF10	TGFBI	-t>
+VHL	KLF10	-t|
+AP1	CCND1	-t>
+ALK	PIK3R3	-a>
+Laminin-5	A6/b1 integrin	-a>
+TAB1	p38	-a>
+ID1	AKT	-a>
+MAX	MYC	-a>
+MMP2	Laminin-5	-a>
+VCAM1	A4/b1 integrin	-a>
+FN1	A5/b1 integrin	-a>
+a7/b1 integrin	A5/b1 integrin	-a|
+SMO	GNB1	-a>
+NfKb-p65/p50	BIRC3	-t>
+CEBPD	KLF5	-t>
+SOX9	CEBPD	-t|
+SMAD7	SMURF	-a>
+SMURF	SMAD4	-a|
+SMAD3/SMAD4	CEBPD	-a|
+MAML1	NOTCH1	-t>
+MAML1	NOTCH1	-a>
+SMURF	SMAD7	-a|
+SMURF	SMAD6	-a|
+GRB10	PIK3R1	-a>
+GRB10	PI3K	-a>
+FLT3	GRB10	-a>
+KIT	PIK3R1	-a>
+KIT	PI3K	-a>
+SMURF	SKIL	-a|
+SMURF	SMAD2	-a|
+SMURF	TGFBR1	-a|
+AMPK	MAPK14	-a>
+SMURF	TGFBR2	-a|
+FOXO3	TSC22D3	-t>
+TGFBI	a7/b1 integrin	-a>
+A6/b1 integrin	POU5F1	-t>
+A6/b1 integrin	SOX2	-t>
+A6/b1 integrin	NANOG	-t>
+TGFBI	A4/b1 integrin	-a>
+TGFBI	A5/b1 integrin	-a>
+A4/b1 integrin	DLL1	-t>
+A5/b1 integrin	DLL1	-t>
+A4/b1 integrin	JAG1	-t>
+A5/b1 integrin	JAG1	-t>
+calcium ion	CAMK2D	-a>
+CAMK2D	MEF2A	-a>
+A5/b1 integrin	BCL2	-a>
+SPP1	A9/b1 integrin	-a>
+TGFB1	TGFBR1	-a>
+TSC22D3	RELA	-a|
+TSC22D3	NfKb-p65/p50	-a|
+SKI	SMAD2/SMAD4	-a|
+SKI	SMAD3/SMAD4	-a|
+SKIL	SMAD2/SMAD4	-a|
+SKIL	SMAD3/SMAD4	-a|
+FN1	A8/b1 integrin	-a>
+VTN	A8/b1 integrin	-a>
+A8/b1 integrin	PTK2	-a>
+A9/b1 integrin	IL6	-t>
+A9/b1 integrin	IL1B	-t>
+A9/b1 integrin	TNF	-t>
+TGFBR2	TGFBR1	-a>
+MMP3	SPP1	-a>
+SOX9	CDX2	-t|
+TCF4	SOX9	-t>
+TCF4	MYC	-t>
+PPP3CA	NFATC1	-a>
+NFATC1	PLAUR	-t>
+AGT	TRPC6	-a>
+TRPC6	PPP3CA	-a>
+ERK1/2	BCL2	-a>
+SMAD3/SMAD4	AP1	-a>
+TRPC6	calcium ion	-a>
+JNK	AP1	-a>
+RBPJ/NOTCH	HES1	-t>
+NPNT	A8/b1 integrin	-a>
+IKK-complex	NFKBIA	-a|
+CDC42	NFATC1	-a>
+ICAM3	AD/b2 integrin	-a>
+IKK-complex	NCOR2	-a|
+TLN1	AIIB/b3 integrin	-a>
+AIIB/b3 integrin	FGG	-a>
+DEF6	CDC42	-a>
+CARM1	MEF2A	-a>
+IKK-complex	FOXO3	-a|
+AD/b2 integrin	VCAM1	-a>
+PPP3CC	MEF2C	-a>
+SNTA1	NOS1	-a>
+CDKN1A	RB1	-a>
+EID1	MYOD1	-a|
+EID1	EP300	-a|
+SRF	PTGS2	-a>
+SRF	IL6	-a>
+PTGS2	IL4	-a>
+EID1	CREBBP	-a|
+NDN	MYC	-t>
+NDN	E2F1	-a|
+NDN	CDKN2A	-a>
+NDN	BMI1	-a|
+BMI1	NDN	-a|
+NDN	PIAS1	-a|
+PPARGC1A	ESRRA	-a>
+FBXW7	PPARGC1A	-a|
+ATR	CHEK2	-a>
+ERK1/2	SOS1	-a|
+RAF1	MEK1/2	-a>
+SOS1	HRAS	-a>
+SOS1	KRAS	-a>
+AMPK	TSC2	-a>
+TP53	BAX	-a>
+TP53	BAX	-t>
+TP53	IL6	-t>
+AMPK	TP53	-a>
+PTPN11	KRAS	-a>
+AMPK	FOXO1	-a>
+MAGEL2	TRIM27	-a>
+CLOCK	MAGEL2	-a|
+ARNTL	MAGEL2	-a|
+FZD1	DVL1	-a>
+DVL1	GSK3B/Axin/APC	-a|
+DVL1	CTNNB1	-a>
+FZD2	SETDB1/NLK/CHD7	-a>
+SETDB1/NLK/CHD7	PPARG	-t|
+AMPK	FOXO4	-a>
+SHH	PTCH1	-a|
+SMO	GATA2	-a>
+GATA2	PPARG	-a|
+GATA3	CEBPB	-a|
+AMPK	TSC1	-a>
+MAML2	NOTCH1	-t>
+TGFB1	TGFBR2	-a>
+TGFBR1	SMAD3	-a>
+MCL1	BAK/BAX	-a|
+JAK2	CSF2RA/CSF2RB	-a>
+FBXW7	GATA2	-a|
+ETV2	SPI1	-t>
+GATA2	ETV2	-a>
+PRKACA	GLI1	-a|
+AMPK	GLI1	-a|
+HDAC1	GLI1	-a>
+SHH	SMO	-a>
+PTCH1	SMO	-a|
+GLI1	MYCN	-t>
+SUFU	GLI2	-a|
+PRKACA	GLI2	-a|
+GLI1	PTCH1	-t>
+PRKACA	PRKAA2	-a|
+MN1	EP300	-a>
+INHBA	ACVR2B	-a>
+MAPK3	MKNK1	-a>
+ERK1/2	MKNK1	-a>
+TCR	ZAP70	-a>
+SGK1	NR3C1	-a>
+HSP90AA1	NR3C1	-a|
+NR3C1	MAPK14	-a|
+NR3C1	MAPK8	-a|
+NR3C1	MAPK3	-a|
+NR3C1	MAPK1	-a|
+MAPK8	AKT1	-a>
+CAMKK1	AKT	-a>
+CAMKK1	AKT1	-a>
+PPP2R2A	AKT	-a|
+PPP2R2A	AKT1	-a|
+IRS2	PI3K	-a>
+PDPK1	RPS6K	-a>
+NR3C1	DUSP1	-a>
+SMAD3	MYOD1	-a|
+BMP2	BMPR2	-a>
+BMPR1A	BMPR2	-a>
+BMP4	BMPR2	-a>
+TP53	BBC3	-t>
+NUMB	ITCH	-a>
+BMP2	SHH	-t|
+RAF1	BAD	-a|
+PAK2	PRL	-a>
+GSK3B	SMAD1	-a|
+MAPK10	APP	-a>
+AXIN1	BMPR1A	-a|
+IKK-complex	NfKb-p65/p50	-a>
+MAPK9	TP53	-a>
+TP53	CYCS	-a>
+TP53	BCL2	-a|
+PLK1	WEE1	-a|
+AKT	YBX1	-a>
+AMPK	CRTC2	-a|
+FST	MSTN	-a|
+PSEN1	NOTCH1	-a>
+NCOR2	SNW1	-a>
+PTPN12	BCAR1	-a|
+PTPN1	JAK2	-a|
+BBC3	BAX	-a>
+CCNC	NOTCH1	-a|
+FBXW7	NOTCH1	-a|
+TRAF2	BIRC2	-a>
+RAF1	MAP3K5	-a|
+NRAS	GLI1	-a>
+AKT2	GLI1	-a>
+SMURF2	TGFBR1	-a|
+SMURF1	TGFBR1	-a|
+RHOA	ROCK1	-a>
+WNT5A	ROR2	-a>
+WNT5A	ROR1	-a>
+RUNX2	BMP2	-t>
+EGFR	SHC3	-a>
+NOTCH1	BMPR1A/1B/2	-a>
+SKI	SMAD1	-a|
+SKI	SMAD5	-a|
+SKIL	SMAD1	-a|
+SKIL	SMAD5	-a|
+EP300	SMAD1	-a>
+CBP/p300	SMAD1	-a>
+DIABLO	CASP9	-a>
+SMAD1	RUNX2	-a>
+SMURF1	SMAD9	-a|
+SMURF2	SMAD1	-a|
+SMURF1	SMAD1	-a|
+SMURF1	BMPR1A	-a|
+SMURF1	SMAD5	-a|
+RIPK1	MAP3K7	-a>
+MAP3K7	IKK-complex	-a>
+mTORC1	RPS6K	-a>
+WNK1	STK39	-a>
+GOLPH3	MTOR	-a>
+GOLPH3	mTORC1	-a>
+GOLPH3	mTORC2	-a>
+PRKDC	GOLPH3	-a>
+ERBB2	ERBB3	-a>
+ERBB2	EGFR	-a>
+RAF1	MAP2K2	-a>
+MAPK3	MAPKAPK2	-a>
+DLX5	RUNX2	-t>
+ERBB4	GRB2	-a>
+ERBB4	CBL	-a>
+MAPK3	E2F1	-a>
+MAPK3	RPS6KB1	-a>
+MAP3K3	RCAN1	-a>
+JAK3	STAT5A	-a>
+GNAI2	ADCY1	-a|
+CFLAR	CASP8	-a|
+FOXO	PPARGC1A	-a|
+GNB1	PIK3CA	-a>
+GNG3	PIK3CA	-a>
+GNG2	PIK3CA	-a>
+GLI3	CCND1	-t>
+SOS2	HRAS	-a>
+KRAS	PIK3CG	-a>
+GSK3A	TSC2	-a>
+GSK3B	TSC2	-a>
+HDAC5	RUNX2	-a|
+HDAC4	RUNX2	-a|
+CAMKK2	CAMK1	-a>
+YAP1	RUNX2	-a|
+AXIN1	RNF111	-a>
+MAPK1	TSC1	-a|
+ERK1/2	TSC1	-a|
+PRKACA	NCOA3	-a>
+CHUK	NCOA3	-a>
+CAMKK1	CAMK1	-a>
+IKBKB	FOXO	-a|
+SHC3	GRB2	-a>
+KAT2B	NOTCH1	-a>
+SOST	WNT3A	-a|
+DKK1	WNT3A	-a|
+BIRC3	RIPK1	-a>
+PRKACA	GLI3	-a|
+CTNNB1	RUNX2	-a>
+SMO	FYN	-a>
+AKT	PPP1CA	-a|
+HBEGF	ERBB4	-a>
+JAK2	STAT5A	-a>
+ERBB4	SHC3	-a>
+CASP3	PTCH1	-a|
+EGFR	CBL	-a>
+CyclinB/CDK1	MCL1	-a>
+GNAI3	ADCY1	-a|
+MTSS1	GLI1	-a>
+PTEN	GLI1	-a|
+RPS6KA4	ATF1	-a>
+PRKCD	DAB2	-a|
+NCSTN	PSEN1	-a>
+AKT1	FOXO1	-a|
+AMPK	HDAC7	-a|
+MAPKAPK2	HSPB1	-a|
+NOTCH1	LFNG	-t>
+AKT1	GSK3B	-a|
+IGF1	IGF1R	-a>
+IGF1R	IRS1	-a>
+TAB1	MAPK14	-a>
+SH2B2	INSR	-a|
+SH2B2	CBL	-a>
+CDK1	WEE1	-a|
+MAML2	HES1	-t>
+JAK1	STAT3	-a>
+SPI1	NAB2	-t>
+SPI1	EGR2	-t>
+EGR2	GFI1	-t|
+MCL1	BAX	-a|
+TNFRSF1A	MAPK14	-a>
+PRC2	PAX7	-t|
+TNFRSF1B	MAPK14	-a>
+NAB2	GFI1	-t|
+YY1	PRC2	-a>
+ZFP36	MYOD1	-a|
+GFI1	SPI1	-a|
+HEY1	MEF2C	-t|
+EP300	RUNX2	-a>
+FLI1	KLF1	-a|
+FLI1	GATA1	-a>
+TRAF2	MAP3K5	-a>
+Diacylglycerol	PRKCI	-a>
+Diacylglycerol	PRKCB	-a>
+Diacylglycerol	PRKCD	-a>
+Diacylglycerol	PRKCE	-a>
+Diacylglycerol	PRKCH	-a>
+KLF1	FLI1	-a|
+GATA1	TAL1	-t>
+SPI1	TAL1	-a|
+SPI1	GATA1	-a|
+GATA1	SPI1	-a|
+Diacylglycerol	PRKCQ	-a>
+Diacylglycerol	PRKCZ	-a>
+GATA1	KLF1	-t>
+GATA2	KLF1	-t>
+TP53	FAS	-t>
+CDK8	E2F1	-a|
+SMO	GNAI1	-a>
+SNW1	NOTCH1	-a>
+NOTCH1	SNW1	-a>
+ATM	TP53	-a>
+GATA1	FLI1	-t>
+SPI1	FLI1	-t>
+CEBPA	SPI1	-t>
+DIABLO	BIRC2	-a|
+CASP8	CASP3	-a>
+MAPK8IP1	MAP4K2	-a|
+GATA2	GATA1	-t>
+GATA1	GATA2	-t|
+ZFPM1	GATA2	-t|
+NF1	HRAS	-a|
+SPI1	JUN	-t>
+CEBPA	GFI1	-t>
+SPI1	GATA2	-t|
+GATA1	ZFPM1	-a>
+JAK2	STAT3	-a>
+ARNTL	PER2	-t>
+CLOCK	PER2	-t>
+AMPK	CTBP1	-a|
+STAT1	SOCS1	-t>
+NKX2-5	TBX5	-t>
+NKX2-5	CTNNB1	-t|
+NKX2-5	LYL1	-t>
+NKX2-5	MEF2C	-t>
+AR	NRAS	-t|
+AR	BTG2	-t|
+AR	CDKN1A	-t|
+SMO	GNAT1	-a>
+AR	WEE1	-t|
+CLOCK/ARNTL	PER2	-t>
+NR1H2	BHLHE40	-t>
+CLOCK	NR3C1	-t|
+NR1H3	BHLHE40	-t>
+ARNT	CCNE1	-t|
+ARNT	CDK2	-t|
+HIF1A	EPO	-t>
+ARNT	FOS	-t|
+PEBP1	RAF1	-a|
+ARNT	JUN	-t|
+CLOCK	NR0B2	-t>
+ARNT	HIF1A	-a>
+NAMPT	CLOCK/ARNTL	-a|
+CLOCK/ARNTL	BHLHE40	-t>
+BHLHE41	BHLHE40	-t|
+BHLHE40	BHLHE41	-t|
+BHLHE40	PER2	-t|
+CLOCK/ARNTL	MTA1	-t>
+NR1D1	ARNTL	-t|
+SIRT1	CLOCK/ARNTL	-a|
+ATF4	NUPR1	-t>
+NUPR1	ATF4	-t>
+IDH1	alpha-ketoglutarate	-a>
+MTA1	CLOCK/ARNTL	-a>
+AMPK	INSR	-a>
+BCL3	CTCF	-t|
+PIAS1	STAT1	-a|
+ESRRA	NR2F1	-t|
+CREB1	SNAI1	-t|
+CREB1	CYP19A1	-t>
+ESRRA	SNAI2	-t|
+CREB1	SNAI2	-t|
+CREB1	NR2F1	-t|
+ESRRA	CYP19A1	-t>
+ESRRA	SNAI1	-t|
+NOTCH4	HEY2	-t>
+PRDM16	SKI	-a>
+CTCF	MYC	-t|
+JAK1	TYK2	-a>
+CTCF	APP	-t>
+PRDM1	MYC	-t|
+RET	GRB7	-a>
+FGF10	FGFR2	-a>
+CDC25A	CyclinE/CDK2	-a>
+FLT3	CEBPA	-t|
+prostaglandin E2(1-)	CTNNB1	-a>
+CEBPA	MYC	-t|
+DDIT3	TRIB3	-t>
+E2F1	BBC3	-t>
+E2F1	HIC1	-t>
+E2F1	ELF4	-t>
+E2F1	RASGEF1B	-t>
+ULK1	AMPK	-a|
+PRKACA	HDAC8	-a|
+TFDP1	CCNE1	-t>
+TFDP1	CDK1	-t>
+E2F1	CDK1	-t>
+FLT3	SHC1	-a>
+PtsIns(3,4,5)P3	PDPK1	-a>
+PTPRC	JAK2	-a|
+EGR1	NAB2	-t>
+AMPK	RB1	-a|
+RASGEF1B	HRAS	-a>
+NAB2	BCAR1	-t>
+EGR1	BCAR1	-t>
+BCAR1	NAB2	-t>
+BCAR1	EGR1	-t>
+PTGS2	prostaglandin E2(1-)	-a>
+AMPK	PPARGC1A	-a>
+AMPK	PLD1	-a>
+MAPK8	BAD	-a|
+NAB2	EGR1	-t|
+NAB2	EGR2	-t|
+AMPK	HDAC4	-a|
+AKT1	SMAD3	-a|
+NAB2	TNFSF10	-t|
+MAP2K6	CRK	-a>
+TRAF3	IL10	-a>
+MAP3K8	ERK1/2	-a>
+MYD88	TRAF3	-a>
+TLR4	MAP3K8	-a>
+TAL1	ERG	-t>
+ERK1/2	IL10	-a>
+CSNK2A1	CDC25C	-a|
+CyclinE/CDK2	SIRT2	-a|
+CyclinE/CDK2	CDC25C	-a>
+GATA3	ERG	-t>
+FLI1	ERG	-t>
+LYL1	ERG	-t>
+NR3C1	RXRA	-t>
+ESR1	TGFA	-t>
+ESR2	CDKN1A	-t>
+ESR2	TGFA	-t>
+PRKCZ	MARK3	-a|
+ESR1	CDKN1A	-t>
+MAPK8	SFN	-a|
+MAPK9	SFN	-a|
+ATM	CREB1	-a|
+BRCA1	ESR1	-a|
+CHRNA7	RHOA	-a>
+CDK2	CCNE1	-a|
+MECP2	BDNF	-t|
+MECP2	ESR1	-t|
+MEF2C	MECP2	-t>
+MBD2	ALOX5	-t|
+DNMT1	ESR1	-t|
+HDAC1	DNMT1	-t|
+HDAC1	ESR1	-t|
+SP1	ALOX5	-t>
+MECP2	DLX5	-t|
+CEBPD	IL23A	-t>
+CEBPD	CXCL1	-t>
+MECP2	ALOX5	-t|
+ERG	PIM1	-t>
+ERG	SPP1	-t>
+ERG	WNT11	-t>
+SNAI2	MMP9	-t>
+ETS1	MMP9	-t>
+TP53	ETS1	-a|
+SNAI2	CCND1	-t>
+PRKAA1	CDKN1A	-t|
+TSC22D3	PPARG	-t|
+HES1	PPARG	-t|
+NR3C1	TSC22D3	-t>
+IKBKB	HES1	-t>
+IKK-complex	HES1	-t>
+TNF	HES1	-t>
+TNF	NOTCH1	-t>
+TNF	NOTCH4	-t>
+TNF	JAG2	-t>
+PLCE1	Diacylglycerol	-a>
+CyclinB/CDK1	CDC25A	-a>
+CyclinB/CDK1	CDC25C	-a>
+CHD4	CD79A	-t|
+CREBBP	ALOX15	-t>
+ALOX15	Icomucret	-a>
+Icomucret	PPARG	-a>
+EP300	ALOX15	-t>
+CBP/p300	ALOX15	-t>
+STAT6	ALOX15	-a>
+MBD2	CHD4	-t|
+SNAI1	CTBP1	-a>
+PML	SMAD3	-a>
+WWTR1	SMAD3	-a>
+WWTR1	SMAD3	-t>
+PRKCA	PTPN6	-a|
+DNMT1	BAG1	-t>
+DNMT1	BAG4	-t>
+BAG1	PPP1R15A	-a|
+BAG1	BCL2	-a>
+CCL11	CCR3	-a>
+JUN	DDIT3	-t>
+CCR3	p38	-a>
+DNMT1	MBD2	-t|
+CCR3	ERK1/2	-a>
+NCOA2	NR3C1	-a>
+CDK9	NCOA2	-a>
+PPM1A	SMAD3	-a|
+ETV6	BBC3	-t>
+ETV6	CDKN1A	-t>
+EVX1	GSC	-t|
+GSC	EVX1	-t|
+EZH2	HOXB13	-t|
+EZH2	SNAI2	-t|
+PER2	SNAI2	-t|
+PER2	POU2F1	-a|
+POU2F1	SNAI2	-t>
+EZH2	TWIST1	-t|
+POU2F1	TWIST1	-t>
+PER2	TWIST1	-t|
+HDAC2	TWIST1	-t|
+FOXA1	HSPA1A	-t>
+FOXA1	HSPA1B	-t>
+SMAD3	FOXA1	-a|
+SRC	IGF1R	-a>
+HDAC2	SNAI2	-t|
+TUBB	SMAD3	-a|
+GATA1	CBFB	-t|
+FOXL2	CYP19A1	-t|
+PRLR	FOXO3	-t|
+GATA1	CEBPA	-t|
+NOTCH1	NFKB1	-t>
+GFI1	BAX	-t|
+ETS1	BAX	-t|
+GFI1B	MEF2C	-t>
+GATA1	RUNX1	-a>
+GFI1	ETS1	-a|
+ETS1	GFI1	-a|
+STAT5A	MEF2C	-t|
+LYL1	MEF2C	-t>
+TAL1	MEF2C	-t>
+HOXA9	MEF2C	-t|
+HOXA10	MEF2C	-t|
+HOXA9	MYCN	-t>
+MYCN	MEF2C	-t|
+HOXA10	MYCN	-t>
+CRTC2	NR3C1	-a>
+CRTC2	CREB1	-a>
+HDAC1	SNAI2	-t|
+NCOR1	SNAI2	-t|
+ESR1	SNAI2	-t|
+HDAC2	CIITA	-a|
+HDAC4	HOXB13	-t|
+YY1	HOXB13	-t|
+HIC1	E2F1	-t|
+HIC1	EFNA1	-t|
+HIC1	EPHA2	-t|
+MTA1	EPHA2	-t|
+HIC1	MYC	-t|
+HIC1	STAT3	-a|
+HIC1	VEGFA	-t|
+CRTC2	TSC22D3	-t>
+EGR1	PTGES	-t>
+HDAC1	EGR1	-t|
+PTGES	Prostaglandin E2	-a>
+ZFYVE9	SMAD3	-a>
+EGR1	FAS	-t|
+STAT1	TBX21	-a>
+TBX21	GATA3	-a|
+GATA3	TBX21	-a|
+PRKACA	PRKAA1	-a|
+PRKACA	AMPK	-a|
+AMPK	PRKAA1	-a|
+IL4R	STAT5A	-a>
+STAT6	GATA3	-a>
+STAT5A	FOXP3	-a>
+STAT3	RORC	-a>
+STAT3	FOXP3	-a|
+YY1	NOTCH	-a|
+FOXO	NOTCH	-t|
+MAML2	NOTCH	-t>
+PSEN1	NOTCH	-a>
+CCNC	NOTCH	-a|
+FBXW7	NOTCH	-a|
+KAT2B	NOTCH	-a>
+CDK8	NOTCH	-a|
+DLL1	NOTCH	-a>
+DLL3	NOTCH	-a>
+DTX1	NOTCH	-a>
+FOXO3	NOTCH	-t|
+MAML3	NOTCH	-a>
+SMAD3	NOTCH	-a>
+EIF3F	NOTCH	-a>
+g-secretase	NOTCH	-a>
+NOTCH	LFNG	-t>
+NOTCH	SNW1	-a>
+NOTCH	HEY2	-t>
+NOTCH	HEY1	-t>
+NOTCH	PIN1	-t>
+NOTCH	PAX7	-a>
+SIAH1	NOTCH	-a>
+ITCH	NOTCH	-a|
+ADAM17	NOTCH	-a>
+NOTCH	BMPR1A/1B/2	-a>
+NOTCH	BCL2	-t>
+NOTCH	IL7R	-t>
+NOTCH	MAML3	-a>
+PRKACA	CAMKK1	-a|
+NOTCH	MAML2	-a>
+NOTCH	JAG1	-t>
+NOTCH	CCND1	-t>
+SMAD3	FOXP3	-a>
+CCL3	CCR1	-a>
+MAP4K2	MAP3K1	-a>
+DUSP1	MAPK3	-a|
+JNK	CTNNB1	-a|
+WWTR1	DVL1	-a|
+MAPK3	ETV6	-a|
+HBEGF	EGFR	-a>
+SIRT1	NOTCH1	-a|
+PRKCA	CREBBP	-a|
+PPP3CC	NFATC1	-a>
+GRB2	MAP4K1	-a>
+GH1	GHR	-a>
+MAP3K11	MAPK8	-a>
+IKBKG	IKK-complex	-a>
+NOTCH1	HIF1A	-a>
+MAP2K6	MAPK11	-a>
+LRP6	GSK3B/Axin/APC	-a|
+PLCE1	HRAS	-a>
+PLD1	AC1NUST0	-a>
+CDK1	RPS6KB1	-a>
+MAPK14	BCL2	-a|
+NRAS	RAF1	-a>
+LPAR1	GNAQ	-a>
+RPS6KA3	BAD	-a|
+GRB2	CBL	-a>
+GLI2	BMP2	-t>
+MAP3K11	MAP2K4	-a>
+MAP4K1	MAPK8	-a>
+SRC	IKK-complex	-a>
+MAP3K11	MAPK9	-a>
+SRC	PTPRA	-a>
+WNT9B	LRP6	-a>
+CyclinB/CDK1	MAPK6	-a>
+CBLC	LRIG1	-a|
+BMPR2	BMPR1B	-a>
+CSNK1E	ROR2	-a>
+LPAR1	GNAI1	-a>
+GRB2	ABL1	-a>
+ERBB4	STAT5A	-a>
+WNT11	MUSK	-a>
+DKK1	LRP6	-a|
+E2F1	PPARG	-t>
+SREBF1	FASN	-t>
+TGFB1	PI3K	-a>
+TGFB1	PIK3R1	-a>
+DAB2	LRP6	-a|
+YAP1	TP73	-a>
+E2F1	CDC25A	-t>
+NR3C1	CEBPA	-t>
+NR3C1	KLF5	-t>
+PDGFRA	AKT1	-a>
+PDGFRA	ERK1/2	-a>
+ERBB4	PIK3CB	-a>
+PRC2	CDKN2A	-t|
+WT1	DNMT3A	-t>
+PRC2	HOXA9	-t|
+ASXL1	HOXA9	-t|
+DNMT3A	HOXA9	-t|
+ERBB4	PIK3CG	-a>
+GFI1	EGR2	-t|
+PRKAA1	TET2	-a>
+AMPK	TET2	-a>
+SOX4	CTNNB1	-a>
+KIT	PTPN11	-a>
+TSC22D3	FOXO1	-a|
+HIC1	SIRT1	-t|
+HMGA1	KITLG	-t>
+CAV1	HMGA1	-a>
+GATA1	GFI1B	-t>
+POU2F1	GFI1B	-t>
+NFYA	GFI1B	-t>
+TSC22D3	FOXO3	-a|
+TSC22D3	FOXO4	-a|
+ADRB2	GNAS	-a>
+PRKCD	EP300	-a|
+GATA1	HOXA10	-t|
+FLI1	HOXA10	-t|
+DUSP6	MAPK1	-a|
+AXIN1	MAP3K1	-a>
+CREB1	PPARGC1A	-t>
+PAX3	LEF1	-a>
+PPARGC1A	MSTN	-t|
+PPARGC1A	IGF1	-t>
+HOXB13	AR	-t|
+HOXB13	TCF4	-t|
+SIRT2	CDKN1A	-t|
+ING1	CDKN1A	-t>
+ING1	SIRT2	-a|
+ING1	BAX	-t>
+STAT5A	PIM2	-t>
+ING1	CASP3	-t>
+ING1	TP53	-t>
+GSK3A	NOTCH1	-a|
+IRF5	IL1B	-t>
+NfKb-p65/p50	IL6	-t>
+TBX21	IL4	-t|
+NfKb-p65/p50	IL4	-t>
+CIITA	IL4	-t|
+GATA3	IL4	-t>
+IRF4	IL4	-t>
+NFATC2	IL4	-t>
+JUNB	IL4	-t>
+LEF1	IL4	-t|
+POU2F1	IL4	-t|
+PROX1	IFNG	-t|
+TBX21	IFNG	-t>
+PROX1	RORC	-a|
+NfKb-p65/p50	CCL2	-t>
+ATF2	IL6	-t>
+CyclinB/CDK1	SIRT1	-a>
+AP1	IL6	-t>
+IRF5	IL10	-t|
+STAT3	IL10	-t>
+FLI1	IL10	-t>
+STAT3	TGFB1	-t>
+IRF5	TNF	-t>
+STAT6	KLF4	-a>
+STAT6	KLF4	-t>
+KLF4	TNF	-t|
+ATF1	IL10	-t>
+CREB1	IL10	-t>
+CEBPB	IL10	-t>
+TBX21	IL10	-t|
+FOXP3	IL10	-t>
+LEF1	CEBPA	-t>
+MAPK9	BAZ1B	-a>
+MAPK3	BAZ1B	-a>
+MAFA	PDX1	-t>
+CyclinB/CDK1	TP73	-a|
+CyclinB/CDK1	MYOD1	-a|
+POU1F1	GH1	-t>
+PAK1	CTNNB1	-a>
+MECP2	CCND1	-t|
+TNF	IRS1	-a|
+LHX2	MSX1	-a|
+TYK2	STAT1	-a>
+MTA1	CDH1	-t|
+MTA1	SNAI1	-t>
+MTA1	SNAI2	-t>
+MTA1	CXCL1	-t>
+FBXW7	NOTCH4	-a|
+NANOG	CDX2	-t|
+CyclinB/CDK1	NCOA3	-a|
+CyclinB/CDK1	RUNX1	-a>
+NANOG	GATA2	-t|
+BTG2	NFE2L2	-a>
+MAPK14	FGFR1	-a|
+NFE2L2	HMOX1	-t|
+NfKb-p65/p50	CCR3	-t>
+NfKb-p65/p50	CCL11	-t>
+PTPRR	MAPK14	-a|
+NCK1	ABL1	-a|
+SIRT1	NCOR1	-a>
+SIRT1	NCOR2	-a>
+NCOR1	PPARG	-t|
+NCOR2	PPARG	-t|
+EP300	MEF2C	-a>
+INS	INSR	-a>
+INS	FOXO1	-a|
+MAPK3	GTF2I	-a>
+MAP4K1	MAP3K1	-a>
+CyclinB/CDK1	TSC1	-a|
+CyclinB/CDK1	SP1	-a>
+PRKD1	RIN1	-a|
+EP300	MEF2D	-a>
+EP300	MEF2A	-a>
+CyclinD/CDK4	MEF2A	-a|
+CyclinD/CDK4	MEF2C	-a|
+CyclinD/CDK4	MEF2D	-a|
+CyclinD/CDK4	MYOD1	-a|
+CyclinD/CDK4	MYOG	-a|
+DAB2IP	AKT	-a|
+ZAP70	LAT	-a>
+CREB1	HES1	-t>
+DAB2	DAB2IP	-a>
+DAB2IP	HRAS	-a|
+DAB2IP	KRAS	-a|
+DAB2IP	NRAS	-a|
+DAB2IP	MAP3K5	-a>
+DAB2IP	ERN1	-a>
+DAB2IP	PIK3CA	-a|
+DAB2IP	CTNNB1	-a|
+PP2Ca_R1A_Bd	MAP3K5	-a>
+TGFBR1	RAC1	-a>
+DAB2IP	AR	-a|
+PP2Ca_R1A_Bd	AR	-a|
+DAB2IP	JAK2	-a|
+DAB2IP	STAT3	-a|
+STAT3	BIRC5	-t>
+DAB2IP	PROX1	-t|
+DAB2IP	HIF1A	-a|
+PROX1	HIF1A	-a>
+DAB2IP	KIT	-t|
+DAB2IP	GATA1	-a>
+GATA1	KIT	-t|
+DAB2IP	14-3-3	-a|
+FBXW7	DAB2IP	-a|
+SKP2	DAB2IP	-a|
+SMURF1	DAB2IP	-a|
+XIAP	CASP3	-a|
+NFKB1	CTCF	-t|
+BCL3	NFKB1	-a>
+DAB2IP	GSK3B	-a>
+DAB2IP	PP2Ca_R1A_Bd	-a>
+PP2Ca_R1A_Bd	GSK3B	-a>
+AKT1	DAB2IP	-a|
+NfKb-p65/p50	CD40	-t>
+NfKb-p65/p50	MMP9	-t>
+STAT5A	IRF5	-t>
+FZD6	DVL1	-a>
+NHLH2	ASCL1	-t>
+HES1	ASCL1	-t|
+ATR	TP53	-a>
+NFYA	SP1	-a>
+IL22RA1	TYK2	-a>
+NHLH2	HES1	-t|
+NR0B2	CEBPA	-a|
+CyclinD/CDK4	RUNX3	-a|
+mTORC2	SGK1	-a>
+F2RL1	KLF6	-t>
+F2RL1	THBS1	-t>
+F2R	KLF6	-t>
+F2R	THBS1	-t>
+F2R	SDC4	-t>
+F2RL1	DUSP6	-t>
+F2RL1	SDC4	-t>
+F2RL1	AREG	-t>
+KDM6B	IRF4	-t>
+F2RL1	RARG	-t|
+DYRK1B	CDKN1A	-a>
+MAPK3	CASP9	-a|
+PRKACA	GSK3B	-a|
+F2RL1	ITGB4	-t|
+F2RL1	MSC	-t|
+FOS	CYP19A1	-t>
+NR5A1	CYP19A1	-t>
+NR5A2	CYP19A1	-t>
+JUN	CYP19A1	-t>
+mTORC1	GRB10	-a>
+MMP2	TGFB1	-a>
+PAX6	GCG	-t>
+CDX2	INS	-t>
+NR3C1	STAT5A	-a>
+EGR1	PITX1	-a>
+GNRH1	EGR1	-t>
+GNRH1	EGR1	-a>
+PITX1	GNRH1	-t|
+PITX2	GNRH1	-t|
+POU5F1	BMP4	-t|
+POU5F1	CDX2	-t|
+POU5F1	DKK1	-t|
+RNF8	H2AFX	-a>
+MMP9	TGFB1	-a>
+MAPK3	RPS6KA2	-a>
+SYK	PRKCA	-a>
+POU5F1	DLX5	-t|
+POU5F1	ID2	-t|
+POU5F1	NANOG	-t>
+POU5F1	SOX2	-t>
+POU5F1	TDGF1	-t>
+PI3K	BAD	-a>
+KIT	ERK1/2	-a>
+KIT	JAK2	-a>
+CDK1	MDM4	-a|
+mTORC1	ULK1	-a|
+FOXA2	DLK1	-a>
+AKT	FOXA2	-a|
+PITX1	POU1F1	-a>
+PLD2	ERK1/2	-a>
+ACVR2B	SMAD2	-a>
+ACVR2B	SMAD3	-a>
+SMAD3/SMAD4	MYOD1	-a|
+SMAD3/SMAD4	MYOD1	-t|
+NR3C1	FBXO32	-t>
+MAP2K6	MAPK10	-a>
+KIT	SRC	-a>
+MAP2K6	MAPK9	-a>
+GNAI1	cAMP	-a|
+PLCB2	inositol 1,4,5-trisphosphate	-a>
+PLCB3	inositol 1,4,5-trisphosphate	-a>
+RORC	IL17A	-t>
+IL6ST	ERK1/2	-a>
+ABI1	ABL1	-a>
+VAV1	MAPK1	-a>
+TGFBR1	ERK1/2	-a>
+RIPK1	DAB2IP	-a>
+CSNK2B	SET	-a|
+CSNK2A1	SET	-a|
+AKT	BMI1	-a>
+CSF2RA	JAK2	-a>
+SRC	KRAS	-a>
+SRC	DAB1	-a>
+MAPK14	PRC2	-a>
+MAPK14	ZFP36	-a|
+IL6R	JAK2	-a>
+CBP/p300	RELA	-a>
+CDC25C	CyclinB/CDK1	-a>
+CBP/p300	MYOD1	-a>
+POU5F1	CDKN1A	-t|
+CDC42	MAPK14	-a>
+IKBKB	YWHAB	-a|
+AKT	MAP2K4	-a|
+HDAC9	MEF2C	-a|
+P300/PCAF	SMAD2	-a>
+P300/PCAF	SMAD3	-a>
+RUNX2	SNAI2	-t>
+RUNX2	VEGFC	-t>
+RUNX2	MMP2	-t>
+JAK2	STAT1	-a>
+REST	BDNF	-t|
+HIP1	REST	-t>
+RUNX2	VEGFA	-t>
+RUNX3	FADD	-t>
+RUNX2	TWIST1	-t>
+RUNX3	CFLAR	-t|
+RUNX3	IKBKB	-t|
+RUNX3	CHUK	-t|
+RUNX3	PEA15	-t|
+RUNX3	TRAF6	-t>
+RUNX3	ING1	-t>
+IGF1R	calcium ion	-a>
+Calcineurin	MYOD1	-a>
+LATS2	WWTR1	-a|
+SRC	FHIT	-a>
+CRTC2	AKT1	-a>
+CIITA	MYOG	-a|
+CCL2	CCR2	-a>
+CHUK	CCND1	-a|
+CCR2	ERK1/2	-a>
+CCR1	ERK1/2	-a>
+CCR5	ERK1/2	-a>
+SALL4	ZEB1	-t>
+SALL4	CDH1	-t|
+SALL4	HOXA9	-t>
+SALL4	PTEN	-t|
+MAPK10	SFN	-a|
+NR0B2	NR1I3	-a|
+IGF1	PPP3CA	-a>
+ATR	CREB1	-a|
+TP63	PERP	-t>
+CHUK	NfKb-p65/p50	-a|
+MDM2	CDKN1A	-a|
+MYCN	SIRT2	-t>
+MYC	SIRT2	-t>
+SIRT2	MYCN	-a>
+SIRT2	MYC	-a>
+TNF	SNAI2	-t>
+SNAI2	ESR1	-t|
+SNAI2	CDH1	-t|
+TWIST1	CDH1	-t|
+PRKCD	IRS1	-a|
+SNAI2	JAG1	-t>
+ZEB1	CDH1	-t|
+ZEB2	CDH1	-t|
+NME1	CTGF	-t|
+NME1	LPAR1	-t|
+NME1	MET	-t|
+NME1	MMP2	-t|
+NME1	PTN	-t|
+NME1	SMO	-t|
+NME1	FZD1	-t|
+HDAC5	MEF2A	-a|
+PRKCA	NOXA1	-a|
+SOX9	MITF	-a>
+SOX9	CDKN1A	-t>
+HDAC7	PLAG1	-a|
+PRKACA	NfKb-p65/p50	-a>
+SIRT1	NHLH2	-a>
+GSK3B	NfKb-p65/p50	-a>
+PRKCZ	NfKb-p65/p50	-a>
+RPS6KA4	NfKb-p65/p50	-a>
+IKBKG	NfKb-p65/p50	-a>
+CASP8AP2	NfKb-p65/p50	-a>
+NFKBIA	NfKb-p65/p50	-a|
+PPP2CA	NfKb-p65/p50	-a|
+RPS6KA5	NfKb-p65/p50	-a>
+PLK1	FBXO5	-a|
+SRC	GTF2I	-a>
+CDK8	NOTCH1	-a|
+CHUK	NCOR2	-a|
+ATM	SIAH1	-a|
+SRF	PLAU	-t>
+SOCS1	STAT1	-t|
+STAT3	HSPA1A	-t>
+STAT3	HSPA1B	-t>
+HSPH1	HSPA1A	-t>
+HSPH1	HSPA1B	-t>
+AMOT/MPP5/INADL/LIN7C	YAP1	-a|
+STAT3	SALL4	-t>
+AMOT/MPP5/INADL/LIN7C	WWTR1	-a|
+TBX5	CDKN2A	-t>
+TBX5	MTSS1	-t>
+SRC	PLCG1	-a>
+PRKAA2	IKK-complex	-a>
+SPRY1	SOS1	-a|
+AKT1	IKK-complex	-a>
+SMAD1/4	CEBPB	-a>
+SMAD1/4	BMP4	-t>
+SMAD1/4	BMP7	-t>
+BMPR1A	SMAD5	-a>
+BMPR1A	SMAD1	-a>
+BMPR1B	SMAD9	-a>
+AKT2	IKK-complex	-a>
+PRKCD	GSK3A	-a|
+MAPK11	RUNX2	-a>
+AKT3	IKK-complex	-a>
+STK11	AMPK	-a>
+TFDP1	E2F1	-a>
+MAPK8	MAPK8IP1	-a>
+JAK2	CCR2	-a>
+HSP90AB1	AR	-a>
+HSP90AA1	AR	-a>
+PLAUR	KRT1	-a>
+ABL1	JUN	-a>
+LRIG1	ERBB3	-a|
+MKNK1	PLA2G4A	-a>
+ABL1	PSTPIP1	-a>
+RPS6KA4	FOS	-a>
+CSNK2A1	ARNT	-a|
+MAPK9	CDC25C	-a|
+NUMB	MDM2	-a|
+ULK2	AMPK	-a|
+SMO	SRC	-a>
+CAMKK2	AMPK	-a>
+MAPK1	CyclinE/CDK2	-a>
+14-3-3	WWTR1	-a|
+CDC25B	CyclinB/CDK1	-a>
+ABL1	MDM2	-a|
+PRKDC	CHEK2	-a>
+RPS6KA1	mTORC1	-a>
+BMP7	BMPR1A/1B/2	-a>
+MAPK8	STAT6	-a|
+BMP2	BMPR1A/1B/2	-a>
+GSK3B	HDAC4	-a|
+PRKAA2	CRTC2	-a|
+ABL1	RIN1	-a>
+ERK1/2	BRAF	-a|
+ICK	mTORC1	-a>
+14-3-3	mTORC1	-a|
+FN1	FN1/SDC4	-a>
+SDC4	FN1/SDC4	-a>
+FN1/SDC4	WNT7A	-a>
+IKBKB	BAD	-a|
+NfKb-p65/p50	CCND1	-t>
+NfKb-p65/p50	CCND1	-a>
+RELA	CBP/p300	-a>
+PPP2CA	RPS6KB1	-a|
+RUNX2	CREBBP	-a>
+MAPK14	SUZ12/EZH2	-a>
+VAV1	CBL	-a>
+MAPK8	RXRA	-a|
+EGFR	JAK1	-a>
+SMAD6	SMAD1/4	-a|
+PAX7	MLL2 complex	-a>
+RET	PDPK1	-a>
+MAP3K5	MAP2K3	-a>
+FGFR1	FRS2	-a>
+RIPK1	FAS	-a>
+MAPK1	BCL2L11	-a|
+FGFR2	FRS2	-a>
+AXIN1	SMAD7	-a|
+FRS2	GRB2	-a>
+AXIN2	CTNNB1	-a|
+SYK	BTK	-a>
+EGFR	PLCG1	-a>
+MCOLN1	calcium ion	-a>
+BAZ1B	MDC1	-a|
+DAB2IP	ZEB1	-t|
+PRKCE	CTNND1	-a|
+DAB2IP	PIK3R1	-a|
+PPM1A	SMAD2	-a|
+JAK2	PRMT5	-a|
+BMP4	BMPR1A	-a>
+MSI1	NUMB	-a|
+FN1	MAPK3	-a>
+SMAD3/SMAD4	CEBPB	-a|
+GATA3	CEBPA	-a|
+SMO	GATA3	-a>
+SOCS3	IL6ST	-a|
+SOCS3	JAK2	-a|
+SOCS3	STAT3	-a|
+STAT3	FBXO32	-a>
+CEBPD	MSTN	-a>
+STAT3	CEBPD	-a>
+STAT3	CASP3	-a>
+CBP/p300	FLI1	-a|
+IL6	AMPK	-a>
+MSTN	AKT	-a|
+MSTN	ACVR2B	-a>
+nitric oxide	NfKb-p65/p50	-a>
+NfKb-p65/p50	MYOD1	-a|
+NfKb-p65/p50	NOS2	-t>
+NfKb-p65/p50	TNF	-t>
+PTGS2	dinoprost	-a>
+dinoprost	MYOD1	-a>
+RBPJ/NOTCH	PAX7	-t>
+RBPJ	NOTCH	-t|
+NUMB	NOTCH	-a|
+MCM2	ATR	-a>
+LYN	CDKN1B	-a|
+NOS2	nitric oxide	-a>
+TBX5	FGF10	-t>
+TCF3	CDKN1A	-t>
+TCF3	BBC3	-t|
+TCF4	CCND1	-t>
+PRKAA2	SREBF1	-a|
+arachidonic acid	FOS	-a>
+arachidonic acid	PLA2G4A	-a>
+GNAQ	HRAS	-a>
+arachidonic acid	PTGS2	-a>
+PSEN1	g-secretase	-a>
+ULK2	PRKAA2	-a|
+ULK2	PRKAB1	-a|
+CDK1	EZH2	-a|
+SRC	CAV1	-a|
+FYN	CAV1	-a|
+PPP1CC	CDK9	-a>
+GRB10	IGF1R	-a|
+TRIP11	THRA	-a>
+GRB10	INSR	-a|
+STAT3	MYC	-a>
+IL6	STAT3	-a>
+PKN1	EGFR	-a|
+STAT3	MYOD1	-a>
+AMPK	TSC1/TSC2	-a>
+IKBKB	NFKBIA	-a|
+ABL1	CRKL	-a|
+BCL2L1	BAK1	-a|
+TP53	EGFR	-t>
+TP53	FGF2	-t|
+TGFB1	TFAP4	-t|
+RAC1	MAPK14	-a>
+TP53	THBS1	-t>
+CDK7	TP53	-a>
+MAP3K1	MAP2K7	-a>
+PDGFRB	SRC	-a>
+PPP2CA	SRC	-a|
+PDGFRA	SRC	-a>
+TP53	MMP2	-t>
+GHR	MAP2K5	-a>
+MAP2K5	MAPK7	-a>
+MAPK7	KLF2	-t>
+PRKACA	SRC	-a>
+CDK4	MEF2C	-a|
+MAPK7	KLF4	-t>
+KLF2	NPNT	-t>
+KLF4	NPNT	-t>
+GHR	NFATC2	-a>
+HEY1	MYOG	-t|
+TP73	BBC3	-t>
+TP73	CDKN1A	-t>
+MDM2	TP73	-a|
+CHEK1	TP53	-a>
+LRP6	GSK3B	-a>
+PML	SMAD2	-a>
+EFNA1	EPHA3	-a>
+calcium ion	CAMK2A	-a>
+PRKAA1	CRTC2	-a|
+TWIST1	ATM	-t>
+PRKAA1	HDAC7	-a|
+TWIST1	F2R	-t|
+TWIST1	FN1	-t>
+TWIST1	HGF	-t>
+TWIST1	SNAI2	-t>
+TWIST1	MMP2	-t>
+TWIST1	FOS	-t>
+TWIST1	ILK	-t|
+CDK2	MYOD1	-a|
+PRKAA1	HDAC5	-a|
+TWIST1	NF1	-t|
+TWIST1	NR2F1	-t>
+TWIST1	RBL2	-t|
+CDK4	MEF2A	-a|
+IRF9	STAT2	-a>
+TGFB1	PIK3CG	-a>
+WNT1	FZD1	-a>
+TGFBR2	PIK3R1	-a>
+PDX1	INS	-t>
+CSNK1E	DVL1	-a>
+SRC	CDH2	-a|
+STK4	SAV1	-a>
+PAK1	HACE1	-a|
+HACE1	RAC1	-a|
+CSF1	CSF1R	-a>
+CSF1R	ERK1/2	-a>
+CSF1R	SOCS1	-a>
+CSF2RA/CSF2RB	PI3K	-a>
+CSF2RA/CSF2RB	ERK1/2	-a>
+CDK4	MYOD1	-a|
+ATM	ABRAXAS1	-a>
+TWIST1	RUNX2	-t|
+PPP2R2A	PPP2CA	-a|
+VHL	DAB2	-t>
+CREBBP	STAT2	-a>
+MAPK3	SP1	-a>
+WWTR1	LTBR	-t>
+WWTR1	BAK1	-t>
+WWTR1	BAX	-t>
+YBX1	CDH1	-t>
+TGFB1	PPP2R2A	-a>
+ZEB1	GRHL2	-t|
+GRHL2	ZEB1	-t|
+RAC1	PAK1	-a>
+PPP2CA	SP1	-a>
+ALOX5	STAT5A	-a|
+FZD7	RAC1	-a>
+CTNNB1	MYOD1	-a>
+BCL2L1	BAD	-a>
+PPP1R8	EZH2	-a>
+STAT5A	DNMT3A	-t>
+CDK2	EZH2	-a>
+PPP1R8	PPP1CA	-a|
+ID1	AKT1	-a>
+CASP8	CASP9	-a>
+PJA1	EZH2	-a|
+MTOR	DEPTOR	-a|
+RPS6KA1	TSC1/TSC2	-a|
+TSC1/TSC2	MTOR	-a|
+KIT	GRB7	-a>
+RPS6KB1	DEPTOR	-a|
+SET	PPP2CA	-a|
+PRKACA	IRS1	-a|
+CDC42	PAK1	-a>
+RAC1	PAK2	-a>
+CDC42	PAK2	-a>
+CASP3	CASP9	-a>
+AKT2	RAF1	-a|
+RPS6KA1	DEPTOR	-a|
+RAC1	PAK	-a>
+CRK	CBL	-a>
+HSPB1	CASP3	-a|
+CDC42	PAK	-a>
+SIRT1	PPARGC1A	-a>
+SIRT1	PPARGC1A	-t>
+PPARGC1A	FOXO3	-t|
+PPARGC1A	FOXO3	-a|
+BMPR1A/1B/2	SMAD1	-a>
+PPARGC1A	NfKb-p65/p50	-t|
+NOTCH1	RBPJ	-a>
+ATR	PI4K2A	-a|
+MAPK8	STAT3	-a>
+EGFR	STAT1	-a>
+EGFR	STAT3	-a>
+SRC	STAT1	-a>
+MET	PTK2	-a>
+RNF111	SKI	-a|
+MAPK3	GSK3B	-a|
+SIK1	CRTC3	-a|
+CDK2	FOXO4	-a|
+PPM1A	IKBKB	-a|
+CDK1	SREBF1	-a>
+CLSPN	CHEK1	-a>
+EGFR	GRB2	-a>
+DDX5	RUNX2	-a>
+RET	GRB10	-a>
+JAK2	IFNGR2	-a>
+IFNG	SOCS1	-t>
+IGF1R	PIK3R3	-a>
+PRKAA2	IKBKB	-a>
+PRKCA	PLA2G4A	-a>
+BBC3	BCL2	-a|
+CyclinB/CDK1	CASP8	-a|
+MAPK3	CEBPA	-a|
+IKBKB	TSC1	-a|
+NRARP	RBPJ/NOTCH	-a|
+IKBKB	FOXO3	-a|
+BUB1	CDC20	-a|
+PRKACA	SRF	-a|
+CyclinB/CDK1	CDC25B	-a>
+CAMK1	ATF1	-a>
+SMO	GNG12	-a>
+BTK	STAT5A	-a>
+FZD7	GNAS	-a>
+PRKD1	SNAI1	-a|
+SFN	SNAI1	-a|
+ABL2	CRK	-a|
+PPP2CA	MAP3K3	-a|
+MAPK1	MKL1	-a|
+TAX1BP1	TNFAIP3	-a>
+TNFRSF21	TRADD	-a>
+MAPK8	JUN	-a>
+TICAM2	TICAM1	-a>
+YAP1	FBXO32	-a|
+SOCS3	IRS1	-a|
+CTNNB1	TCF4	-a>
+CHEK1	CDC25C	-a|
+IGF1	PPP3CB	-a>
+SOCS1	JAK1	-a|
+UBE2V1	TRAF6	-a>
+IKBKE	FOXO3	-a|
+TP53RK	TP53	-a>
+IKBKG	IKBKB	-a>
+TEAD1	BMP4	-t>
+RIPK1	TAB3	-a>
+YAP1	BMP4	-t>
+HES6	E2F1	-t>
+CHEK1	CDC25A	-a|
+CCND1	MSI1	-t>
+ERBB2	MSI1	-t>
+BCL3	MDM2	-t>
+JNK	IRS1	-a|
+AKT1	XIAP	-a>
+PRKAA1	CYCS	-t>
+HRAS	RAF1	-a>
+TICAM1	TBK1	-a>
+AKT1	GATA2	-a|
+MAPK1	CEBPA	-a|
+INS	GATA2	-a|
+YAP1	FSTL3	-t>
+RARA	NR4A1	-t|
+TNFRSF1A	NFKBIA	-a|
+HES1	E2F1	-t|
+CDK2	GRK2	-a|
+MAPK1	STK11	-a|
+ULK1	PRKAA2	-a|
+TAB3	MAP3K7	-a>
+DYRK1B	CCND1	-a|
+PRKCE	BAD	-a|
+CREBBP	MYOD1	-a>
+CAMK2A	CEBPB	-a>
+DYRK1B	CDKN1B	-a>
+GSK3B	PTEN	-a|
+RNF111	SMAD3	-a|
+PRKD1	BAD	-a|
+SFRP1	WNT4	-a|
+DYRK1B	HDAC9	-a|
+PHLPP1	RAF1	-a|
+PRKCZ	IRS1	-a|
+TRAF3	MAP3K14	-a|
+TNF	AKT1	-a>
+MAPK14	PPARGC1A	-a>
+RIPK1	TAB2	-a>
+MAML1	TP53	-a>
+ATM	AKT1	-a|
+ERK1/2	RPS6KA3	-a>
+CHEK2	TTK	-a>
+ATM	KHSRP	-a>
+CHUK	MAP3K14	-a|
+DYRK1B	MEF2C	-a>
+MAPK10	CDC25C	-a|
+MAPK8	CDC25C	-a|
+MAPK14	MAPKAPK2	-a>
+TNF	AKT2	-a>
+MAPK3	NOXA1	-a|
+MAPK1	NOXA1	-a|
+RIPK1	IKBKG	-a>
+RPS6KA1	TSC2	-a|
+SUFU	GLI3	-a|
+PHB2	MEF2A	-a|
+AKT1	DNMT1	-a>
+TRIM27	MAPK11	-a>
+IGF1	PPP3CC	-a>
+BAD	BCL2	-a|
+BBC3	BCL2L1	-a|
+PRKACA	CIITA	-a|
+PTPN6	SYK	-a|
+PTPN6	ZAP70	-a|
+KNL1	BUB1	-a>
+EFNA1	EPHA2	-a>
+MAPK14	MYOD1	-a>
+PELI1	IRAK1	-a>
+PHB2	MYOD1	-a|
+ZAP70	MAPK14	-a>
+MAPK14	TCF3	-a>
+PTCRA	ZAP70	-a>
+GSK3B	BAX	-a>
+ERBB4	PIK3CA	-a>
+MAPK14	SIAH2	-a>
+RPS6KA2	NFKBIA	-a|
+SMAD2	MEF2A	-a>
+MYOD1	SMARCD3	-a>
+CALM1	CAMKK1	-a>
+SRC	NOS2	-a>
+SMARCD3	MYOG	-t>
+AKT1	EZH2	-a|
+TNF	MAPK14	-a>
+SPAG9	MAPK14	-a>
+CDON	SPAG9	-a>
+MAPK14	STAT1	-a>
+NDN	EID1	-a>
+EIF2AK2	CDK1	-a|
+PPP3CC	NFATC2	-a>
+AURKB	ATM	-a>
+ATM	BUB1	-a>
+MAPK9	JUNB	-a|
+MAPK14	MEF2D	-a>
+KAT5	MYOD1	-a>
+RB1	E2F1	-a|
+MAP3K5	MAP2K7	-a>
+MYOG	FBXO32	-a|
+RANBP9	DYRK1B	-a|
+FGFR1	MEK1/2	-a>
+MAPK8IP1	RBPJ	-a|
+MAPK10	TP53	-a>
+SMAD3/SMAD4	ATF2	-a>
+MSX1	MYOD1	-t|
+TNFSF10	TNFRSF10B	-a>
+FYN	PRKCQ	-a>
+MAML1	MEF2C	-a>
+MAML1	CTNNB1	-a>
+AKT2	EP300	-a>
+PRKAA2	INSR	-a>
+SMARCD3	MYOD1	-a>
+SMAD3/SMAD4	JUNB	-t>
+PTCRA	LCK	-a>
+MAP3K4	MAPK14	-a>
+mTORC1	HIF1A	-a>
+TRAF6	MAP3K7	-a>
+SMURF2	TGFBR2	-a|
+MAPK14	MEF2C	-a>
+MAPK14	SMARCD3	-a>
+MYOD1	RB1	-t>
+PPP3CA	MEF2C	-a>
+ZNHIT1	MYOG	-t>
+HDAC4	MEF2A	-a|
+ERK1/2	CEBPA	-t>
+HDAC4	MEF2C	-a|
+SMURF1	RUNX2	-a|
+HDAC4	MEF2D	-a|
+BNIP2	CDC42	-a>
+CDON	BNIP2	-a>
+PTPN1	TYK2	-a|
+SMURF1	SMAD6	-a|
+HDAC1	MYOD1	-a|
+PPP1R2	PPP1CA	-a|
+ATM	EP300	-a>
+AKT1	CDK2	-a>
+SRC	RASA1	-a|
+BRCA1	ATM	-t>
+PRKACA	PPP2R5D	-a>
+LEF1	PITX2	-t>
+AKT2	GSK3A	-a|
+ABL2	CEBPB	-a>
+ERBB2	ERBB4	-a>
+MAPK7	MEF2C	-a>
+WNT7B	LRP5	-a>
+VEGFC	KDR	-a>
+PITX2	MYOD1	-t>
+INS	IGF1R	-a>
+BRSK1	CDC25B	-a|
+GH1	PRLR	-a>
+CHEK1	NFKB1	-a|
+IGF2	INSR	-a>
+WWTR1	PPARG	-a|
+VEGFC	FLT4	-a>
+WNT10A	CTNNB1	-a>
+PRKACA	ERBB2	-a>
+PRKACA	RHOA	-a|
+MAP2K7	FADD	-a|
+PRKACA	CTNND1	-a|
+SPRY2	CBLC	-a|
+TGFB1	CDK4	-t|
+MAPK3	PAK1	-a|
+PLK1	CLSPN	-a|
+SRC	ESR1	-a>
+ARHGEF1	RHOA	-a>
+CP	SMO	-a|
+ERK1/2	CEBPB	-a>
+coenzyme I	SIRT1	-a>
+MAPK14	USF1	-a>
+MAPK14	CDKN1A	-a>
+MAP2K3	DYRK1B	-a>
+MAPK1	SP1	-a>
+MAPK3	FOXO3	-a|
+IL6ST	JAK2	-a>
+PRKAA1	NAMPT	-t>
+FOXO3	RBL2	-t>
+NOTCH1	HEY1	-t>
+MAP2K7	IRS1	-a|
+SOCS3	JAK3	-a|
+AKT1	P300/PCAF	-a>
+SMAD6	SMAD3	-a|
+MAP3K7	MAP2K6	-a>
+SMURF2	SKIL	-a|
+JAG1	NOTCH1	-a>
+AKT2	P300/PCAF	-a>
+MAP3K7	MAP2K3	-a>
+SMAD6	SMAD4	-a|
+SMURF1	SMAD4	-a|
+CyclinE/CDK2	ID2	-a|
+AKT2	CASP9	-a|
+CyclinE/CDK2	TP73	-a|
+SKIL	SMAD2	-a|
+SKIL	SMAD4	-a|
+PIK3CA	MTOR	-a>
+JNK	SMAD3	-a>
+CAMK2G	NCOR2	-a|
+MAP2K4	JNK	-a>
+NOTCH1	HES1	-t>
+MAPK14	PLA2G4A	-a>
+SMURF2	SMAD7	-a|
+SRC	CDKN1B	-a|
+JNK	JUN	-a>
+MAP3K3	MAP2K3	-a>
+MAPK1	MAP3K5	-a>
+ADAM17	TNF	-a>
+MAP3K3	MAP2K4	-a>
+SMAD7	TGFBR1	-a|
+IL6ST	SHC1	-a>
+JAK2	EZH2	-a|
+MAP3K4	MAP2K6	-a>
+TGFBR1	TRAF6	-a>
+MEF2A	MYOD1	-a>
+MEF2C	MYOD1	-a>
+PPM1A	MAPK14	-a|
+MAPK14	CASP3	-a|
+MAPK14	CASP8	-a|
+RPS6KA5	CREB1	-a>
+MAPK14	MAPKAPK5	-a>
+CBP/p300	SMAD3	-a>
+AKT3	STK3	-a|
+AKT2	STK3	-a|
+p38	CDC25B	-a|
+SIRT1	EP300	-a|
+WNT7B	MYOD1	-a>
+MAPK14	MEF2A	-a>
+ATM	MDM2	-a|
+MAP3K14	NfKb-p65/p50	-a>
+AMPK	NAMPT	-t>
+SIRT1	TP53	-a|
+SMAD7	SMURF2	-a>
+DVL3	FRAT1	-a>
+SKI	SMAD2	-a|
+JUN	SMAD4	-a>
+NOTCH1	PIN1	-t>
+GRB7	RND1	-a>
+RPA2	MRE11	-a>
+DVL1	AXIN1	-a|
+GNAS	AXIN1	-a>
+PPM1A	AXIN1	-a|
+EGFR	ERBB3	-a>
+GSK3B	CIITA	-a>
+PGR	ESR1	-a>
+AKT	MAPK14	-a|
+estradiol	MAPK15	-a>
+estradiol	MAPK3	-a>
+WNT5A	AXIN1	-a|
+AXIN1	CSNK1D	-a>
+RPS6KB1	ESR1	-a>
+GSK3B	CTNNB1	-a|
+MDM2	NUMB	-a|
+MMP3	HBEGF	-a>
+AXIN2	GSK3B	-a>
+DVL1	GSK3B	-a|
+FRAT1	GSK3B	-a>
+TP53	GADD45A	-t>
+AIMP1	SMURF2	-a>
+SRC	PTK2B	-a>
+PARD6A	PRKCA	-a>
+AURKB	KNL1	-a|
+TGFBR1	RHOA	-a>
+TGFBR1	SHC1	-a>
+NUMB	TP53	-a>
+SMO	KIF7	-a>
+KIF7	GLI3	-a>
+FOXO3	FASLG	-t>
+GLI1	HHIP	-t>
+PRL	PRLR	-a>
+EGFR	ESR1	-a>
+GPER1	EGFR	-a>
+GLI2	GLI1	-t>
+CDK5	CDK5R1	-a|
+GLI2	PTCH1	-t>
+GLI2	HHIP	-t>
+TEAD1	FOXO3	-t>
+PPP2R2A	TGFBR1	-a>
+MAPK3	TWIST1	-a>
+MAPK11	TWIST1	-a>
+MAPK14	TWIST1	-a>
+ABL1	ESR1	-a>
+MAPK8	TWIST1	-a>
+VEGFA	FLT1	-a>
+CDK2	PELP1	-a>
+CDK2	CDC25C	-a>
+CDK4	PELP1	-a>
+CAMK2A	NOS1	-a|
+MAPK3	SMAD1	-a|
+AKT1	BRCA1	-a>
+AKT2	MTOR	-a>
+estradiol	ESR1	-a>
+estradiol	ESR2	-a>
+FGFR2	MEK1/2	-a>
+CDK6	CDKN1A	-a|
+MAPK1	ESR1	-a>
+CDK1	MCL1	-a>
+MAPK8	MCL1	-a>
+MAPK1	MCL1	-a>
+SREBF1	PKM	-t>
+LRIG1	CBLC	-a>
+RPS6KA3	YBX1	-a>
+RPS6KA1	YBX1	-a>
+BMI1	PTEN	-t|
+AXIN2	APC	-a>
+CSNK1D	NCOA3	-a>
+CAMK1	NOS1	-a|
+SRC	CYP19A1	-a>
+WWTR1	SMAD2	-a>
+PIK3C2A	PIPP	-a>
+PIK3C2A	PtsIns(3,4,5)P3	-a>
+PIN1	MYC	-a>
+DLL1	PP2B	-a>
+CDK2	PGR	-a|
+ERBB2	CDK1	-a|
+MAPK3	PGR	-a|
+MAPK1	PGR	-a|
+MAPK3	MCL1	-a>
+MAPK3	CDKN1B	-a|
+CHUK	FOXO3	-a|
+ATM	RBBP8	-a|
+EP300	MYOD1	-a>
+KAT2B	MYOD1	-a>
+SRC	PTEN	-a|
+DLL3	PP2B	-a>
+E2F2	CCNE1	-t>
+AKT2	CDKN1B	-a|
+TP53	PERP	-t>
+PLK1	IKBKB	-a|
+PLK1	FADD	-a|
+FOXO1	BCL2L11	-t>
+FOXO3	BCL2L11	-t>
+BCL2L11	BAK/BAX	-a>
+GABARAP	mTORC1	-a>
+CASP3	BAD	-a>
+MAPK3	BCL2L11	-a|
+PKN1	FOXO1	-a|
+INPPL1	CBLC	-a|
+MAPK10	DIABLO	-a|
+BID	BAK/BAX	-a>
+EP300	TP53	-a>
+TGFBR1	PIK3R1	-a>
+BID	BCL2L1	-a|
+BAK/BAX	CYCS	-a>
+BCL2	BAK/BAX	-a|
+NOXA1	BCL2	-a|
+PXN	ILK	-a>
+AGTR1	GNAQ	-a>
+AGTR2	GNAQ	-a>
+MAPK3	BAD	-a|
+MAP2K1	CEBPA	-t>
+SMARCB1	CSF1	-t>
+LYN	PPP1R15A	-a>
+CAMK2D	HDAC4	-a>
+PRKAA1	SIRT1	-a>
+CDK5R1	CDK5	-a>
+RPS6KA5	RELA	-a>
+PBX1	MYOD1	-a>
+MECOM	SMAD3	-a|
+DLL1	NOTCH1	-a>
+PP2B	JUN	-a>
+CDK1	CSNK2B	-a>
+DLL3	NOTCH1	-a>
+HES1	RBPJ/NOTCH	-a|
+STK4	FOXO3	-a>
+STK4	FOXO1	-a>
+EDNRA	GNAQ	-a>
+MSX2	SPEN	-a>
+CD40	BIK	-t>
+FAS	RASSF1	-a>
+JNK	FOXO4	-a>
+WNT5B	FZD3	-a>
+MKL1	SRF	-a>
+TAB1	MAP3K7	-a>
+CDK1	SP1	-a>
+MYOCD	SRF	-a>
+PLCG1	inositol 1,4,5-trisphosphate	-a>
+TGFB1	RNF111	-t|
+WWTR1	MYOD1	-a>
+MAP3K8	PLK1	-a>
+MAPK8	PKMYT1	-a>
+PLK1	NPM1	-a>
+CSNK2A1	CDK1	-a>
+PTGER2	GNAS	-a>
+CTBP1	BHLHE41	-a>
+mTORC1	PPARG	-t>
+WNT7B	FZD1	-a>
+PPP2CA	MEK1/2	-a|
+AKT1	CLK2	-a>
+PLK1	PIN1	-a>
+CDK1	RUNX2	-a>
+CAMKK2	PRKAA2	-a>
+CRTC3	BCL3	-a>
+PRKACA	AKT2	-a>
+PRDM16	PPARG	-a>
+HDAC2	CCND1	-a>
+SHH	AKT1	-a>
+SOX2	EGFR	-t>
+BUB1	PLK1	-a>
+E2F1	HDAC1	-a>
+CDK1	BUB1	-a>
+PAK1	PLK1	-a>
+ATM	SMAD1	-a>
+MAPK1	HIF1A	-a>
+MAPK3	HIF1A	-a>
+CDK7	AR	-a|
+IL17A	KLF15	-t|
+MEK1/2	TAL1	-a|
+IL1R1	MAPK8	-a>
+ALK	SHC1	-a>
+ID2	MYOD1	-a|
+RBPJ	MAML3	-a>
+calcium ion	PPP3CA	-a>
+CBLB	NCK1	-a>
+PPP3CA	NFATC3	-a>
+PRKCA	PTPN12	-a|
+PKMYT1	CDK1	-a|
+BAG4	TNFRSF1A	-a|
+CDK5/CDK5R1	MAP2K1	-a|
+MAPK3	mTORC1	-a>
+MTOR	SGK1	-a>
+RPS6KA1	STK11	-a|
+CDK3	ATF1	-a>
+14-3-3	MAP3K5	-a|
+PPARG	CEBPA	-t>
+PRKACA	PLCB3	-a|
+WEE1	CDK2	-a|
+ACVR1	SMAD5	-a>
+MAPK3	STK11	-a|
+CSK	LYN	-a|
+HTRA2	PEA15	-a|
+14-3-3	BCL2L11	-a|
+MAPK8	AIMP1	-a|
+BTK	GTF2I	-a>
+RIPK1	IKK-complex	-a>
+PTPN7	MAPK14	-a|
+CAMKK1	PRKAA1	-a>
+CAMKK2	PRKAA1	-a>
+CD79A	BCL2L1	-t|
+AMPK	ULK1/Atg13/Fip200	-a>
+TICAM1	RIPK1	-a>
+ULK1/Atg13/Fip200	AMPK	-a|
+PRDM1	CIITA	-t|
+PDPK1	AKT3	-a>
+YAP1	CTNNB1	-a>
+KRAS	TCF3	-a>
+IL4R	JAK3	-a>
+WNT4	MYOD1	-a>
+CALM1	CAMKK2	-a>
+LYN	BTK	-a>
+BBC3	BAK1	-a>
+SMAD6	BMPR1A	-a|
+PSENEN	RYK	-a>
+CDK5	ATM	-a>
+PTPN6	JAK3	-a>
+IL1R1	MAPK10	-a>
+LATS2	SNAI1	-a>
+FHIT	AKT2	-a|
+FHIT	AKT3	-a|
+PRKAA1	TGFB1	-a|
+NOS1	HDAC2	-a|
+TRAF2	MAP3K1	-a>
+DAPK1	TP53	-a>
+CTNNB1	NOTCH1	-a>
+SMAD3/SMAD4	NfKb-p65/p50	-a|
+FOXO3	CDKN1B	-t>
+SOCS1	JAK3	-a|
+TCF3	MYOD1	-a>
+MAP4K5	GSK3B	-a|
+NOTCH2	TCF3	-a|
+NOTCH1	TCF3	-a|
+MAP3K10	TCF3	-a|
+GSK3B	ARNTL	-a|
+AC1NUST0	RAC1	-a>
+ALK	SHC3	-a>
+KIF7	GLI1	-a>
+PRKACA	RET	-a|
+SOCS1	IFNG	-a|
+PLAU	PLAUR	-a>
+BDNF	NTRK2	-a>
+CDK5	NR3C1	-a|
+IGF1R	AKT1	-a>
+MAP3K5	MAP2K4	-a>
+AR	CTNNB1	-t|
+PTPRF	LCK	-a>
+BAD	BCL2L2	-a|
+TRIM28	MDM2	-a>
+NLK	TCF4	-a|
+JAK2	GAB2	-a>
+ERK1/2	ESR1	-a>
+PRKCE	ATF2	-a>
+RBPJ	PAX7	-a>
+PIM1	MDM2	-a>
+VEPH1	YAP1	-t>
+TIAM1	RAC1	-a>
+NfKb-p65/p50	TP53	-t>
+NOTCH1	ERBB2	-t>
+LATS1	VEPH1	-t|
+LATS2	VEPH1	-t|
+VEPH1	LATS1	-t|
+VEPH1	LATS2	-t|
+PPP2CB	MYC	-a|
+CDK2	TP73	-a|
+TAOK1	MAP2K3	-a>
+MAP3K4	MAP2K4	-a>
+EPHB2	RASA1	-a>
+NTRK2	FYN	-a>
+NTRK1	SH2B2	-a>
+PTGER3	GNAI1	-a>
+PTGER3	GNB3	-a>
+SMAD6	TGFBR1	-a|
+SMAD7	SMURF1	-a>
+AKT1	MEF2C	-a>
+AKT1	MEF2D	-a>
+SMURF1	SMAD7	-a|
+SH3RF1	MAP3K10	-a>
+SH3RF1	MAP3K11	-a>
+ZFYVE9	SMAD2	-a>
+RPS6KA5	ATF1	-a>
+CDH15	CDON	-a>
+NTRK1	FRS2	-a>
+PPP2CA	MAPK3	-a|
+RARA	RXRA	-a>
+SMURF1	TGFBR2	-a|
+AKT2	BMI1	-a>
+CDK5	SRC	-a>
+DTX1	NOTCH1	-a>
+PTGS2	GSK3B	-a|
+ABL1	STK3	-a>
+GSK3B	APC	-a>
+RET	DOK4	-a>
+FGFR2	PPARG	-t>
+PRKCE	FGFR1	-a>
+EP300	DUSP1	-a>
+NF1	ADCY1	-a>
+IFNGR2/INFGR1	JAK2	-a>
+RPS6KA1	ESR1	-a>
+ERBB2	NOTCH3	-t>
+NOTCH3	HES1	-t>
+NCOA3	CCND1	-t>
+BRCA1	CDKN1B	-t>
+FOXA1	CDKN1B	-t>
+MAP2K4	MAPK9	-a>
+CDK5	PTK2	-a>
+PTGER3	GNG12	-a>
+MAPK1	RPS6KA2	-a>
+IL6R	IL6ST	-a>
+BMP7	PPARG	-t>
+VAV1	SYK	-a>
+CYCS	CASP9	-a>
+BMP2	SMAD1	-a>
+CREB1	FOXO4	-a|
+PRKACA	LATS2	-a>
+SMAD1	SMAD4	-a>
+CDKN1B	CDK1	-a|
+LFNG	NOTCH1	-a>
+14-3-3	HDAC5	-a|
+KIF7	GLI2	-a>
+MAPK1	GTF2I	-a>
+NCOR2	PGR	-a|
+MAPK1	RPS6KA3	-a>
+SMAD4	LEF1	-a>
+SMAD2	LEF1	-a>
+MAP2K1	TAL1	-a|
+PTPN6	KIT	-a|
+CDK1	TSC1	-a|
+FGF2	BMP2	-t>
+IKBKE	ESR1	-a>
+TGFBR2	ZFYVE9	-a>
+TGFBR1	ZFYVE9	-a>
+PAK1	SNAI1	-a>
+p38	CDC25C	-a|
+ESR1	PIK3R1	-a>
+PTPN6	JAK1	-a|
+BCL2L1	BAX	-a|
+GSK3B	CyclinD/CDK4	-a|
+PPP2CA	MAP2K2	-a|
+CDKN1A	CyclinE/CDK2	-a|
+CDKN1B	CyclinE/CDK2	-a|
+E2F1	CyclinE/CDK2	-t>
+TGFB1	CyclinE/CDK2	-a|
+ABL1	CD19	-a>
+ABL1	CDK5	-a>
+MAPK1	SMAD4	-a>
+TLR4	JUN	-a>
+PTPN6	TYK2	-a|
+PRKAA1	NOS2	-a|
+RPS6KA3	ESR1	-a>
+PIN1	NOTCH1	-a>
+NR2F2	MYOD1	-a|
+SRC	TIAM1	-a>
+RUNX2	NOTCH1	-a|
+NCOR2	AR	-a|
+DLL4	PP2B	-a>
+SKP2	MYC	-a|
+AURKA	FADD	-a>
+KAT2B	SMAD2	-a>
+ULK1	GABARAP	-a>
+SMAD5	SMAD4	-a>
+CSNK1A1L	GLI2	-a>
+NCK1	SOS1	-a>
+INSR	DOK4	-a>
+CDK5	STAT3	-a>
+MAPK14	STAT3	-a>
+PTPN11	EGFR	-a|
+MAPK1	JAK2	-a|
+UBE2N	UBE2V1	-a>
+PRKG1	SRF	-a|
+NFKB1	MAP3K8	-a|
+INS	DUSP6	-a|
+RB1	E2F2	-a|
+RAF1	STK4	-a|
+ROCK1	PFN1	-a|
+CyclinB/CDK1	CDC7	-a>
+TDGF1	MSTN	-a|
+PRKAA1	HDAC4	-a|
+CHEK1	SYK	-a|
+NUMB	GLI1	-a|
+TWIST1	CSNK2A1	-a|
+CDK7	RARA	-a>
+GTF2I	PRRX1	-a>
+PRKCD	TP53	-a>
+ARHGEF7	LRRK2	-a>
+TUBB	SMAD2	-a|
+PRRX1	SRF	-a>
+WNT5B	FZD6	-a>
+GNAI1	PLD2	-a|
+MAPK11	MAPKAPK5	-a>
+BCL2L1	APAF1	-a|
+BCL2L1	CASP9	-a|
+MAP3K1	STAT3	-a>
+CDK5	CLOCK	-a>
+IHH	PTCH1	-a|
+PIK3C3	PTEN	-a>
+SHC1	SOS1	-a>
+HHIP	DHH	-a|
+HHIP	IHH	-a|
+HHIP	SHH	-a|
+MAP3K1	MAP2K4	-a>
+ID1	MYOD1	-a|
+HRAS	ARAF	-a>
+SIK1	CRTC2	-a|
+GSK3B	LRP6	-a>
+GSK3B	PSEN1	-a|
+GSK3B	ROR2	-a|
+GSK3B/Axin/APC	CSNK1D	-a>
+DVL2	GSK3B/Axin/APC	-a>
+LRP5	GSK3B/Axin/APC	-a|
+DLL1	NOTCH2	-a>
+IGF1	GSK3B/Axin/APC	-a|
+MDM2	EP300	-a|
+WNT5A	GSK3B/Axin/APC	-a|
+NOTCH1	PPARG	-t>
+CSNK1D	GSK3B/Axin/APC	-a>
+GNAS	GSK3B/Axin/APC	-a>
+RBPJ	DUSP1	-a>
+FRAT1	GSK3B/Axin/APC	-a>
+14-3-3	FOXO3	-a|
+PRKACA	PLCG1	-a|
+CD28	GRB2	-a>
+PRKCA	PLCG1	-a|
+CSK	LCK	-a|
+CSNK1E	CTNND1	-a|
+INSR	PTPN6	-a>
+AXIN2	GSK3B/Axin/APC	-a>
+MAPK1	JUN	-a>
+GSK3B/Axin/APC	ROR2	-a|
+AKT2	GSK3B/Axin/APC	-a|
+GSK3B/Axin/APC	PSEN1	-a|
+CDK5	GRIN2A	-a>
+CDK5	MAPK10	-a|
+RBBP8	SPEN	-a|
+CBL	INSR	-a|
+DUSP1	MAPK9	-a|
+STK4	LATS2	-a>
+STK3	LATS2	-a>
+SYK	SHC1	-a>
+ZAP70	SHC1	-a>
+CRK	MAP4K1	-a>
+CRKL	MAP4K1	-a>
+IL23A	IL23R	-a>
+IL23R	JAK2	-a>
+IL23R	TYK2	-a>
+SRC	SHC1	-a>
+MALT1	TAB2	-a>
+LCK	LAT	-a>
+CDK5	RB1	-a|
+AURKA	LATS2	-a>
+LCK	NOTCH1	-a>
+JAK1	JAK3	-a>
+CDK2	SIRT2	-a|
+MAP3K5	MAP2K6	-a>
+PPP2CA	MKNK1	-a|
+PPP2CA	ICK	-a|
+KDR	PLCG1	-a>
+LCK	MAPK1	-a>
+CD28	PIK3CG	-a>
+BCL10	IKBKG	-a>
+RPS6KA4	CREB1	-a>
+FYN	MAPK14	-a>
+LCK	MAPK3	-a>
+CSNK2A1	NFKBIA	-a|
+CDK5/CDK5R1	TP53	-a>
+MAPK1	EGFR	-a|
+PTPN6	IL2RB	-a|
+MAPK7	MAP2K5	-a>
+PI4K2A	CLSPN	-a|
+AKT1	MAP2K4	-a|
+CDK1	NUMA1	-a|
+ROCK1	MAPK8IP3	-a>
+MAPK8	MAPK8IP3	-a>
+MAPK1	BAD	-a|
+NR3C1	KLF15	-t>
+E2F1	TFDP1	-a>
+E2F2	TFDP1	-a>
+ROCK1	SOX9	-a>
+E2F3	TFDP1	-a>
+CASP3	NFKBIA	-a>
+BCL2	BAX	-a|
+PAX7	KMT2A	-a>
+PAX7	KMT2D	-a>
+calcium ion	PRKCA	-a>
+ERK1/2	RPS6KA5	-a>
+MAPK8	NFATC2	-a|
+MAPK8	NFATC3	-a|
+MAPK9	NFATC2	-a|
+AC1NUST0	SOS1	-a>
+MAPK1	EP300	-a>
+STAT6	STAT1	-a|
+CBL	CFLAR	-a|
+FBXO32	MYOD1	-a|
+PIM1	FOXO3	-a|
+SKP2	SMAD4	-a|
+GSK3B	CDC25A	-a|
+CHEK1	NEK11	-a>
+SRC	EPHA2	-a|
+MYC	CDC25A	-t>
+SNW1	NCOR2	-a|
+INS	GSK3B	-a|
+SIRT2	MYOD1	-a|
+WNT5A	FZD6	-a>
+MAPK1	DUSP6	-a|
+JAK2	IFNGR2/INFGR1	-a>
+IKBKE	NfKb-p65/p50	-a>
+SMAD1	PPARG	-t>
+MAPK3	CEBPB	-a>
+ERK1/2	LRP6	-a>
+NfKb-p65/p50	BIRC2	-t>
+PTPN11	STAT1	-a|
+MAPK3	SMAD3	-a|
+NOTCH1	PAX7	-a>
+MAPK8	SP1	-a>
+WNT5A	FZD3	-a>
+WNT3A	FZD3	-a>
+RAC1	MAPK8	-a>
+WNT1	FZD6	-a>
+GADD45A	CyclinB/CDK1	-a|
+WNT7A	MYOD1	-a>
+WNT5A	MYOD1	-a>
+SRC	AREG	-a>
+CTNNB1	LEF1	-a>
+DVL1	RAC1	-a>
+WNT7A	PRKACA	-a>
+WNT5A	DVL1	-a>
+MAPK8	LRP6	-a>
+FZD3	RHOA	-a>
+DVL1	DAAM1	-a>
+DAAM1	RHOA	-a>
+PRKACA	LRP6	-a>
+WNT3A	DVL1	-a>
+FOXO4	FBXO32	-t>
+DVL1	JUN	-a>
+WNT1	CTNNB1	-a>
+CREB1	CTNNB1	-t>
+calcium ion	CAMK2G	-a>
+CAMKK1	CAMK4	-a>
+PRKACA	CTNNB1	-a>
+GSK3B/Axin/APC	LRP6	-a>
+SYK	MAP4K1	-a>
+MAPK11	RPS6KA5	-a>
+NUAK2	LATS1	-a|
+MAPK14	RPS6KA4	-a>
+NUAK1	LATS1	-a|
+ABL1	CEBPB	-a>
+GADD45A	MAPK14	-a|
+MAP4K1	MAP3K11	-a>
+PPP2CB	PRKCB	-a|
+PPP2CA	PRKCB	-a|
+ID2	TCF4	-a|
+MEK1/2	MAPK1	-a>
+MAPK3	MITF	-a|
+PRKCD	SDC4	-a|
+ATM	RASSF1	-a>
+NFATC2	MEF2A	-a>
+NFATC2	MEF2D	-a>
+ID1	TCF12	-a|
+ID1	TCF3	-a|
+ID1	MYOD/E12E47	-a|
+ID2	TCF12	-a|
+ID3	TCF3	-a|
+STAT1	NOS2	-t>
+PPP3CB	NFATC2	-a>
+ID2	TCF3	-a|
+ID2	MYOD/E12E47	-a|
+ID3	TCF12	-a|
+ID3	MYOD/E12E47	-a|
+ERK1/2	SP1	-a>
+ERK1/2	E2F1	-a>
+MSC	TCF3	-a|
+MSX1	LHX2	-a|
+NRP2	VEGFC	-a>
+CDK4	MEF2D	-a|
+RHEB	FKBP8	-a|
+IRS1	PIK3R1	-a>
+ID3	TCF4	-a|
+MAP2K1	IRS1	-a|
+AURKB	RASSF1	-a|
+IRS1	GRB2	-a>
+CSK	ITCH	-a|
+SIK2	CRTC2	-a|
+FYN	ITCH	-a|
+KLF6	DLK1	-t|
+TSC1	MTOR	-a|
+TSC2	MTOR	-a|
+RPS6KB1	MTOR	-a>
+PRKAA1	PPARGC1A	-a>
+ID1	TCF4	-a|
+MAPK3	PPARG	-a|
+ULK1	PRKAA1	-a|
+TSC1	RHEB	-a|
+TSC2	RHEB	-a|
+PDPK1	AKT2	-a>
+PDPK1	MAP2K1	-a>
+MAP2K1	GSK3B	-a>
+HRAS	PIK3CB	-a>
+PIK3CB	PtsIns(3,4,5)P3	-a>
+MAPK14	MAP3K11	-a|
+PTEN	PIK3CB	-a|
+RPS6KB1	SREBF1	-a>
+TSC2	TSC1	-a>
+MTOR	ULK1	-a|
+PRKAA1	ULK1	-a>
+PPM1A	GSK3B/Axin/APC	-a|
+TDGF1	TGFB1	-a|
+mTORC1	SGK1	-a>
+PTPN1	IRS1	-a|
+AKT2	FOXO1	-a|
+GPER1	GNAQ	-a>
+SP1	MET	-t>
+MYC	BMI1	-t>
+LEF1	MYC	-t>
+PRKCE	FGFR2	-a>
+IFNGR2/INFGR1	STAT1	-a>
+SOCS1	IRAK1	-a|
+MAPK1	ATF2	-a>
+ATM	CHEK1	-a>
+GRK2	MAPK14	-a|
+TEK	MYOD1	-t>
+TEK	MYOG	-t>
+MYOD/E12E47	VEGFA	-t>
+MAPK3	ATF2	-a>
+MYOD1	VEGFA	-t>
+MAPK8	CDKN1A	-a>
+ASXL1	CDKN2B	-t>
+TP53	FASLG	-t>
+MYOD1	SP1	-t|
+DLX5	MYC	-t>
+RELA	MET	-t>
+RBL2	MYOD1	-t|
+NOTCH1	MYC	-t>
+FADD	CASP8	-a>
+BIRC2	RIPK1	-a>
+CASP8	RIPK1	-a|
+RIPK1	CASP8	-a>
+TRADD	BIRC2	-a>
+TRADD	CASP8	-a>
+DIABLO	BIRC3	-a|
+AXIN1	APC	-a>
+IRF4	IRF5	-a|
+ERK1/2	SOX2	-t>
+DVL1	APC	-a|
+DVL1	LRP6	-a>
+LRP6	AXIN1	-a|
+APC	CTNNB1	-a|
+SMAD2/SMAD4	NANOG	-t>
+SMAD3/SMAD4	NANOG	-t>
+DVL2	AXIN1	-a>
+DVL2	LRP6	-a>
+CASP8	BID	-a>
+PRKCD	PTPN22	-a|
+FZD3	DVL1	-a>
+BAK/BAX	DIABLO	-a>
+AKT2	POU5F1	-a>
+FNTB	KRAS	-a>
+CDK1	PIK3C2A	-a|
+MAP4K1	MAP3K7	-a>
+SGK1	MAP3K3	-a|
+ASH2L	GATA3	-a>
+FNTB	HRAS	-a>
+MAPK9	MAPK8IP1	-a>
+MAPK14	RB1	-a|
+CDK1	MAPK6	-a>
+BBC3	BCL2L2	-a|
+BBC3	MCL1	-a|
+BCL2L11	BCL2L2	-a|
+RHOA	PLD1	-a>
+AKT1	PEA15	-a>
+SHC1	MAPK1	-a>
+SHC1	MAPK3	-a>
+SHC1	ERK1/2	-a>
+TGFB1	SHC1	-a>
+TEK	PIK3R1	-a>
+PIK3R1	PIK3CA	-a>
+PIK3R1	PIK3CB	-a>
+PIK3R1	PIK3CG	-a>
+CHEK2	CDC25C	-a>
+CAMK4	CREB1	-a>
+FGFR4	FRS2	-a>
+SOSTDC1	WNT10A	-a|
+SOSTDC1	WNT10B	-a|
+SOSTDC1	WNT2B	-a|
+CDK1	EGFR	-a|
+SOSTDC1	WNT1	-a|
+SOSTDC1	WNT4	-a|
+SOSTDC1	WNT7A	-a|
+SOSTDC1	WNT3A	-a|
+SOSTDC1	WNT16	-a|
+SOSTDC1	WNT11	-a|
+SOSTDC1	WNT2	-a|
+SOSTDC1	WNT5B	-a|
+SOSTDC1	WNT3	-a|
+SOSTDC1	WNT7B	-a|
+MAPK8	YWHAB	-a|
+SOSTDC1	WNT5A	-a|
+SOSTDC1	WNT9B	-a|
+SOSTDC1	BMP2	-a|
+SOSTDC1	BMP4	-a|
+SOSTDC1	BMP7	-a|
+CBLB	EGFR	-a|
+PIM1	CDKN1A	-a>
+CREB1	MYOD1	-t>
+CREB1	PAX3	-t>
+WNT1	PRKACA	-a>
+STK11	PAK1	-a|
+FOXO3	NOTCH1	-t|
+MAPK3	EGFR	-a|
+FOXO6	FBXO32	-t>
+CSNK1D	LEF1	-a|
+DAXX	TGFBR2	-a>
+CSNK1E	LEF1	-a|
+ROCK1	MAPK8	-a>
+CUL1	CDKN1B	-a|
+PTPN1	STAT3	-a|
+WNT11	FZD7	-a>
+SOCS1	JAK2	-a|
+XIAP	DIABLO	-a|
+BIRC2	TRAF2	-a|
+CBL	ABL1	-a|
+BIRC3	TRAF2	-a|
+CBL	MET	-a|
+CDK6	RB1	-a|
+CBL	ERBB2	-a|
+CUL1	CTNNB1	-a|
+CyclinB/CDK1	LATS1	-a>
+CBL	EGFR	-a|
+CBL	PDGFRA	-a|
+CBL	FRS2	-a|
+NUMB	NOTCH1	-a|
+EPS15	EGFR	-a|
+BID	BAK1	-a>
+BID	BAX	-a>
+CAMK4	PHB2	-a|
+CDK7	CDK11B	-a>
+MAP3K20	MAP2K7	-a>
+FOXO3	NOTCH3	-t|
+ASCL1	DKK1	-t|
+SMARCA4	ZEB1	-a>
+SKP2	CDKN1A	-a|
+PIM2	CDKN1A	-a>
+SKP2	CDKN1B	-a|
+PDPK1	PLK1	-a>
+GSK3A	MYC	-a|
+PDPK1	RPS6KA3	-a>
+SMURF1	BMPR2	-a|
+PLK1	MYC	-a>
+CDK5	PIK3C3	-a|
+CDK1	PIK3C3	-a|
+AKT	BRCA1	-a>
+AKT	CLK2	-a>
+AKT	CHUK	-a>
+AKT	BRAF	-a|
+AKT	EP300	-a>
+PRKCD	YWHAB	-a|
+PPP3CA	BAD	-a>
+AKT	IKK-complex	-a>
+AKT	GATA2	-a|
+AKT	EZH2	-a|
+AKT	MEF2D	-a>
+AKT	TWIST1	-a>
+AC1NUST0	PRKCZ	-a>
+AKT	XIAP	-a>
+BRSK2	PRKAA1	-a>
+AKT	SRPK2	-a>
+PIK3CG	AKT	-a>
+NfKb-p65/p50	MDM2	-t>
+SHH	AKT	-a>
+TNF	AKT	-a>
+CDK2	WEE1	-a|
+CDK1	LATS1	-a>
+PRKCA	CDKN1A	-a|
+CSF2RA	STAT5A	-a>
+WEE1	CDK1	-a|
+ERK1/2	BAD	-a|
+MAP2K7	JNK	-a>
+ERK1/2	CASP8	-a|
+JAK2	ARHGEF1	-a>
+PTK2B	NOS3	-a|
+IL1R1	MAPK9	-a>
+CRTC2	AKT	-a>
+FZD3	NLK	-a>
+ERK1/2	MEK1/2	-a|
+MAPK1	MEK1/2	-a|
+PAK	MEK1/2	-a>
+PAK1	MEK1/2	-a>
+PDPK1	MEK1/2	-a>
+ERK1/2	CSNK2A1	-a>
+ERK1/2	CDKN1B	-a>
+ERK1/2	CDKN1A	-a|
+JAK1	IFNGR2/INFGR1	-a>
+MAPKAPK2	SRF	-a>
+MAPKAPK2	TCF3	-a>
+ERK1/2	EGFR	-a|
+ERK1/2	MAP2K1	-a|
+ERK1/2	JAK2	-a|
+ERK1/2	EP300	-a>
+ERK1/2	MAPK3	-a>
+ERK1/2	RXRA	-a>
+CSNK1E	LRP6	-a>
+PRKCA	GSK3B	-a|
+SRC	ABL1	-a>
+CDK5	NOS3	-a|
+ERK1/2	STK11	-a|
+PDGFRB	PTK2	-a>
+CHEK1	WEE1	-a>
+THRA	RARG	-a>
+PRKCZ	CASP9	-a|
+PTPN1	PTK2	-a|
+FOXO1	PPARGC1A	-a|
+SMAD7	SMAD3	-a|
+CAMK2G	MAP3K7	-a>
+MAP3K7	NLK	-a>
+TTK	CHEK2	-a>
+MAPK1	DAPK1	-a>
+AXIN1	MAP3K4	-a>
+RARA	THRA	-a>
+HGS	SMAD2	-a>
+MAP3K8	MAP2K2	-a>
+MAPK8IP1	MAP3K10	-a>
+MAPK8IP3	MAPK10	-a>
+MAPK8IP3	MAPK8	-a>
+MAPK8IP3	MAPK9	-a>
+HDAC5	MEF2D	-a|
+ATR	CHEK1	-a>
+PTPRR	PXN	-a|
+HSPB1	DIABLO	-a|
+CAMK2A	PTK2	-a>
+PTPRR	MAPK7	-a|
+PKN1	RAF1	-a>
+SMURF2	SMAD2	-a|
+PPP2R5C	MAPK3	-a|
+MAPK1	PPP2R5C	-a|
+MAPK3	PPP2R5C	-a|
+PAX3	PITX2	-t>
+MAPK1	GRB10	-a>
+PRKCA	PLD2	-a>
+MAPK3	GRB10	-a>
+MDM2	MDM4	-a|
+RELA	HDAC4	-a>
+HEY1	RBPJ	-a|
+JUN	TCF4	-a>
+LCK	SH2B3	-a>
+ITCH	SMAD7	-a|
+SMAD1	DVL1	-a>
+SIRT2	KAT2B	-a|
+CHEK2	BRCA1	-a>
+NOTCH1	BCL2	-t>
+NOTCH1	IL7R	-t>
+NOTCH1	TCF12	-t>
+TCF12	NOTCH3	-t>
+TCF12	PTCRA	-t>
+TCF3	NOTCH1	-t>
+FYN	VAV1	-a>
+CSK	PTPRC	-a>
+ZAP70	SH2B3	-a>
+PRKCH	GSK3B	-a|
+TNF	TNFRSF21	-a>
+APH1A	NCSTN	-a>
+APH1A	PSEN1	-a>
+MAPK9	RXRA	-a|
+TLR4	NfKb-p65/p50	-a>
+SRC	RPS6KA3	-a>
+MAPK3	NOS2	-a>
+FYN	RPS6KA3	-a>
+DTX1	TCF3	-a|
+AURKA	CDC25B	-a>
+PTPN11	CTNNA1	-a|
+SH3RF1	MAPK8IP1	-a>
+PRKCA	IRS1	-a>
+PDPK1	RPS6KA1	-a>
+AKT1	GATA1	-a>
+RET	MAPK3	-a>
+RET	MAPK1	-a>
+DDR2	SHC1	-a>
+SPRY2	PTPN1	-a>
+PRKCH	PRKD1	-a>
+SRC	DDR2	-a>
+PTPN22	ZAP70	-a|
+KLF4	MYOCD	-a|
+IHH	BMP2	-a>
+ERK1/2	MAPK14	-a|
+AKT1	EP300	-a>
+EP300	PLAG1	-a>
+MYC	DKK1	-t|
+MYC	SFRP1	-t|
+MAML1	NOTCH4	-a>
+BCL2L2	BAK1	-a|
+MAPKAPK2	CDC25A	-a|
+LFNG	JAG1	-a|
+Prostaglandin E2	GNG12	-a>
+CDK2	CDKN1B	-a|
+PRKACA	CSNK1A1L	-a>
+PHLPP1	AKT3	-a|
+MAPK3	STAT5A	-a>
+CDK5	MEF2A	-a|
+EGFR	HGS	-a>
+CDK2	MCM2	-a>
+CSNK2A1	MCM2	-a>
+ERBB2	SHC3	-a>
+PTPRC	LCK	-a|
+PTPRC	FYN	-a>
+CDK2	PPP1CA	-a|
+MAPK14	GSK3B	-a|
+PTPRC	TYK2	-a|
+PPP3CB	FLNA	-a|
+IL22RA2	IL22	-a>
+IL22	IL22RA1	-a>
+PPP3CB	BAD	-a>
+PTPN1	LAT	-a|
+PTPN1	EGFR	-a|
+PTPN1	GHR	-a|
+PTPN1	STAT5A	-a|
+DAB1	NOTCH1	-a>
+PTPN1	EPHA3	-a|
+CDK5	HTRA2	-a>
+MAPK1	GAB2	-a>
+PTPN6	NTRK1	-a|
+CSNK1A1L	GLI3	-a>
+KRAS	NFIL3	-a>
+PAK1	CTBP1	-a|
+SRC	KIT	-a>
+AXIN1	SMAD3	-a>
+KMT2D	ESR1	-a>
+PRKACA	CSK	-a>
+ACP1	AKT1	-a|
+ACP1	PDGFRB	-a|
+MLL2 complex	ESR1	-a>
+CDKN1B	CDK2	-a|
+FASN	WNT1	-a>
+ACP1	AKT	-a|
+ACP1	AKT3	-a|
+ATM	STK11	-a>
+BRAF	MAP2K2	-a>
+FLNA	MAP2K4	-a>
+MAP2K1	MAPK14	-a|
+MAPK1	MAPK14	-a|
+SMAD7	BMPR1B	-a|
+SET	PPP2CB	-a|
+CCND1	HDAC3	-a>
+HDAC1	CCND1	-a>
+SMAD7	SMAD1	-a|
+GNB1	PLCB2	-a>
+PPP2CB	RALA	-a|
+AURKB	BIRC5	-a|
+MAP2K2	MAPK3	-a>
+EP300	MN1	-a>
+ABL1	VAV1	-a>
+MAPK1	PML	-a>
+MAPK3	PML	-a>
+PRKCA	BCL2	-a>
+MAP3K20	MAP2K4	-a>
+SGK1	FBXW7	-a>
+SRC	FBXO5	-a>
+AKT	NCOR1	-a|
+TNF	PIK3CA	-a>
+DVL2	RBPJ	-a|
+AKT	CDK2	-a>
+PTPN11	HOXA10	-a>
+STAT1	NfKb-p65/p50	-a|
+EIF2AK2	PPP2R5A	-a>
+KRAS	MAP4K5	-a>
+MYC	CUL1	-t>
+AKT	DNMT1	-a>
+PDPK1	PRKCD	-a>
+CDK1	SIRT2	-a|
+PIAS1	FHL1	-a|
+PRKACA	MCOLN1	-a|
+FKBP8	MTOR	-a|
+PTK2B	PTK2	-a>
+CDKN2AIP	TP53	-a>
+MECOM	PBX1	-t>
+MYC	CCND1	-t>
+MYC	CDK4	-t>
+MYC	CDK6	-t>
+BRCA1	RBBP8	-a>
+MSI2	NUMB	-t|
+LIF	IL6ST	-a>
+NCOA1	ESR1	-a>
+VAV1	GRB2	-a>
+CSNK2A1	PPP1R2	-a>
+PPP2CA	RELA	-a|
+NCOA1	STAT5A	-a>
+RIN1	ABL2	-a>
+CXCL1	GLI1	-a>
+SMO	CXCL1	-a>
+SMO	GNAI3	-a>
+JAK3	PLD2	-a>
+PAK1	ESR1	-a>
+PTPN12	JAK2	-a|
+MDM2	NOTCH4	-a|
+PRKCA	PEA15	-a|
+SMO	GNGT1	-a>
+CAV1	LRP6	-a>
+CDK1	CASP8	-a|
+FHIT	CTNNB1	-a|
+AC1NUST0	PIP5K1A	-a>
+PTPN6	STAT3	-a|
+CXCL1	PLCE1	-a>
+FZD3	CXCL1	-a>
+ATM	AURKB	-a|
+FZD3	GNB1	-a>
+ATM	PPP1R2	-a|
+PAK1	NF2	-a|
+MAPK1	CASP8	-a|
+ITGB4	PIK3CG	-a>
+RND1	MAPK8	-a>
+FHL1	RBPJ	-a|
+PRKDC	TP53	-a>
+FLT1	PLCG1	-a>
+MAP4K5	MAP3K1	-a>
+PTK2	PIK3R1	-a>
+ITGB4	PIK3CA	-a>
+ITGB4	PIK3CB	-a>
+S1PR1	GNAI1	-a>
+PTPRR	STAT3	-a|
+MAML1	NOTCH2	-a>
+MAML1	NOTCH3	-a>
+MAML1	RBPJ	-a>
+SH3RF1	MAPK8	-a>
+SH3RF1	RAC2	-a>
+MAP3K14	IKBKB	-a>
+MAPK1	NCOA1	-a>
+BORA	AURKA	-a>
+MAPK1	EIF2AK2	-a>
+HSP90AA1	NOS3	-a>
+STK3	NEK2	-a>
+PRKACA	RELA	-a>
+FRS2	PTPN11	-a>
+GNA13	ARHGEF1	-a>
+RELA	EGR1	-a>
+RELA	SP1	-a>
+SMAD2	CREB1	-a>
+GSK3B	NR1D1	-a>
+PDPK1	PRKCZ	-a>
+RAC2	PAK1	-a>
+SMO	GNB2	-a>
+TRAF2	MAP4K2	-a>
+PRKAA2	PLD1	-a>
+MAPK1	TWIST1	-a>
+MAP3K1	MAP2K6	-a>
+CASP8	CASP6	-a>
+ANGPT2	TEK	-a>
+HRAS	PIK3CG	-a>
+ACVR2A	ACVR1	-a>
+BMP7	ACVR2A	-a>
+BMP7	ACVR2B	-a>
+JAK2	STAT6	-a>
+PIK3CG	PDPK1	-a>
+MAPK3	RPS6KA4	-a>
+IL1B	IL1RAP	-a>
+CREBBP	CREB1	-a>
+SRC	BMX	-a>
+CREB1	FOS	-t>
+CASP3	CASP6	-a>
+PDGFRB	NCK1	-a>
+NR1I3	RXRA	-a>
+STK39	MAPK14	-a>
+NOTCH3	RBPJ	-a>
+INCENP	AURKB	-a>
+MAP2K2	MAPK1	-a>
+MAPK7	ETS1	-a>
+BAX	HTRA2	-a>
+DKK1	KREMEN2	-a>
+DTX1	EP300	-a>
+RXRA	PPARG	-a>
+MTOR	ULK2	-a|
+MEF2D	ASH2L	-a>
+MAPK14	EGFR	-a|
+PRKCD	TP73	-a>
+ERK1/2	ADAM17	-a>
+GSK3B	NOTCH1	-a>
+MAPK15	JUN	-a>
+MAPK3	JUN	-a>
+PTPRR	MAPK1	-a|
+CDK1	CDC25B	-a>
+PRKCA	NFE2L2	-a>
+PRKCB	NFE2L2	-a>
+SRC	INPPL1	-a>
+MAPK1	IER3	-a>
+CARD11	BCL10	-a>
+MAML3	NOTCH2	-a>
+MAML3	NOTCH3	-a>
+MAML3	NOTCH4	-a>
+NOTCH4	MAML3	-a>
+NOTCH4	MAML2	-a>
+FGR	PTK2	-a>
+PRKCD	SHC1	-a>
+ZAP70	DUSP3	-a>
+EGFR	VAV2	-a>
+EP300	MAML1	-a>
+NCOA2	RARA	-a>
+GNGT1	PIK3CG	-a>
+PLK1	CHEK2	-a>
+CHEK1	CLSPN	-a>
+APH1A	PSENEN	-a>
+PSENEN	PSEN1	-a>
+CBP/p300	DDX5	-a>
+IL1RAP	IL1R1	-a>
+DVL3	RAC1	-a>
+JAG2	JAG1	-a>
+ITK	TEC	-a>
+BTK	BMX	-a>
+BTK	TEC	-a>
+BTK	ITK	-a>
+BMP2	MAPK14	-a>
+NCOR2	BHLHE41	-a>
+TNFRSF10B	FADD	-a>
+MAPK3	RPS6KA3	-a>
+SIK2	IRS1	-a>
+JNK	BCL2L11	-a>
+CDC42	USP6	-a>
+RAC1	USP6	-a>
+PRKCA	PRKG1	-a>
+PLCG1	PRKCA	-a>
+IRAK4	PELI2	-a>
+TNFSF10	TNFRSF10A	-a>
+MAPK14	HIF1A	-a>
+RIN1	EGFR	-a>
+MAPK3	SMAD4	-a>
+CHEK1	CDC25B	-a>
+GNAQ	PLCE1	-a>
+IRS2	PIK3CG	-a>
+ABL1	DDX5	-a>
+BMP7	BMPR2	-a>
+IL10	IL10RB	-a>
+CDK7	CDK4	-a>
+TRAF2	TRAF1	-a>
+DAXX	MAP3K5	-a>
+PDGFRB	SHC1	-a>
+CDK1	E2F1	-a>
+MAPK11	ATF2	-a>
+MAPK1	MKNK1	-a>
+PPP2R5A	TGFBR1	-a>
+PRKCA	EGFR	-a>
+PDGFRB	GRB2	-a>
+TRAF1	TRAF2	-a>
+IGF1R	CSK	-a>
+ABI1	CBL	-a>
+PRKG1	GTF2I	-a>
+PRKCG	GRK2	-a>
+SMARCA4	SMARCB1	-a>
+ERBB2	SHC1	-a>
+MAPK12	ATF2	-a>
+MKL1	KLF4	-a|
+KAT2B	SMAD3	-a>
+RELA	CREBBP	-a>
+TP53	CBP/p300	-a>
+ABL1	TP73	-a>
+MYOCD	KLF4	-a|
+KAT2B	MEF2C	-a>
+MAPK9	MYC	-a>
+ATM	TAOK1	-a>
+EIF2AK2	TP53	-a>
+NCOA1	PGR	-a>
+IGF1R	IRS2	-a>
+CDK2	ESR1	-a>
+MAPK8IP1	MAP2K7	-a>
+MAPK8IP3	MAP2K4	-a>
+DVL3	CSNK1E	-a>
+JAG1	NOTCH2	-a>
+CSF1	CSF2RA	-a>
+IFNB1	TYK2	-a>
+GSK3A	MITF	-a>
+PPP2CA	RB1	-a>
+THBS1	NGF	-a>
+LFNG	DLL3	-a>
+CTNNB1	EP300	-a>
+calcium ion	PRKCZ	-a>
+CREBBP	CSK	-a>
+INSR	GRB7	-a>
+IKBKE	STAT1	-a>
+PDPK1	PKN1	-a>
+NR2F2	NR2F1	-a>
+ERBB3	PIK3CA	-a>
+ERBB3	PIK3CB	-a>
+ERBB3	PIK3CG	-a>
+CDK1	CDC7	-a>
+NTRK1	SH2B1	-a>
+CALM1	PPP3CB	-a>
+TRIM27	MAPK8	-a>
+RXRB	NR2F2	-a>
+AKT1	SRPK2	-a>
+AKT1	NCOR1	-a|
+PLCG1	SOS1	-a>
+IFNB1	JAK1	-a>
+RXRA	THRA	-a>
+RXRB	THRA	-a>
+VAV2	RAC1	-a>
+CDK7	ESR1	-a>
+CALM1	PPP3CC	-a>
+AURKB	INCENP	-a>
+AKT1	ESR1	-a>
+CREBBP	MEF2C	-a>
+NGF	NTRK1	-a>
+WNT11	FZD3	-a>
+RYK	FZD8	-a>
+KSR1	RAF1	-a>
+CDK2	CDK7	-a>
+MAPK7	SGK1	-a>
+PRKCD	STAT1	-a>
+IL4	IL2RG	-a>
+ABRAXAS1	BRCA1	-a>
+CASP3	ROCK1	-a>
+GNG12	PLCE1	-a>
+SYK	VAV1	-a>
+LFNG	DLL1	-a>
+RET	FRS2	-a>
+MTOR	GRB10	-a>
+STK11	TP53	-a>
+RPS6KB1	TP63	-a|
+WNT1	FZD8	-a>
+FAS	MAP3K5	-a>
+AR	NR5A1	-a>
+CSNK1E	TCF3	-a>
+RIN1	KRAS	-a>
+CSNK2A1	HDAC1	-a>
+STK3	ABL1	-a|
+MAPK8	MAPK9	-a>
+ARHGEF7	RAC1	-a>
+CALM1	PPP3CA	-a>
+TTK	ABL1	-a|
+STK4	ABL1	-a|
+ATR	NBN	-a>
+NCOA2	RXRA	-a>
+PLCG1	RAC1	-a>
+PRKDC	IRF3	-a>
+CDK1	BIRC5	-a>
+GNGT1	PIK3CA	-a>
+PDGFRB	RASA1	-a>
+AKT2	CREB1	-a>
+PKN1	AR	-a>
+NUMA1	TUBB	-a>
+AKT2	NFKB1	-a>
+MAPK3	ETS1	-a>
+LCK	PTEN	-a>
+AKT3	CREB1	-a>
+GNAQ	RHOA	-a>
+CHEK1	AURKB	-a>
+MAPK3	SP3	-a>
+PKN1	MAPK14	-a>
+MRE11	NBN	-a>
+SMAD3/SMAD4	LEF1	-t>
+SMAD2	SMAD4	-a>
+PTPN6	SOCS1	-a>
+MAPK1	SP3	-a>
+SMAD3	NOTCH1	-a>
+PRKAA2	TSC1	-a>
+AKT2	XIAP	-a>
+PRKAA1	PRKAB1	-a>
+PRKCD	PEBP1	-a>
+RASGEF1B	KRAS	-a>
+PRKCZ	RELA	-a>
+NGFR	MAPK10	-a>
+FAS	DAXX	-a>
+SIRT1	SMAD7	-a|
+RPS6KA4	RELA	-a>
+ATM	PRKDC	-a>
+ERBB2	GRB2	-a>
+VAV1	ERK1/2	-a>
+MAP2K2	ERK1/2	-a>
+ERK1/2	CDK2	-a>
+PPM1A	CDK9	-a|
+PPP1CC	AXIN1	-a|
+RET	ERK1/2	-a>
+PPP1CC	NOS3	-a>
+FZD3	GNA12	-a>
+FZD3	GNA13	-a>
+PPP1CC	MDM2	-a>
+FZD3	GNAQ	-a>
+PPP3CC	FLNA	-a|
+MAPK3	SREBF2	-a>
+MAPK1	SREBF2	-a>
+RXRA	NR1H2	-a>
+RXRB	NR1H2	-a>
+PIAS1	SMAD4	-a>
+MAPK9	BAX	-a>
+PRKCD	PRKD1	-a>
+MAPK10	BAX	-a>
+TP53	BAK1	-a>
+IL22RA1	JAK1	-a>
+SIRT1	FOXO4	-a>
+PDPK1	MAP2K2	-a>
+RPS6KA3	ATF4	-a>
+INS	PIK3CG	-a>
+BIRC5	XIAP	-a>
+BCAR1	SMAD3	-a|
+FZD3	GNB3	-a>
+KREMEN1	LRP6	-a>
+PPP3CC	BAD	-a>
+PRKACA	FLNA	-a>
+PPP5C	NR3C1	-a|
+CDK5	PSEN1	-a>
+PPP5C	RAF1	-a|
+PTPRF	DAPK1	-a>
+SIAH2	HIF1A	-a>
+TYK2	DUSP3	-a>
+PRKCD	IL6ST	-a>
+MAPK1	CDK2	-a>
+PTEN	CREB1	-a|
+PPP1CA	AXIN1	-a|
+GRB2	SOS2	-a>
+MAP3K3	MAP2K5	-a>
+PPP1CA	NOS3	-a>
+PPP1CA	TP53	-a|
+IRAK1	STAT3	-a>
+PPP1CA	MDM2	-a>
+SRC	STAT5A	-a>
+MTOR	ATG13	-a|
+BMPR1A	SOST	-a>
+PRKACA	FYN	-a>
+RB1	HDAC3	-a>
+MAPK13	PRKD1	-a|
+STK11	PRKAA2	-a>
+CHEK1	TP73	-a>
+PPP2CB	CHEK1	-a|
+NR2E3	NR1D1	-a>
+ITCH	SMAD2	-a>
+RYK	DVL1	-a>
+PML	ZFYVE9	-a>
+PPP2CB	CHEK2	-a>
+PPP2CB	MAPK1	-a|
+RYK	DVL2	-a>
+RYK	DVL3	-a>
+WNT3A	RYK	-a>
+PPP2CA	RBL2	-a>
+BCL3	HDAC1	-a>
+PPP2CB	BCL2	-a>
+BCL3	HDAC3	-a>
+IKBKE	RELA	-a>
+PPP2CB	PRKCD	-a|
+MAML1	CCNC	-a>
+MAPK8	FOXO4	-a>
+TBK1	RELA	-a>
+NR2F1	RXRA	-a>
+NR2F2	RXRA	-a>
+RXRB	NR2F1	-a>
+PPP2CB	HDAC7	-a>
+PPP2CB	CARD11	-a|
+PPP2CB	ATM	-a|
+SRC	SPRY2	-a>
+CSNK1E	PER2	-a>
+PPP2CA	CHEK2	-a>
+CSNK1D	PER2	-a>
+PPP2CA	BCL2	-a>
+PPP2CA	ATM	-a|
+PPP2CA	HDAC7	-a>
+PPP2CA	TRAF2	-a|
+PPP2CA	PRKCD	-a|
+RIPK1	TNFRSF10A	-a>
+PTPN12	SRC	-a|
+PPP2CA	CARD11	-a|
+USP6	NfKb-p65/p50	-a>
+PTPN12	PTK2	-a|
+MAPK9	PSEN1	-a>
+FASN	CTNNB1	-a>
+LRRK2	ARHGEF7	-a>
+GNA13	RHOA	-a>
+SGK3	GSK3B	-a|
+SGK3	GSK3A	-a|
+RPS6KA2	BAD	-a|
+WNT5A	GSK3B	-a>
+MOB1A	LATS1	-a>
+MOB1A	LATS2	-a>
+MOB1B	LATS1	-a>
+MOB1B	LATS2	-a>
+SAV1	STK3	-a>
+SAV1	STK4	-a>
+ATM	HIF1A	-a>
+JAK2	MAP3K5	-a|
+PRKCZ	AKT3	-a>
+PRKCA	MYOD1	-a|
+PLK1	BIRC5	-a>
+EIF3F	NOTCH1	-a>
+PRKD1	PLCG1	-a|
+ENDOG	BAX	-a>
+SMAD9	SMAD4	-a>
+AP2M1	EGFR	-a|
+LAT	PLCG1	-a>
+MAPK1	CDKN1A	-a|
+CDK4	RUNX3	-a|
+PDPK1	PRKCA	-a>
+PRKAA1	FOXO1	-a>
+PRKAA1	FOXO4	-a>
+NOS1	nitric oxide	-a>
+AGTR1	GNG12	-a>
+CDK7	NR5A1	-a>
+PTK2	RET	-a>
+RACK1	PTK7	-a>
+LAT	PIK3CA	-a>
+ABL1	ABI1	-a>
+CSNK2A1	DAXX	-a>
+PRKAB1	ULK1	-a>
+MAPK1	ABI1	-a>
+MAPK3	ABI1	-a>
+GSK3B	KAT5	-a>
+CDK1	DNMT1	-a>
+PPP1CA	CDC25C	-a>
+CDK2	DNMT1	-a>
+KRAS	PIK3CB	-a>
+NRAS	PIK3CB	-a>
+NRAS	PIK3CG	-a>
+ERK1/2	FGFR1	-a|
+CDK2	CHEK1	-a>
+PIK3CA	RAC1	-a>
+SOS2	KRAS	-a>
+BMP2	SMAD2	-a>
+PRKCD	EGFR	-a|
+ATM	RPA2	-a>
+TRIM27	MAPK12	-a>
+TRIM27	MAPK13	-a>
+TRIM27	MAPK14	-a>
+EDNRA	GNA13	-a>
+HOXB7	PRKDC	-a>
+MAPK8	JUNB	-a>
+RPS6KA4	TP53	-a|
+GSK3B	PHLPP1	-a|
+MAPK1	CAPN2	-a>
+MAPK3	CAPN2	-a>
+AC1NUST0	MAPK1	-a>
+MAPKAPK2	ZFP36	-a|
+MAPKAPK2	ALOX5	-a>
+MAPKAPK5	PLA2G4A	-a>
+RPS6KA3	CREB1	-a>
+PRKCB	VTN	-a>
+INPPL1	MAPK8IP1	-a>
+RHOA	FHL2	-a>
+NCOA2	PPARG	-a>
+PRKCA	HES1	-a|
+PRKCZ	AKT2	-a>
+PPP2R5C	ATF1	-a>
+PRKCZ	IKBKB	-a>
+OXSR1	PAK1	-a|
+PRKACA	AURKA	-a>
+PPP1CA	STAT3	-a|
+PRKAB1	NOS3	-a>
+PRKCD	GRK2	-a>
+ERBB3	GRB2	-a>
+PRKCA	GRK2	-a>
+PRKCD	PTPRA	-a>
+PRKCB	BTK	-a|
+PRKCD	PLD2	-a>
+PDGFRB	FYN	-a>
+MAPK3	TCF3	-a|
+HSP90AA1	PPP5C	-a>
+AKT2	HSPB1	-a|
+SIRT1	FOXL2	-a|
+AKT3	HSPB1	-a|
+PRKACA	NFKB1	-a>
+PPP2CA	MDM2	-a>
+SGK2	FOXO3	-a|
+MYC	SMAD2	-a|
+EGFR	PTK2	-a>
+IL4R	JAK1	-a>
+PRKCA	SDC4	-a>
+KLF4	SRF	-a|
+PRKCA	SHC1	-a|
+PRKCD	NFE2L2	-a>
+AKT1	CHUK	-a>
+MET	GAB1	-a>
+PRKCA	NFATC1	-a|
+PRKCQ	CARD11	-a>
+PRKCG	PEBP1	-a>
+MAPK1	RCAN1	-a>
+PRKCA	PSEN1	-a>
+PRKCB	PSEN1	-a>
+PRKCG	PSEN1	-a>
+PRKCZ	PSEN1	-a>
+TEK	SHC1	-a>
+LYL1	ANGPT2	-t>
+TAL1	ANGPT2	-t>
+FNTA	HRAS	-a>
+PRKCA	HDAC5	-a|
+PRKACA	APC	-a|
+PRKACA	ATF1	-a>
+PIK3R3	PIK3CA	-a>
+CDK5	PAK1	-a|
+GSK3B	RCAN1	-a>
+ITCH	CFLAR	-a|
+LYN	PLCG1	-a>
+MAPK1	GAB1	-a>
+LCK	NFKBIA	-a|
+LYN	FCGR2B	-a>
+MAP2K2	CASP9	-a|
+MAP3K8	MAP3K14	-a>
+NEDD4L	SMAD2	-a|
+NEDD4L	SMAD3	-a|
+WNT10B	CTNNB1	-a>
+MAP2K1	CASP9	-a|
+MAPK1	MAFA	-a>
+RBPJ	HES1	-t>
+RBPJ	HES1	-a>
+MAPK1	NR4A1	-a>
+RPS6KB1	HSPB1	-a|
+PKN1	MAP3K20	-a>
+CBL	PIK3R1	-a|
+MAPK1	TCF3	-a|
+MAPK1	PTPRR	-a>
+PRKACA	ABCA1	-a>
+RAC1	MAPK9	-a>
+AKT2	CDKN1A	-a|
+MAP3K8	MEK1/2	-a>
+14-3-3	RASSF1	-a|
+NfKb-p65/p50	SOCS3	-t>
+LRRK2	ARFGAP1	-a|
+NR0B2	NR1H2	-t|
+NR0B2	NR1H3	-t|
+CDH1	LRP6	-a>
+FCGR2B	TLR4	-a|
+IL4R	JAK2	-a>
+STAT6	KDM6B	-t>
+THRA	RARB	-a>
+PARD6A	RAC1	-a>
+MAP2K3	MAPK12	-a>
+MAPK14	DUSP1	-a>
+SMARCB1	E2F1	-a|
+SET	NME1	-a|
+HRAS	PIK3CA	-a>
+PDGFRA	PLCG1	-a>
+PDGFRB	PLCG1	-a>
+IGF1R	PIK3C2A	-a>
+SMAD6	TAB1	-a|
+INHBA	ACVR2A	-a>
+SMAD7	TAB1	-a|
+IFNG	IFNGR2	-a>
+ACVR1B	SMAD3	-a>
+SMAD3	SMAD4	-a>
+ABL1	EPHB2	-a|
+PAK1	WEE1	-a|
+RBPJ/NOTCH	CCND1	-t>
+AKT2	MAPK14	-a|
+AKT2	TSC1/TSC2	-a|
+PPP2R5C	RPS6KB1	-a|
+PKN1	SNAI1	-a>
+CDKN2B	CDK4	-a|
+ERBB2	ESR1	-a>
+DOK4	CRK	-a>
+DOK4	FYN	-a>
+DOK4	SRC	-a>
+IL10	IL10RA	-a>
+IL15RA	IL2RB	-a>
+mTORC1	ULK1/Atg13/Fip200	-a|
+EPHA3	SRC	-a>
+EPHB2	SRC	-a>
+SH3RF1	MAP2K4	-a>
+SH3RF1	MAP2K7	-a>
+NTRK1	SHC1	-a>
+DUSP16	MAPK8IP1	-a>
+GRB2	GAB2	-a>
+IL2RB	JAK1	-a>
+IL2RB	SHC1	-a>
+GAB2	PIK3CA	-a>
+FGFR1	MAP2K1	-a>
+CSNK1E	GSK3B/Axin/APC	-a>
+DLX2	MSX2	-a|
+DLX2	MSX1	-a|
+MSX1	DLX2	-a|
+MSX2	DLX2	-a|
+WNT3A	FZD1	-a>
+MSX1	DLX5	-a|
+MSX2	DLX5	-a|
+DAAM1	RAC1	-a>
+WNT1	LRP5	-a>
+WNT3A	LRP5	-a>
+WNT1	LRP6	-a>
+WNT1	FZD3	-a>
+WNT7A	FZD3	-a>
+WNT7A	LRP5	-a>
+WNT11	LRP6	-a>
+WNT5A	LRP6	-a>
+WNT7A	LRP6	-a>
+WNT16	FZD3	-a>
+SMAD3	CEBPA	-a|
+CTNNB1	POU5F1	-a>
+FZD8	LRP5	-a>
+TP53	FNTB	-t>
+TP53	FNTA	-t>
+CTNNB1	KLF4	-a>
+FASN	SREBF1	-t>
+CD19	LYN	-a>
+CD19	VAV1	-a>
+PPP2R2A	RAF1	-a>
+PPP2R5D	RAF1	-a>
+WNT1	RYK	-a>
+MAP2K2	PPARG	-a>
+BORA	PLK1	-a>
+AURKA	PLK1	-a>
+PP2Ca_R1A_Bd	PDPK1	-a|
+GSK3B	PRKCE	-a>
+MDC1	RNF8	-a>
+APP	GSK3A	-a>
+AGT	AGTR2	-a>
+EDN1	EDNRA	-a>
+TRAF6	MALT1	-a>
+PDPK1	CARD11	-a>
+PDPK1	PRKCQ	-a>
+MAPK1	DUSP16	-a>
+PRKCZ	HABP4	-a|
+PRKCQ	ICAM3	-a>
+ATM	E2F1	-a>
+ATR	E2F1	-a>
+PTEN	STAT5A	-a|
+PRKCB	HABP4	-a|
+PRKCQ	HABP4	-a|
+GSK3B	MAML1	-a|
+IL10RA	JAK2	-a>
+CASP8AP2	NFKB1	-a>
+PPP2CA	HDAC4	-a>
+RPS6KA2	NR4A1	-a>
+CAMK2A	ETS1	-a|
+DKK1	KREMEN1	-a>
+WNT3	LRP6	-a>
+IRAK1	PELI3	-a>
+CASP6	CASP8	-a>
+NR1I2	RXRA	-a>
+VEGFC	NRP2	-a>
+AC1NUST0	MTOR	-a>
+SMAD7	PPP1R15A	-a>
+WNT10A	FZD3	-a>
+WNT10A	LRP5	-a>
+WNT10A	LRP6	-a>
+WNT10B	FZD3	-a>
+WNT10B	LRP5	-a>
+WNT10B	LRP6	-a>
+WNT4	LRP5	-a>
+WNT4	LRP6	-a>
+WNT5B	LRP5	-a>
+WNT5B	LRP6	-a>
+AURKA	GSK3B/Axin/APC	-a|
+CDK1	MEK1/2	-a|
+MAP3K7	KSR1	-a|
+WNT8A	FZD3	-a>
+WNT8A	LRP5	-a>
+PPP3CB	MEF2C	-a>
+PPP3CB	NFATC1	-a>
+KIT	GRB2	-a>
+RNF111	AP2M1	-a>
+MYOD1	SMARCA4	-a>
+MYOG	SMARCA4	-a>
+MAPK9	H2AFX	-a>
+RELA	JUN	-a>
+14-3-3	KHSRP	-a|
+CDK7	CDK1	-a>
+CDK1	FOXO1	-a|
+RUNX3	NOTCH1	-a|
+HDAC1	RELA	-a|
+PTPN6	JAK2	-a|
+PRKG1	PLCB3	-a|
+SMAD3/SMAD4	CEBPA	-a|
+CCND1	NOTCH1	-a>
+PRKCZ	YWHAB	-a|
+FLT3	CEBPB	-t|
+SMAD3	CEBPB	-a|
+INS	CEBPA	-a>
+PRKCA	VTN	-a>
+STAT6	NfKb-p65/p50	-a|
+MAP3K1	MEK1/2	-a>
+RNF8	UBE2N	-a>
+ABL1	YAP1	-a>
+CEBPB	KLF5	-t>
+KLF5	PPARG	-t>
+CREB1	CEBPB	-a>
+RBPJ/NOTCH	MYC	-t>
+RBPJ/NOTCH	HIF1A	-t>
+RBPJ/NOTCH	NRARP	-t>
+RBPJ/NOTCH	HEY1	-t>
+estradiol	GPER1	-a>
+ATR	MDM2	-a|
+RASGEF1B	NRAS	-a>
+PRKCA	TP53	-a>
+MAPK14	CDC25C	-a|
+MYC	SMAD3	-a|
+DLX5	SPP1	-t>
+STAT6	PPARGC1A	-t>
+STAT1	SOCS3	-t>
+ERBB3	AR	-t>
+RBBP8	ATM	-t>
+MAPKAPK2	MDM2	-a>
+MTSS1	SUFU	-a>
+MAPK14	CFLAR	-a>
+CDC25A	CyclinD/CDK4	-a>
+WNT2B	FZD3	-a>
+WNT7B	FZD3	-a>
+ACVR2A	ACVR1B	-a>
+H2AFX	NBN	-a>
+CHEK2	PPP2R5C	-a>
+NR0B2	ESR1	-a|
+STK4	FOXO4	-a>
+SMAD7	PPP1CA	-a>
+PELI2	IRAK1	-a>
+PELI3	IRAK1	-a>
+PRKCA	NKX3-1	-a>
+MAPK3	NCOA1	-a>
+PTEN	PPM1A	-a>
+HSP90AA1	TGFBR1	-a>
+HSP90AA1	TGFBR2	-a>
+inositol 1,4,5-trisphosphate	PRKCA	-a>
+DDX5	AR	-a>
+ESR1	AR	-t|
+DVL1	RND1	-a>
+CTGF	LRP6	-a>
+RHEB	PLD1	-a>
+SMAD7	CTNNB1	-a>
+Diacylglycerol	calcium ion	-a>
+MAPK9	STAT3	-a>
+DDX5	HDAC1	-a>
+g-secretase	NOTCH2	-a>
+g-secretase	NOTCH3	-a>
+g-secretase	NOTCH4	-a>
+PPP2CB	AKT2	-a|
+KRAS	RASSF1	-a>
+IL22	IL22RA2	-a|
+CAMK2G	STAT1	-a>
+CAMK4	CREBBP	-a>
+CAMK4	NOS1	-a|
+CAMKK2	CAMK4	-a>
+PTN	ALK	-a>
+ALK	PLCG1	-a>
+ALK	STAT3	-a>
+CyclinE/CDK2	CDC7	-a>
+ITCH	TNFAIP3	-a>
+NR1D1	NR2E3	-a>
+CDK7	CDK2	-a>
+CDK1	NCOA3	-a|
+CRK	PTK2	-a>
+SMAD6	MAP3K7	-a|
+PPP1CC	TGFBR1	-a|
+PPARG	NfKb-p65/p50	-a|
+CARD11	MALT1	-a>
+PPARG	STAT3	-a|
+CSNK2A1	EGR1	-a|
+JAG1	NOTCH3	-a>
+SMARCB1	CCNA1	-a|
+CDK3	RB1	-a|
+PRKCD	TRIM28	-a|
+HDAC1	NfKb-p65/p50	-a|
+STAT2	STAT1	-a>
+CDK2	SP1	-a>
+TGFB1	MYOCD	-t>
+CSNK2A1	CDC25B	-a>
+PRKACA	LRRK2	-a|
+CAMK1	HDAC5	-a|
+TNFRSF10A	FADD	-a>
+CAMK2G	HDAC5	-a|
+SOCS1	IFNGR1	-a|
+TAB1	ROR2	-a|
+ROR2	FLNA	-a>
+ROR2	MAPK8	-a>
+MAP3K7	MAP3K4	-a>
+MAP3K7	MAP2K4	-a>
+PRKD1	CDH1	-a>
+IL13RA1	TYK2	-a>
+IL4	IL13RA1	-a>
+IL4R	IRS1	-a>
+CSNK1E	AXIN1	-a>
+IL4R	IRS2	-a>
+IL10RB	TYK2	-a>
