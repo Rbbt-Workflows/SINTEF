@@ -120,7 +120,7 @@ module SINTEF
   input :unknown_proteins, :array, "Unknown proteins"
   input :flip_proteins, :array, "Flip proteins"
   input :cell_line, :string, "Cell line name"
-  dep :steady_states_paradigm, :binarize => true do |jobname,options|
+  dep :steady_states_paradigm do |jobname,options|
     {:task => :steady_states_paradigm, :inputs => options} if options[:paradigm_ss].to_i > 0
   end
   dep :steady_states_roumeliotis do |jobname,options|

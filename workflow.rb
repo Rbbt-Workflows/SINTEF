@@ -107,6 +107,7 @@ module SINTEF
   input :method, :select, "Synergy method", "Bliss", :select_options => %w(Bliss HSA CI)
   input :observed_threshold, :float, "Excess threshold", -0.11
   input :cell_line, :string, "Cell line name"
+  desc "Cell line synergies from Barbara/synergies file that contains Barbaras' averaged scores for Bliss, HSA and CI"
   task :observed_synergies_averaged => :array do |method,threshold,cell_line|
     tsv = DATA_DIR.Barbara.synergies.tsv 
     selected = TSV.setup({}, :key_field => "Cell line", :fields => ["Combinations"], :type => :flat)
@@ -132,10 +133,9 @@ module SINTEF
     selected[cell_line] || []
   end
 
-  input :method, :select, "Synergy method", "Bliss", :select_options => %w(Bliss HSA CI)
-  input :observed_threshold, :float, "Excess threshold", -0.11
   input :cell_line, :string, "Cell line name"
-  task :observed_synergies_GS => :array do |method,threshold,cell_line|
+  desc "Cell line synergies from Barbara/synergies_gs file that contains curated gold-standard by consensus of several curators"
+  task :observed_synergies_GS => :array do |cell_line|
     tsv = DATA_DIR.Barbara.synergies_gs.tsv 
     selected = TSV.setup({}, :key_field => "Cell line", :fields => ["Combinations"], :type => :flat)
 
@@ -152,16 +152,24 @@ module SINTEF
     selected[cell_line] || []
   end
 
-  dep :observed_synergies_bliss
+  dep :observed_synergies_bliss do |jobname, options|
+    {:inputs => options} if options[:obs_method] == 'bliss'
+  end
+  dep :observed_synergies_hsa do |jobname, options|
+    {:inputs => options} if options[:obs_method] == 'hsa'
+  end
   dep :observed_synergies_GS
   dep :observed_synergies_averaged, :method => "Bliss"
-  input :obs_method, :select, "Method to define observed synergies", :avg_bliss, :select_options => %w(bliss avg_bliss GS)
+  input :obs_method, :select, "Method to define observed synergies", :avg_bliss, :select_options => %w(bliss hsa avg_bliss GS)
+  desc "Get observed synergies from different sources: Barbaras averages, gold-standard or CImbinator "
   task :observed_synergies_cell_line => :array do |obs_method|
     case obs_method.to_s
     when "GS"
       step(:observed_synergies_GS).load
     when "bliss"
       step(:observed_synergies_bliss).load
+    when "hsa"
+      step(:observed_synergies_hsa).load
     when "avg_bliss"
       step(:observed_synergies_averaged).load
     else

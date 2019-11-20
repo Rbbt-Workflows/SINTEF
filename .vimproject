@@ -22,6 +22,13 @@ SINTEF=/$PWD filter="*.rb *.rake Rakefile *.rdoc *.R *.sh *.js *.haml *.sass *.t
   ranked_cl
  }
  data=data filter="*"{
+  20170725_steady_states_from_drug_activties.xlsx
+  20180614_Summary_literature_steady-state.xlsx
+  Barbara.tar.gz
+  Barbara=Barbara{
+   synergies
+   synergies_gs
+  }
   drugs
   perturbations
  }
