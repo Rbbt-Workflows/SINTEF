@@ -111,7 +111,7 @@ module SINTEF
 
   input :paradigm_ss, :integer, "Use position in steady state (disable with 0)", 1
   input :roumeliotis_ss, :integer, "Use position in steady state (disable with 0)", 0
-  input :tf_ss, :integer, "Use position in steady state (disable with 0)", 0
+  input :activity_ss, :integer, "Use position in steady state (disable with 0)", 0
   input :literature_ss, :integer, "Use position in steady state (disable with 0)", 0
   input :drugscreen_ss, :integer, "Use position in steady state (disable with 0)", 0
   input :achilles_EG_ss, :integer, "Use position in steady state (disable with 0)", 0
@@ -132,13 +132,16 @@ module SINTEF
   dep CLSS, :achilles_essential_genes, :compute => :canfail do |jobname,options|
     {:task => :achilles_essential_genes, :inputs => options} if options[:achilles_EG_ss].to_i > 0
   end
-  task :steady_states_cell_line => :tsv do |paradigm_ss,roumeliotis_ss,tf_ss,literature_ss, drugscreen_ss, achilles_EG_ss, active, inactive, unknown,flip|
+  dep CLSS, :activity_general, :compute => :canfail do |jobname,options|
+    {:task => :activity_general, :inputs => options} if options[:activity_ss].to_i > 0
+  end
+  task :steady_states_cell_line => :tsv do |paradigm_ss,roumeliotis_ss,activity_ss,literature_ss,drugscreen_ss,achilles_EG_ss,active,inactive,unknown,flip|
     order = []
     cell_line = recursive_inputs[:cell_line]
 
     order = order[0..paradigm_ss-1] + [step(:steady_states_paradigm)] + (order[paradigm_ss..-1] || []) if paradigm_ss > 0
-    order = order[0..roumeliotis_ss-1] + [step(:steady_states_roumeliotis)] + (order[rppa_ss..-1] || []) if roumeliotis_ss > 0
-    order = order[0..tf_ss-1] + [step(:steady_states_tf)] + (order[tf_ss..-1] || []) if tf_ss > 0
+    order = order[0..roumeliotis_ss-1] + [step(:steady_states_roumeliotis)] + (order[roumeliotis_ss..-1] || []) if roumeliotis_ss > 0
+    order = order[0..activity_ss-1] + [step(:activity_general)] + (order[rppa_ss..-1] || []) if activity_ss > 0
 
     if literature_ss > 0
       literature_tsv = TSV.excel(DATA_DIR["20180614_Summary_literature_steady-state.xlsx"], :sheet => cell_line.upcase).to_single
