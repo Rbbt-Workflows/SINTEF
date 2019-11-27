@@ -104,104 +104,6 @@ module SINTEF
     str
   end
 
-  input :method, :select, "Synergy method", "Bliss", :select_options => %w(Bliss HSA CI)
-  input :observed_threshold, :float, "Excess threshold", -0.11
-  input :cell_line, :string, "Cell line name"
-  desc "Cell line synergies from Barbara/synergies file that contains Barbaras' averaged scores for Bliss, HSA and CI"
-  task :observed_synergies_averaged => :array do |method,threshold,cell_line|
-    tsv = DATA_DIR.Barbara.synergies.tsv 
-    selected = TSV.setup({}, :key_field => "Cell line", :fields => ["Combinations"], :type => :flat)
-
-    all = tsv.keys
-    tsv.through do |cl, values|
-      Misc.zip_fields(values).each do |d1, d2, hsa, bliss, ci|
-        value = case method
-                when "HSA"
-                  hsa
-                when "Bliss"
-                  bliss
-                when "CI"
-                  ci
-                end
-        next if value.nil? or value.empty? or value == "NA"
-        next unless value.to_f <= threshold
-        selected[cl] ||= []
-        selected[cl] << [d1, d2] * "~"
-      end
-    end
-
-    selected[cell_line] || []
-  end
-
-  input :cell_line, :string, "Cell line name"
-  desc "Cell line synergies from Barbara/synergies_gs file that contains curated gold-standard by consensus of several curators"
-  task :observed_synergies_GS => :array do |cell_line|
-    tsv = DATA_DIR.Barbara.synergies_gs.tsv 
-    selected = TSV.setup({}, :key_field => "Cell line", :fields => ["Combinations"], :type => :flat)
-
-    all = tsv.keys
-    tsv.through do |cl, values|
-      values = values.values_at 0,1,6
-      Misc.zip_fields(values).each do |d1, d2,syn|
-        next unless syn and syn.downcase == "synergy"
-        selected[cl] ||= []
-        selected[cl] << [d1, d2] * "~"
-      end
-    end
-
-    selected[cell_line] || []
-  end
-
-  dep :observed_synergies_bliss do |jobname, options|
-    {:inputs => options} if options[:obs_method] == 'bliss'
-  end
-  dep :observed_synergies_hsa do |jobname, options|
-    {:inputs => options} if options[:obs_method] == 'hsa'
-  end
-  dep :observed_synergies_GS
-  dep :observed_synergies_averaged, :method => "Bliss"
-  input :obs_method, :select, "Method to define observed synergies", :avg_bliss, :select_options => %w(bliss hsa avg_bliss GS)
-  desc "Get observed synergies from different sources: Barbaras averages, gold-standard or CImbinator "
-  task :observed_synergies_cell_line => :array do |obs_method|
-    case obs_method.to_s
-    when "GS"
-      step(:observed_synergies_GS).load
-    when "bliss"
-      step(:observed_synergies_bliss).load
-    when "hsa"
-      step(:observed_synergies_hsa).load
-    when "avg_bliss"
-      step(:observed_synergies_averaged).load
-    else
-      raise ParameterException, "Method not understood: #{ method }"
-    end
-  end
-
-
-  dep :observed_synergies_cell_line, :compute => :bootstrap do |jobname, options|
-    if options[:meta_synergies]
-      CELL_LINES.collect do |cl|
-        {:inputs => options.merge(:cell_line => cl), :jobname => cl}
-      end
-    else
-      {:inputs => options}
-    end
-  end
-  input :meta_synergies, :boolean, "Consider synergies in at least one cell line", false
-  task :observed_synergies => :array do |meta|
-    if dependencies.length == 1
-      step(:observed_synergies_cell_line).load
-    else
-      all = []
-      dependencies.each do |dep|
-        this = dep.load
-        all += this
-      end
-
-      Misc.counts(all).select{|s,v| v >= 1 }.keys
-    end
-  end
-
   dep :observed_synergies
   input :drugs, :text, "Drug targets", Rbbt.data.drugs.find.read
   task :observed_synergies_training => :text do |drugs|
@@ -272,7 +174,6 @@ weight:1
   #task :steady_states => :tsv do
   #  Rbbt.data.Example["steadystate_AGS_for_barbara_topo.tab"].read
   #end
-
   dep :training_data
   input :perturbations, :text, "Perturbations to explore", Rbbt.data.perturbations.find.read
   input :drugs, :text, "Drug targets", Rbbt.data.drugs.find.read
@@ -520,6 +421,7 @@ require 'rbbt/tasks/steady_states'
 require 'rbbt/tasks/battery'
 require 'rbbt/tasks/plots'
 require 'rbbt/tasks/refining_cells'
+require 'rbbt/tasks/observed_synergies'
 
 #require 'rbbt/knowledge_base/SINTEF'
 #require 'rbbt/entity/SINTEF'

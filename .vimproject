@@ -9,6 +9,8 @@ SINTEF=/$PWD filter="*.rb *.rake Rakefile *.rdoc *.R *.sh *.js *.haml *.sass *.t
    tasks=tasks{
     battery.rb
     cimbinator.rb
+    observed_synergies.rb
+    observed_synergies.old.rb
     plots.rb
     steady_states.rb
     refining_cells.rb
