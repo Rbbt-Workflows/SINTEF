@@ -15,15 +15,18 @@
 - np = np.reorder :key, ["Observed"] +  (np.fields - ["Observed"])
 
 - svg_files = {}
-- job.step(:bliss).dependencies.each do |rb_dep|
-  - name = rb_dep.name
-  - next if rb_dep.info[:jobs].nil?
-  - files = rb_dep.info[:jobs].each do |f|
-    - cmb = File.basename(f).split("_").first
-    - cmb.sub!("-",'~')
-    - svg_files[cmb] ||= {}
-    - svg_files[cmb][name] ||= []
-    - svg_files[cmb][name] << File.basename(f)
+- ci_job = job.dependencies.select{|dep| dep.task_name == :bliss || dep.task_name == :hsa}.first
+
+- if ci_job
+  - ci_job.dependencies.each do |rb_dep|
+    - name = rb_dep.name
+    - next if rb_dep.info[:jobs].nil?
+    - files = rb_dep.info[:jobs].each do |f|
+      - cmb = File.basename(f).split("_").first
+      - cmb.sub!("-",'~')
+      - svg_files[cmb] ||= {}
+      - svg_files[cmb][name] ||= []
+      - svg_files[cmb][name] << File.basename(f)
 
 - require 'rbbt/rest/common/tabs'
 
@@ -116,23 +119,23 @@
         })
       })
 
-  - t.add "Correlation" do
-    - bliss = job.step(:bliss).load
-    - normalized = job.step(:normalized_predictions).load
-    - field = job.inputs[:score_field]
+  - if ci_job
+    - t.add "Correlation" do
+      - normalized = job.step(:normalized_predictions).load
+      - field = job.inputs[:score_field]
 
-    - norm_values = normalized.column(field)
+      - norm_values = normalized.column(field)
 
-    - excess_columns = bliss.fields.select{|f| f =~ /excess/i }
-    
-    - bliss_values = TSV.setup({}, :key_field => norm_values.key_field, :fields => ["Average Bliss Excess"], :type => :single, :cast => :to_f)
-    - bliss.add_field "Average" do |k,values|
-      - key = "[" << k.sub('-',']-[') << "]"
-      - bliss_values[key] = Misc.mean(values.values_at(*excess_columns).flatten.collect{|v| v.to_f})
+      - excess_columns = ci_job.load.fields.select{|f| f =~ /excess/i }
+      
+      - ci_values = TSV.setup({}, :key_field => norm_values.key_field, :fields => ["Average Excess"], :type => :single, :cast => :to_f)
+      - ci_job.load.add_field "Average" do |k,values|
+        - key = "[" << k.sub('-',']-[') << "]"
+        - ci_values[key] = Misc.mean(values.values_at(*excess_columns).flatten.collect{|v| v.to_f})
 
-    - tsv = norm_values.attach(bliss_values)
-    = table do
-      - tsv
+      - tsv = norm_values.attach(ci_values)
+      = table do
+        - tsv
 
     .figure
       = tool :Rpng, :data => tsv, :plot => "plot(data[,1], data[,2], xlab=\"#{tsv.fields.first}\", ylab=\"#{tsv.fields.last}\")"
