@@ -122,10 +122,14 @@ module SINTEF
     step(:synergy_quantified).load.select("Average Excess"){|v| v.to_f < excess_threshold }.keys.collect{|k| k.sub("-", "~") }
   end
 
-  input :cell_line, :string, "Cell line name"
+  input :cell_line, :string, "Cell line name", nil, :required => true
   desc "Cell line synergies from Barbara/synergies_gs file that contains curated gold-standard by consensus of several curators"
   task :synergy_classification_by_GS => :array do |cell_line|
     tsv = DATA_DIR.Barbara.synergies_gs.tsv 
+    cell_line = gs_cell_line(cell_line)
+
+    raise ParameterException, "Cell line not recognized: #{inputs[:cell_line]}" if cell_line.nil?
+
     selected = TSV.setup({}, :key_field => "Cell line", :fields => ["Combinations"], :type => :flat)
 
     all = tsv.keys

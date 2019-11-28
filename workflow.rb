@@ -31,6 +31,12 @@ module SINTEF
     Normalizer.new(Achilles.cell_line_info.tsv.keys).resolve(cell_line, nil, :max_candidates => 100, :threshold => -100).first
   end
 
+  helper :gs_cell_line do |cell_line|
+    require 'rbbt/ner/rnorm'
+    iii DATA_DIR.Barbara.synergies_gs.keys
+    Normalizer.new(DATA_DIR.Barbara.synergies_gs.keys).resolve(cell_line, nil, :max_candidates => 100, :threshold => -100).first
+  end
+
 
   dep CLSS, :gdsc_mutations
   task :drug_mutations => :tsv do
