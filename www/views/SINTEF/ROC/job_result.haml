@@ -15,7 +15,7 @@
 - np = np.reorder :key, ["Observed"] +  (np.fields - ["Observed"])
 
 - svg_files = {}
-- ci_job = job.dependencies.select{|dep| dep.task_name == :bliss || dep.task_name == :hsa}.first
+- ci_job = job.rec_dependencies.select{|dep| dep.task_name.to_sym == :bliss || dep.task_name.to_sym == :hsa}.first
 
 - if ci_job
   - ci_job.dependencies.each do |rb_dep|
@@ -137,8 +137,8 @@
       = table do
         - tsv
 
-    .figure
-      = tool :Rpng, :data => tsv, :plot => "plot(data[,1], data[,2], xlab=\"#{tsv.fields.first}\", ylab=\"#{tsv.fields.last}\")"
+      .figure
+        = tool :Rpng, :data => tsv, :plot => "plot(data[,1], data[,2], xlab=\"#{tsv.fields.first}\", ylab=\"#{tsv.fields.last}\")"
 
   - t.add "Config" do
     - begin
