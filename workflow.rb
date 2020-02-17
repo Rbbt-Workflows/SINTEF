@@ -33,7 +33,6 @@ module SINTEF
 
   helper :gs_cell_line do |cell_line|
     require 'rbbt/ner/rnorm'
-    iii DATA_DIR.Barbara.synergies_gs.keys
     Normalizer.new(DATA_DIR.Barbara.synergies_gs.keys).resolve(cell_line, nil, :max_candidates => 100, :threshold => -100).first
   end
 
