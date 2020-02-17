@@ -202,7 +202,7 @@ module SINTEF
   desc "Cell line synergies from Barbara/synergies_gs file that contains curated gold-standard by consensus of several curators"
   task :synergy_classification_by_GS => :array do |cell_line|
     #tsv = DATA_DIR.Barbara.synergies_gs.tsv 
-    tsv = DATA_DIR["Synergy gold standard SINTEF dataset 2017 - Synergy dataset.tsv"].tsv :header_hash => '', :merge => true
+    tsv = DATA_DIR["Synergy gold standard SINTEF dataset 2017 - Synergy dataset.tsv"].tsv :header_hash => '', :merge => true, :zipped => true
     cell_line = gs_cell_line(cell_line)
 
     raise ParameterException, "Cell line not recognized: #{inputs[:cell_line]}" if cell_line.nil?
