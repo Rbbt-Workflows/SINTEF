@@ -266,7 +266,7 @@ module SINTEF
       raise ParameterException, "Synergy method not understood #{options[:syn_method]}"
     end
   end
-  input :syn_method, :select, "Source of synergy classifications", :runs, :select_options => %w(consecutive_excess consecutive_proportional_excess average_excess GS)
+  input :syn_method, :select, "Source of synergy classifications", :consecutive_excess, :select_options => %w(consecutive_excess consecutive_proportional_excess average_excess GS)
   task :observed_synergies => :array do
     dependencies.first.load
   end

@@ -14,6 +14,7 @@ Workflow.require_workflow "CCLE"
 Workflow.require_workflow "GDSC"
 Workflow.require_workflow "CLSS"
 Workflow.require_workflow "Achilles"
+Workflow.require_workflow "CombinationIndex"
 
 module SINTEF
   extend Workflow
